@@ -1,0 +1,271 @@
+
+p .description-container{
+  color: #c8c8c8;
+
+}
+
+.section p{
+  color:#5b5b5b;
+}
+
+.section li{
+  color:#5b5b5b;
+
+}
+
+@media only screen and (max-width: 800px) {
+  #overview-overlay {
+    visibility: hidden;
+  }
+}
+
+#overview-overlay {
+    position: fixed;
+    top: 90%;
+    left: 20px; /* Adjust the left value as per your preference */
+    transform: translate(0, -50%);
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    color: #000000;
+    padding: 20px;
+    z-index: 9999;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+  }
+
+  .overlay-content ul {
+    font-size: large;
+    list-style: circle;
+    padding: 0;
+  }
+  
+  .overlay-content ul li {
+    margin-bottom: 10px;
+  }
+
+  /* .overlay-content ul li:before {
+    content:"·";
+    font-size:120px;
+    vertical-align:middle;
+    line-height:20px;
+} */
+  
+.overlay-content ul li.active {
+  list-style-type: disc;
+}
+
+  .overlay-content ul li:hover {
+    list-style: disc;
+  }
+  .overlay-content ul li a:hover {
+    color:red;
+  }
+
+  .overlay-content ul li a {
+    color: #484848;
+    text-decoration: none;
+  }
+  
+  /* .section {
+    height: 500px;
+    padding: 20px;
+  } */
+  
+  #section1 {
+    /* background-color: #eaeaea; */
+    margin: 0% 25%;
+    padding-top: 4rem;
+  }
+  
+  /* #section1 p{
+    margin: 0% 10%;
+
+  }*/
+
+  #section2 {
+    /* background-color: #d3d3d3; */
+    margin: 0% 25%;
+  }
+  
+  #section3 {
+    /* background-color: #c0c0c0; */
+    margin: 0% 25%;
+  }
+
+  #section4 {
+    /* background-color: #c0c0c0; */
+    margin: 0% 25%;
+  }
+
+  #section5 {
+    /* background-color: #c0c0c0; */
+    margin: 0% 25%;
+  }
+  .detail-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Sets the columns to equal width */
+    flex-direction: column; /* Stacks the elements vertically */
+    justify-content: center;
+    color: #fff; /* Adjust the text color as needed */
+    background-color: #363636;
+    height: 400px; /* Adjust the height as needed */
+    text-align: left;
+    margin-top: 60px;  /* Adjust the margin-top to push the banner down */
+    padding: 4rem 10%;
+    margin-bottom: 0.5 rem;
+  }
+
+  @media (max-width: 800px) {
+    .hero-banner {
+      grid-template-columns: 1fr;
+    }
+    /* .hero-banner img{
+      height: 200px;
+    } */
+  }
+
+  .hero-image{
+     /* background-image: url('/assets/dalle-cover-wtxt.jpg');
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center; */
+     height: 400px; /* Adjust the height as needed */
+  }
+
+.hero-banner h1 {
+  font-size: 48px; /* Adjust the font size as needed */
+  margin-bottom: 0px;
+}
+.hero-banner .subtitle{
+  font-size: 24px; /* Adjust the font size as needed */
+  color:#e2e2e2;
+  margin-top: 10px;
+}
+.hero-banner p {
+  font-size: 16px; /* Adjust the font size as needed */
+  margin-bottom: 0px;
+}
+
+.hero-banner a {
+  /* display: inline-block; */
+  /* padding: 12px 24px; */
+  /* background-color: #000000; */
+  color: #ffffff; 
+  text-decoration: none;
+  /* font-weight: bold; */
+  /* border-radius: 4px; */
+}
+
+/* .hero-banner a:hover {
+  background-color: #ffffff; 
+  color: #000000; 
+} */
+/*  */
+.grid-description {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Sets the columns to equal width */
+  width: 30vw;
+  align-items: start;
+  column-gap: normal;
+
+}
+.sub-catergory{
+  color:#c8c8c8;
+}
+
+.grid-description > div {
+  position: relative; /* Adds relative positioning */
+  margin: 0 rem 0.3 rem;
+}
+
+
+.description-container {
+width: 50vw;
+}
+
+.subheading{
+  font-weight: bold;
+}
+.subheading-under{
+  text-decoration-line: underline;
+}
+
+.grid-col-two{
+  grid-template-columns: 1fr 1fr; /* Sets the columns to equal width */
+  display: grid;
+}
+
+.arrow-back {
+  display: contents;
+  transition: transform 1s;
+}
+
+.arrow-back:hover {
+  transform: translateX(-0.5%);
+  color:cornflowerblue;
+}
+
+
+.detail-image{
+  height: 50 vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  margin: 1rem;
+}
+
+.detail-image img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 1rem;
+}
+
+.detail-imagelarge {
+  width: 100 vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  margin: 1rem;
+  /* position: relative; */
+
+}
+
+.detail-imagelarge img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2rem;
+    /* cursor: pointer; */
+
+  }
+
+/* .detail-image-expanded {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 9999;
+} */
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #f5f5f5;
+}

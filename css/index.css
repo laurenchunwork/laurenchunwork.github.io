@@ -1,0 +1,260 @@
+body{
+    padding: 3rem 1rem;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+#nav{
+    padding: 3rem 0rem;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+a{
+    color: rgb(25, 71, 255);
+}
+
+#body{
+margin-top: 4rem;  
+}
+
+.name{
+    color: rgb(0, 20, 96);
+    font-weight: medium;
+}
+/* NAV BAR */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 0rem 4rem;
+    /* position: sticky; */
+    /* position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; */
+  }
+  
+  
+
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color:#337ab7;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    transition: font-weight 0.5s;
+
+  }
+  
+  ul.topnav li a:hover{
+    font-weight:700;
+  }
+
+  ul.topnav li.right {
+    float: right;
+    /* padding: 0rem 1rem; */
+    font-size: 16px !important;
+  }
+  li.HomeIcon{
+    font-size: 24px;
+  }
+
+  @media screen and (max-width: 750px) {
+    ul.topnav li:not(:first-child) {
+      display: none;
+    }
+
+    ul.topnav li.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 751px) {
+    #mobileIcon{
+      display: none;
+    }
+  }
+  
+/* Styling for the animated menu */
+div.menu {
+  display: none;
+  background-color: #ffffff;
+  position: absolute;
+  width: 100%;
+}
+
+div.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+div.menu ul li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* INDEX PAGE */
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Sets the rows to auto, 1fr, auto */
+    grid-template-columns: 1fr; /* Sets the column to 1fr */
+    gap: 20px; /* Adds a 20px gap between grid items */
+    height: 100vh; /* Sets the height of the container to 100% of the viewport height */
+    padding:0vw 10vw;
+    align-items: start;
+  }
+
+  .top-container {
+    padding: 4rem 0rem;
+    margin: 4rem 4rem;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px; /* Adds a 20px gap between grid items */
+    height: 300px;
+    /* align-items: center; */
+  }
+  
+  .middle-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Sets the columns to equal width */
+    gap: 20px; /* Adds a 20px gap between grid items */
+    /* padding: 20px; */
+    justify-content: center; /* Centers items horizontally */
+    align-items: start; /* Centers items vertically */
+  }
+  .inner-container {
+    padding: 20px 0px;
+    margin: 0rem 0rem;
+    display: flex;
+    flex-direction: column; /* Stacks the elements vertically */
+    align-items: start;
+  }
+  .inner-container img {
+    max-width: 100%; /* Ensures the image fits within the container */
+  }
+  .inner-container p{
+    margin: 0;  
+    padding: 0.2rem 0rem;
+    color:black;
+    display: flex;
+    align-self: start;
+}
+  .inner-container h4{
+    margin: 0;  
+    padding: 0.4rem 0rem;
+    color:black;
+    font-size: 24px;
+    transition: text-decoration 0.5s;
+}
+
+.inner-container h4:hover {
+  text-decoration: underline;
+}
+  .gray{
+    color:rgb(126, 126, 126) !important;
+  }
+  .bottom-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .featureLink{
+    text-decoration: none;
+    display: flex;
+  flex-direction: column;
+  }
+
+.grid-description {
+  display: grid;
+  grid-template-columns: 4fr 1fr; /* Sets the columns to equal width */
+  gap: 10px; /* Adds a 10px gap between grid items */
+  padding: 0.2rem 0rem;
+}
+.grid-description > div {
+  position: relative; /* Adds relative positioning */
+  /* padding: 0rem 1rem; */
+}
+
+/* .grid-description > div:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -3px; /* Adjust the spacer width as needed */
+  /* width: 1px;  
+   background-color: black ; 
+   } */
+
+.tags{
+  padding:0.2rem 0rem;
+  color: #337ab7 !important;
+
+}
+.rounded-button {
+  border-radius: 20px; /* Sets the border radius to make it rounded */
+  padding: 1rem 4rem; /* Adjust the padding to your preference */
+  border: 0.1rem solid #337ab7;
+  cursor: pointer; /* Displays a pointer cursor on hover */
+  margin: 1rem 10rem; 
+  color:#337ab7;
+  background-color: #fff;
+}
+
+.rounded-button:hover{
+  background-color: #337ab7; /* Sets the background color of the button */
+  color: #fff; /* Sets the text color of the button */
+
+}
+.yearIndex{
+  font-weight: normal;
+}
+
+.centerBtn{
+  display: grid;
+  place-items: center;
+  /* height: 200px; */
+}
+
+/* ///////////////////////////////MEDIA QUERY//////////////////////////////// */
+
+@media (max-width: 400px) {
+  .top-container {
+        margin: 0rem 0rem !important;
+  }
+}
+
+@media (max-width: 800px) {
+  /* Tablet viewport and above */
+  .rounded-button {
+    margin: 1rem 3rem;
+  }
+  .inner-container{
+    margin: 1rem 0rem !important;
+  }
+}
+@media (max-width: 1400px) {
+  .middle-container {
+    grid-template-columns: 1fr; /* Sets the columns to equal width (tablet: two columns) */
+    grid-auto-flow: row; /* Forces the items to stack vertically (tablet: single column) */
+  }
+
+  .inner-container{
+    margin: 1rem 12rem;
+  }
+}
+
+.homeIcon{
+  height: 50%;
+}
