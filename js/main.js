@@ -23,8 +23,12 @@ navLink.innerHTML = `
 <li class="right">
 <a href="https://docs.google.com/document/d/1XAlRy-PsXQY2ZET5KQn1SxifTNBqXLTjkxdr2DOhXhM/edit">Resume</a>
 </li>
-<li class="right">
+<li class="right work-drop">
 <a href="index.html">Work</a>
+<div class="work-drop-content">
+<a href="#">UX</a>
+<a href="#">AR/VR</a>
+</div>  
 </li>
 </ul> 
 `
@@ -33,7 +37,6 @@ navLink.innerHTML = `
 // const mobileMenu = document.querySelector("#menu");
 mobileMenu.innerHTML = `
     <ul>
-      <li class="HomeIcon"><a href="#home">Lauren Chun</a></li>
       <li><a href="index.html">Work</a></li>
       <li><a href="https://docs.google.com/document/d/1XAlRy-PsXQY2ZET5KQn1SxifTNBqXLTjkxdr2DOhXhM/edit">Resume</a></li>
       <li><a href="about.html">About</a></li>
@@ -55,5 +58,17 @@ function toggleMenu() {
 }
 
 
+document.addEventListener("DOMContentLoaded", function () {
+  const dropdown = document.querySelector(".work-drop");
+  const dropdownContent = document.querySelector(".work-drop-content");
+
+  dropdown.addEventListener("mouseover", function () {
+      dropdownContent.style.display = "block";
+  });
+
+  dropdown.addEventListener("mouseout", function () {
+      dropdownContent.style.display = "none";
+  });
+});
 
 

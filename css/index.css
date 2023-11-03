@@ -29,7 +29,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    padding: 0rem 4rem;
+    padding: 0rem 1rem;
     /* position: sticky; */
     /* position: fixed;
     top: 0;
@@ -60,6 +60,25 @@ ul.topnav {
     /* padding: 0rem 1rem; */
     font-size: 16px !important;
   }
+
+ 
+  .work-drop-content {
+    display: none;
+    position: absolute;
+/*     background-color: #333; */
+}
+
+.work-drop-content a {
+/*     color: white; */
+    padding: 14px;
+    display: block;
+}
+
+.work-drop:hover .work-drop-content {
+    display: block;
+}
+
+
   li.HomeIcon{
     font-size: 24px;
   }
@@ -74,6 +93,8 @@ ul.topnav {
       display: block;
     }
   }
+
+ 
 
   @media screen and (min-width: 751px) {
     #mobileIcon{
@@ -99,7 +120,7 @@ div.menu ul li a {
   display: block;
   color: rgb(0, 0, 0);
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 0px;
   text-decoration: none;
 }
 
@@ -163,7 +184,7 @@ div.menu ul li a {
   text-decoration: underline;
 }
   .gray{
-    color:rgb(126, 126, 126) !important;
+    color:rgb(93, 93, 93) !important;
   }
   .bottom-container {
     background-color: #f2f2f2;
@@ -230,9 +251,49 @@ div.menu ul li a {
 /* ///////////////////////////////MEDIA QUERY//////////////////////////////// */
 
 @media (max-width: 400px) {
+  #nav{
+    padding: 3rem 1rem 0rem 0rem;
+  }
+
+  div.menu{
+    padding-top: 2rem;
+  }
   .top-container {
         margin: 0rem 0rem !important;
+        padding:1rem 0rem 8rem 0rem;
+        height: 100px;
+        grid-template-columns: 1fr;
+      }
+  .top-container p{
+    font-size: 14px;
   }
+
+  .top-container .homeIcon{
+    height:20%;
+     }
+
+  .rounded-button{
+    margin: 1rem !important;
+    place-content: center;
+    padding: 1rem;
+  }
+
+  .inner-container{
+    padding: 10px 0rem 0rem;
+  }
+  .inner-container p{
+    font-size: 14px;
+  }
+  .gray{
+    font-size: 14px;
+
+  }
+
+  .middle-container{
+    gap: 0px;
+  }
+
+
 }
 
 @media (max-width: 800px) {
