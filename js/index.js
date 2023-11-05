@@ -47,6 +47,20 @@ select1.innerHTML = `
 </div>
 `
 select2.innerHTML = `
+<a class="featureLink" href="dalleredesign.html">
+    <img src="assets/known-source-cover.jpg" alt="an image of the word samsung"> 
+  <h4>Known Source Redesign<span class="yearIndex">(2022)</span></h4>
+</a>
+<div class="gray">Known Source</div> 
+<p class="tags">#UX Design #UX Research #XR</p>
+<p class="">Redesigned of ecommerce marketplace for customer view of secondhand luxury goods.</p>
+
+<button class="rounded-button" onclick="window.location.href = 'dalleredesign.html';
+"> 
+View Project	&rarr;
+</button>
+`
+select3.innerHTML = `
 <a class="featureLink" href="twitteraccessibility.html">
   <img src="assets/twitter-cover.jpg" alt="a screenshot of newly redesigned emojis that vibrate and animate slightly to express emotion."> 
   <h4>Twitter Accessibility <span class="yearIndex"> (2022)</span></h4>
@@ -60,20 +74,7 @@ select2.innerHTML = `
  </button>
 `
 
-select3.innerHTML = `
-<a class="featureLink" href="dalleredesign.html">
-    <img src="assets/sra-cover.jpg" alt="an image of the word samsung"> 
-  <h4>Samsung XR Prototpe <span class="yearIndex">(2022)</span></h4>
-</a>
-<div class="gray">Samsung Research America, Mobile Platform Solutions Lab</div> 
-<p class="tags">#UX Design #UX Research #XR</p>
-<p class="">Designed user experience for a social XR space at Samsung Research America.</p>
 
-<button class="rounded-button" onclick="window.location.href = 'dalleredesign.html';
-"> 
-View Project	&rarr;
-</button>
-`
 
 select4.innerHTML = `
 <a class="featureLink" href="dalleredesign.html">
@@ -94,4 +95,8 @@ select4.innerHTML = `
 // <p class="gray">Thesis ()</p>
 // <p class="">.</p>
 // `
+
+
 });
+
+//////////////////////////////÷≥
