@@ -265,7 +265,7 @@ div.menu ul li a {
         grid-template-columns: 1fr;
       }
   .top-container p{
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .top-container .homeIcon{
@@ -293,6 +293,18 @@ div.menu ul li a {
     gap: 0px;
   }
 
+  .center-image{
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    /* align-items: center; this keeps moving it down for some reason */
+    height:100%;
+    width: 100%; /* Set the width of the container */
+  }
+
+  /* .center-image img{
+    max-height: 100%;
+    max-width: 100%;
+  } */
 
 }
 

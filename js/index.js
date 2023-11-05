@@ -9,7 +9,7 @@ bodyIndex.innerHTML = `
     </p>
     <p>I’m a UX Designer, I make emerging technologies easier to use.</p>
     </div>
-    <div>
+    <div class="center-image">
     <img src="assets/personal-icon.svg" class="homeIcon" alt="geometric lotus icon"> 
     </div>
   </div>
@@ -39,7 +39,7 @@ select1.innerHTML = `
   <p class="tags">#UX Design #UX Research</p>
   <p class=""> A redesign of the AI image generation platform, Dall-E 2’s website for sharing of AI images with others and profile personalization.</p>
 
-<div class="centerBtn">
+<div class="center-image">
   <button class="rounded-button" onclick="window.location.href = 'dalleredesign.html';
 ">
  View Project	&rarr;
@@ -48,17 +48,18 @@ select1.innerHTML = `
 `
 select2.innerHTML = `
 <a class="featureLink" href="dalleredesign.html">
-    <img src="assets/known-source-cover.jpg" alt="an image of the word samsung"> 
-  <h4>Known Source Redesign<span class="yearIndex">(2022)</span></h4>
+    <img src="assets/known-source-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> 
+  <h4>Known Source Redesign <span class="yearIndex">(2022)</span></h4>
 </a>
 <div class="gray">Known Source</div> 
 <p class="tags">#UX Design #UX Research #XR</p>
 <p class="">Redesigned of ecommerce marketplace for customer view of secondhand luxury goods.</p>
-
-<button class="rounded-button" onclick="window.location.href = 'dalleredesign.html';
-"> 
-View Project	&rarr;
-</button>
+<div class="center-image">
+  <button class="rounded-button" onclick="window.location.href = 'dalleredesign.html';
+  "> 
+  View Project	&rarr;
+  </button>
+</div>
 `
 select3.innerHTML = `
 <a class="featureLink" href="twitteraccessibility.html">
@@ -68,10 +69,12 @@ select3.innerHTML = `
 <p class="gray">With the Twitter A11y Team</p>
 <p class="tags">#UX Design #UX Research #Accessibility</p>
 <p class=""> An exploration on creating a way for users to express themselves in a multi-modal ways.</p>
-<button class="rounded-button" onclick="window.location.href = 'twitteraccessibility.html';
-">
- View Project	&rarr;
- </button>
+<div class="center-image">
+  <button class="rounded-button" onclick="window.location.href = 'twitteraccessibility.html';
+  ">
+  View Project	&rarr;
+  </button>
+</div>
 `
 
 
@@ -84,10 +87,12 @@ select4.innerHTML = `
   <p class="gray">For San Jose State University E-Campus</p>
 <p class="tags">#UX Design #UI Design #VR #3D Modeling</p>
 <p class="">Virtual reality application helping students understand the relationship between physical chemistry equations and the physical world.</p>
-<button class="rounded-button" onclick="window.location.href = 'dalleredesign.html';
-"> 
-  View Project	&rarr;
-</button>
+<div class="center-image">
+  <button class="rounded-button" onclick="window.location.href = 'dalleredesign.html';
+  "> 
+    View Project	&rarr;
+  </button>
+</div>
 `
 // select5.innerHTML = `
 // <img src="assets/arexplorer-cover.jpg"> 
