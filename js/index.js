@@ -47,15 +47,15 @@ select1.innerHTML = `
 </div>
 `
 select2.innerHTML = `
-<a class="featureLink" href="dalleredesign.html">
+<a class="featureLink" href="known-source.html">
     <img src="assets/known-source-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> 
   <h4>Known Source Redesign <span class="yearIndex">(2022)</span></h4>
 </a>
 <div class="gray">Known Source</div> 
-<p class="tags">#UX Design #UX Research #XR</p>
+<p class="tags">#UX Design #UX Research #ECommerce</p>
 <p class="">Redesigned of ecommerce marketplace for customer view of secondhand luxury goods.</p>
 <div class="center-image">
-  <button class="rounded-button" onclick="window.location.href = 'dalleredesign.html';
+  <button class="rounded-button" onclick="window.location.href = 'known-source.html';
   "> 
   View Project	&rarr;
   </button>
@@ -80,7 +80,7 @@ select3.innerHTML = `
 
 
 select4.innerHTML = `
-<a class="featureLink" href="dalleredesign.html">
+<a class="featureLink" href="chemvr.html">
   <img src="assets/chemvr-cover.jpg" alt="A screenshot of a virtual classroom with a ui with the equation for temperature reacting with particles."> 
   <h4>Chem VR <span class="yearIndex"> (2019)</span></h4>
 </a>
@@ -88,7 +88,7 @@ select4.innerHTML = `
 <p class="tags">#UX Design #UI Design #VR #3D Modeling</p>
 <p class="">Virtual reality application helping students understand the relationship between physical chemistry equations and the physical world.</p>
 <div class="center-image">
-  <button class="rounded-button" onclick="window.location.href = 'dalleredesign.html';
+  <button class="rounded-button" onclick="window.location.href = 'chemvr.html';
   "> 
     View Project	&rarr;
   </button>

@@ -5,31 +5,31 @@ const mobileMenu = document.querySelector("#menu");
 
 navLink.innerHTML = `
 <ul class="topnav">
-<li class="HomeIcon">
-<a href="index.html">Lauren Chun</a>
-</li>
-<li class="icon right" id="mobileIcon">
-      <a href="javascript:void(0);" onclick="toggleMenu()">☰</a>
-    </li>
-<li class="right">
-<a href="#"><img src="assets/githubIconBlue.svg" alt="Github icon"></a>
-</li>
-<li class="right">
-<a href="https://www.linkedin.com/in/laurenmchun/"> <img src="assets/linkedinIconBlue.svg" alt="Linkedin icon"></a>
-</li>
-<li class="right">
-<a href="about.html">About</a>
-</li>
-<li class="right">
-<a href="https://docs.google.com/document/d/1XAlRy-PsXQY2ZET5KQn1SxifTNBqXLTjkxdr2DOhXhM/edit">Resume</a>
-</li>
-<li class="right work-drop">
-<a href="index.html">Work</a>
-<div class="work-drop-content">
-<a href="#">UX</a>
-<a href="#">AR/VR</a>
-</div>  
-</li>
+  <li class="HomeIcon">
+    <a href="index.html">Lauren Chun</a>
+  </li>
+  <li class="icon right" id="mobileIcon">
+        <a href="javascript:void(0);" onclick="toggleMenu()">☰</a>
+      </li>
+  <li class="right">
+    <a href="#"><img src="assets/githubIconBlue.svg" alt="Github icon"></a>
+  </li>
+  <li class="right">
+    <a href="https://www.linkedin.com/in/laurenmchun/"> <img src="assets/linkedinIconBlue.svg" alt="Linkedin icon"></a>
+  </li>
+  <li class="right">
+    <a href="about.html">About</a>
+  </li>
+  <li class="right">
+    <a href="https://docs.google.com/document/d/1XAlRy-PsXQY2ZET5KQn1SxifTNBqXLTjkxdr2DOhXhM/edit">Resume</a>
+  </li>
+  <li class="right work-drop">
+    <a href="index.html">Work</a>
+    <div class="work-drop-content">
+    <a href="#">UX</a>
+    <a href="#">AR/VR</a>
+  </div>  
+  </li>
 </ul> 
 `
 
@@ -37,10 +37,21 @@ navLink.innerHTML = `
 // const mobileMenu = document.querySelector("#menu");
 mobileMenu.innerHTML = `
     <ul>
-      <li><a href="index.html">Work</a></li>
-      <li><a href="https://docs.google.com/document/d/1XAlRy-PsXQY2ZET5KQn1SxifTNBqXLTjkxdr2DOhXhM/edit">Resume</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="#"><img src="assets/githubIcon.svg" alt="Github icon"></a><a href="https://www.linkedin.com/in/laurenmchun/"> <img src="assets/linkedinIcon.svg" alt="Linkedin icon"></a></li>
+      <li>
+        <a href="index.html">Work</a>
+      </li>
+      <li>
+        <a href="https://docs.google.com/document/d/1XAlRy-PsXQY2ZET5KQn1SxifTNBqXLTjkxdr2DOhXhM/edit">Resume</a>
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      <li>
+        <a href="#"><img src="assets/githubIcon.svg" alt="Github icon"></a>
+        <a href="https://www.linkedin.com/in/laurenmchun/"> 
+          <img src="assets/linkedinIcon.svg" alt="Linkedin icon">
+        </a>
+      </li>
     </ul>
 `
 
@@ -71,4 +82,59 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// LOADING SCREEN CODE UNDERNEATH
+// const loadingScreen = document.querySelector(".loading-screen");
+
+// window.onload = function() {
+//   setTimeout(function() {
+//       hideLoadingScreen();
+//   }, 1000); 
+//   // 2000 milliseconds (2 seconds)
+// };
+
+// function hideLoadingScreen() {
+//   const bodyContent = document.querySelector("body");
+
+//   loadingScreen.style.display = "none";
+//   bodyContent.style.display = "block";
+// }
+
+loadingScreen.innerHTML =`
+<div class="loading-screen">
+  <div class="loader-grid">
+      <div class="loader-rectangle"></div>
+  </div>
+  <div class="loader-text">
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+  </div>
+
+   <div class="loader-grid">
+      <div class="loader-rectangle"></div>
+  </div>
+  <div class="loader-text">
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+  </div>
+
+  <div class="loader-grid">
+    <div class="loader-rectangle"></div>
+  </div>
+  <div class="loader-text">
+      <div class="loader-line"></div>
+      <div class="loader-line"></div>
+  </div>
+
+  <div class="loader-grid">
+    <div class="loader-rectangle"></div>
+  </div>
+  <div class="loader-text">
+    <div class="loader-line"></div>
+    <div class="loader-line"></div>
+  </div>
+</div>
+
+`
+
+///LOADING SCREEN CODE END
 

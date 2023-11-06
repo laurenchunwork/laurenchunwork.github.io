@@ -17,6 +17,8 @@ a{
 
 #body{
 margin-top: 4rem;  
+/* display:none; */
+/* turn this back on when you are making the loading screen */
 }
 
 .name{
@@ -24,17 +26,26 @@ margin-top: 4rem;
     font-weight: medium;
 }
 /* NAV BAR */
+
+.topnav{
+  width:100%;
+  position: fixed;
+
+}
 ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    padding: 0rem 1rem;
-    /* position: sticky; */
-    /* position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999; */
+    /* padding: 0rem 1rem 0rem 0rem; */
+    background-color: white;
+    position: sticky;
+    /* 
+    top: 0;*/
+    /* width: 100%; */
+/*    z-index: 999; */
+    display: flex;
+    justify-content: center;
   }
   
   
@@ -45,7 +56,7 @@ ul.topnav {
     display: block;
     color:#337ab7;
     text-align: center;
-    padding: 0px 16px;
+    padding: 0px 1rem;
     text-decoration: none;
     transition: font-weight 0.5s;
 
@@ -57,16 +68,18 @@ ul.topnav {
 
   ul.topnav li.right {
     float: right;
-    /* padding: 0rem 1rem; */
+    padding: 0rem 1rem;
     font-size: 16px !important;
+    position: relative;
   }
 
  
   .work-drop-content {
     display: none;
     position: absolute;
-/*     background-color: #333; */
-}
+    top: 100%;
+    left:0;
+  }
 
 .work-drop-content a {
 /*     color: white; */
@@ -101,12 +114,15 @@ ul.topnav {
       display: none;
     }
   }
+  /* #mobileIcon{
+    font-size: 0px;
+  } */
   
 /* Styling for the animated menu */
 div.menu {
   display: none;
   background-color: #ffffff;
-  position: absolute;
+  position: fixed;
   width: 100%;
 }
 
@@ -248,9 +264,16 @@ div.menu ul li a {
   /* height: 200px; */
 }
 
+.center-image{
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  /* align-items: center; this keeps moving it down for some reason */
+  height:100%;
+  width: 100%; /* Set the width of the container */
+}
 /* ///////////////////////////////MEDIA QUERY//////////////////////////////// */
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #nav{
     padding: 3rem 1rem 0rem 0rem;
   }
@@ -259,7 +282,7 @@ div.menu ul li a {
     padding-top: 2rem;
   }
   .top-container {
-        margin: 0rem 0rem !important;
+        margin: 0rem 0rem 0rem 0rem !important;
         padding:1rem 0rem 8rem 0rem;
         height: 100px;
         grid-template-columns: 1fr;
@@ -290,16 +313,11 @@ div.menu ul li a {
   }
 
   .middle-container{
+    margin-top: 2rem;
     gap: 0px;
+
   }
 
-  .center-image{
-    display: flex;
-    justify-content: center; /* Horizontally center the content */
-    /* align-items: center; this keeps moving it down for some reason */
-    height:100%;
-    width: 100%; /* Set the width of the container */
-  }
 
   /* .center-image img{
     max-height: 100%;
@@ -308,13 +326,15 @@ div.menu ul li a {
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   /* Tablet viewport and above */
-  .rounded-button {
-    margin: 1rem 3rem;
-  }
   .inner-container{
     margin: 1rem 0rem !important;
+  }
+}
+@media (max-width: 1200px){
+  .rounded-button {
+    margin: 1rem 3rem;
   }
 }
 @media (max-width: 1400px) {
@@ -331,3 +351,59 @@ div.menu ul li a {
 .homeIcon{
   height: 50%;
 }
+
+/*  LOADING CSS START */
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.loader-rectangle {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(90deg, transparent, #ccc);
+  margin: 5px;
+  background-size: 200% 100%;
+  animation: gradient-fill 2s linear infinite;
+}
+
+@keyframes gradient-fill {
+  0% {
+      background-position: -100% 0;
+  }
+  100% {
+      background-position: 100% 0;
+  }
+}
+
+.loader-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.loader-line {
+  width: 200px;
+  height: 1px;
+  background-color: #ccc;
+  margin: 5px;
+  border-radius: 1rem;
+  border: 0.4px solid #ccc;
+}
+/* LOADING CSS END */
