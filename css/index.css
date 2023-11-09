@@ -140,6 +140,10 @@ div.menu ul li a {
   text-decoration: none;
 }
 
+div.menu li:hover{
+  background-color: #ccc;
+}
+
 
 /* INDEX PAGE */
 .container {

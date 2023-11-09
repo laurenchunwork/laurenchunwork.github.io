@@ -11,24 +11,21 @@ navLink.innerHTML = `
   <li class="icon right" id="mobileIcon">
         <a href="javascript:void(0);" onclick="toggleMenu()">☰</a>
       </li>
-  <li class="right">
-    <a href="#"><img src="assets/githubIconBlue.svg" alt="Github icon"></a>
+      <li class="right work-drop">
+    <a href="index.html">Work</a>
+      <div class="work-drop-content">
+      <a href="#">UX</a>
+      <a href="#">AR/VR</a>
+    </div>  
   </li>
-  <li class="right">
-    <a href="https://www.linkedin.com/in/laurenmchun/"> <img src="assets/linkedinIconBlue.svg" alt="Linkedin icon"></a>
-  </li>
+      <li class="right">
+      <a href="https://docs.google.com/document/d/1XAlRy-PsXQY2ZET5KQn1SxifTNBqXLTjkxdr2DOhXhM/edit">Resume</a>
+    </li>
   <li class="right">
     <a href="about.html">About</a>
   </li>
   <li class="right">
-    <a href="https://docs.google.com/document/d/1XAlRy-PsXQY2ZET5KQn1SxifTNBqXLTjkxdr2DOhXhM/edit">Resume</a>
-  </li>
-  <li class="right work-drop">
-    <a href="index.html">Work</a>
-    <div class="work-drop-content">
-    <a href="#">UX</a>
-    <a href="#">AR/VR</a>
-  </div>  
+    <a href="https://www.linkedin.com/in/laurenmchun/"> <img src="assets/linkedinIconBlue.svg" alt="Linkedin icon"></a>
   </li>
 </ul> 
 `
@@ -47,15 +44,17 @@ mobileMenu.innerHTML = `
         <a href="about.html">About</a>
       </li>
       <li>
-        <a href="#"><img src="assets/githubIcon.svg" alt="Github icon"></a>
-        <a href="https://www.linkedin.com/in/laurenmchun/"> 
-          <img src="assets/linkedinIcon.svg" alt="Linkedin icon">
-        </a>
+      <a href="https://www.linkedin.com/in/laurenmchun/"> 
+      <img src="assets/linkedinIcon.svg" alt="Linkedin icon">
+    </a>
       </li>
     </ul>
 `
 
 });
+{/* <li>
+<a href="#"><img src="assets/githubIcon.svg" alt="Github icon"></a>
+</li> */}
 
 // toggle mobile menu////
 function toggleMenu() {
