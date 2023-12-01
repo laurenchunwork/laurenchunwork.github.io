@@ -18,12 +18,13 @@ bodyIndex.innerHTML = `
     </div>
     <div class="inner-container" id="select2">
     </div>
-    <div class="inner-container" id="select3">
-    </div>
-    <div class="inner-container" id="select4">
-    </div>
 </div>
 `
+
+// add this back when you can make public     <div class="inner-container" id="select3">
+    // </div>
+    // <div class="inner-container" id="select4">
+    // </div>
 const select1 = document.querySelector("#select1");
 const select2 = document.querySelector("#select2");
 const select3 = document.querySelector("#select3");
