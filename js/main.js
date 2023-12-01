@@ -19,7 +19,7 @@ navLink.innerHTML = `
     </div>  
   </li>
       <li class="right">
-      <a href="https://docs.google.com/document/d/1XAlRy-PsXQY2ZET5KQn1SxifTNBqXLTjkxdr2DOhXhM/edit">Resume</a>
+      <a href="https://drive.google.com/file/d/1dJuHK3AbujeBrFvhE97PlhqaJtlKa8Qm/view?usp=sharing">Resume</a>
     </li>
   <li class="right">
     <a href="about.html">About</a>
