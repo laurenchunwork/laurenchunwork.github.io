@@ -27,8 +27,8 @@ bodyIndex.innerHTML = `
     // </div>
 const select1 = document.querySelector("#select1");
 const select2 = document.querySelector("#select2");
-const select3 = document.querySelector("#select3");
-const select4 = document.querySelector("#select4");
+// const select3 = document.querySelector("#select3");
+// const select4 = document.querySelector("#select4");
 // const select5 = document.querySelector("#select5");
 
 select1.innerHTML = `
@@ -62,39 +62,39 @@ select2.innerHTML = `
   </button>
 </div>
 `
-select3.innerHTML = `
-<a class="featureLink" href="twitteraccessibility.html">
-  <img src="assets/twitter-cover.jpg" alt="a screenshot of newly redesigned emojis that vibrate and animate slightly to express emotion."> 
-  <h4>Twitter Accessibility <span class="yearIndex"> (2022)</span></h4>
-</a>
-<p class="gray">With the Twitter A11y Team</p>
-<p class="tags">#UX Design #UX Research #Accessibility</p>
-<p class=""> An exploration on creating a way for users to express themselves in a multi-modal ways.</p>
-<div class="center-image">
-  <button class="rounded-button" onclick="window.location.href = 'twitteraccessibility.html';
-  ">
-  View Project	&rarr;
-  </button>
-</div>
-`
+// select3.innerHTML = `
+// <a class="featureLink" href="twitteraccessibility.html">
+//   <img src="assets/twitter-cover.jpg" alt="a screenshot of newly redesigned emojis that vibrate and animate slightly to express emotion."> 
+//   <h4>Twitter Accessibility <span class="yearIndex"> (2022)</span></h4>
+// </a>
+// <p class="gray">With the Twitter A11y Team</p>
+// <p class="tags">#UX Design #UX Research #Accessibility</p>
+// <p class=""> An exploration on creating a way for users to express themselves in a multi-modal ways.</p>
+// <div class="center-image">
+//   <button class="rounded-button" onclick="window.location.href = 'twitteraccessibility.html';
+//   ">
+//   View Project	&rarr;
+//   </button>
+// </div>
+// `
 
 
 
-select4.innerHTML = `
-<a class="featureLink" href="chemvr.html">
-  <img src="assets/chemvr-cover.jpg" alt="A screenshot of a virtual classroom with a ui with the equation for temperature reacting with particles."> 
-  <h4>Chem VR <span class="yearIndex"> (2019)</span></h4>
-</a>
-  <p class="gray">For San Jose State University E-Campus</p>
-<p class="tags">#UX Design #UI Design #VR #3D Modeling</p>
-<p class="">Virtual reality application helping students understand the relationship between physical chemistry equations and the physical world.</p>
-<div class="center-image">
-  <button class="rounded-button" onclick="window.location.href = 'chemvr.html';
-  "> 
-    View Project	&rarr;
-  </button>
-</div>
-`
+// select4.innerHTML = `
+// <a class="featureLink" href="chemvr.html">
+//   <img src="assets/chemvr-cover.jpg" alt="A screenshot of a virtual classroom with a ui with the equation for temperature reacting with particles."> 
+//   <h4>Chem VR <span class="yearIndex"> (2019)</span></h4>
+// </a>
+//   <p class="gray">For San Jose State University E-Campus</p>
+// <p class="tags">#UX Design #UI Design #VR #3D Modeling</p>
+// <p class="">Virtual reality application helping students understand the relationship between physical chemistry equations and the physical world.</p>
+// <div class="center-image">
+//   <button class="rounded-button" onclick="window.location.href = 'chemvr.html';
+//   "> 
+//     View Project	&rarr;
+//   </button>
+// </div>
+// `
 // select5.innerHTML = `
 // <img src="assets/arexplorer-cover.jpg"> 
 // <h4>AR Explorer</h4>
