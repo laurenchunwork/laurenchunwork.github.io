@@ -111,17 +111,11 @@ h2{
   .hero-image{
     margin-top: 80px;
     display: flex;
-    justify-content: center; 
-    /* Horizontally center the content */
-    /* align-items: center; this keeps moving it down for some reason */
+    justify-content: center;
     height: 50vh;
-    /* width:100%; */
+    /* width: 100%; */
     background-color: #363636;
-     /* background-image: url('/assets/dalle-cover-wtxt.jpg');
-     background-size: contain;
-     background-repeat: no-repeat;
-     background-position: center; */
-     /* background-color: #000000; */
+    /* background-color: #000000; */
   }
   
   

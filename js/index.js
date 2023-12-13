@@ -1,108 +1,108 @@
 document.addEventListener('DOMContentLoaded', function() {
-const bodyIndex = document.querySelector("#body");
-
-bodyIndex.innerHTML = `
-<div class="container">
-  <div class="top-container">
-    <div class=""> 
-    <p>Hi, my name is <span class="name">Lauren Chun</span>.
-    </p>
-    <p>I’m a UX Designer, I make emerging technologies easier to use.</p>
+  const bodyIndex = document.querySelector("#body");
+  
+  bodyIndex.innerHTML = `
+  <div class="container">
+    <div class="top-container">
+        <div class="top-container-text">
+          <p class="heroName">
+            Hi, my name is <a class="name" href="about.html"><span >Lauren Chun</span></a>.
+          </p>
+          <p class="landing-bio-text">
+          I’m a UX designer, passionate about creating pleasing digital experiences with interaction and 3D.</p>
+          <div class="resumeCallouts">
+          <p class="landing-bio-text-call">
+          Previously worked with <a class="companyname-landing-bio" href="https://sra.samsung.com/"> Samsung ↗ </a> and <a href="artistcollaboration.html">various artists</a>.
+          </p>    
+          <p class="landing-bio-text-call">
+          Graduated from<a class="companyname-landing-bio" href="https://itp.nyu.edu/itp/"> NYU ITP ↗</a>,<a class="companyname-landing-bio" href="https://cadre.sjsu.edu/"> SJSU CADRE Media Lab ↗.</a>
+          </p>  
+          </div>
+        </div>
+        <div class="landing-icon">
+          <img src="assets/icon-landingpage.png"  alt="icon of a geometric lotus flower in black and white">
+        </div>
     </div>
-    <div class="center-image">
-    <img src="assets/personal-icon.svg" class="homeIcon" alt="geometric lotus icon"> 
-    </div>
+      <div class="header2title"> 
+        <h2>Selected Work</h2> 
+      </div>
+      <div class="inner-container" id="select1">
+      </div>
+      <div class="inner-container" id="select3">
+      </div>
+      
   </div>
-  <div class="middle-container">
-    <div class="inner-container" id="select1">
+  `
+  
+  // <div class="inner-container" id="select3">
+  // </div>
+  // <div class="inner-container" id="select4">
+  const select1 = document.querySelector("#select1");
+  const select2 = document.querySelector("#select2");
+  const select3 = document.querySelector("#select3");
+  // const select4 = document.querySelector("#select4");
+  
+  
+  select1.innerHTML = `
+    <div class="portfolioIndexText">
+      <a href="known-source.html"> <h4>Known Source Redesign</h4></a>
+      <a href="known-source.html"><p>UX Design, Client Project</p></a>
+      <a href="known-source.html"><p class="">Redesigned user experience for e-commerce luxury goods marketplace to promote credibility and trust in buyers and sellers.</p></a>
     </div>
-    <div class="inner-container" id="select2">
+    <div class="portfolioIndexImage">
+    <a href="known-source.html"><img class="indexImage" src="assets/covers/known-source-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
     </div>
+  
+  `
+  // select2.innerHTML = `
+  // <div class="portfolioIndexText">
+  //   <a href="sraintern.html"><h4>Samsung Research America XR Design</h4></a>
+  // <p>UX Design, Interaction Design, Internship</p>
+  // <p class="">Designed social interaction for an AI-powered digital human in a virtual environment.</p>
+  
+  // </div>
+  // <div class="portfolioIndexImage">
+  // <img src="assets/covers/samsungintern-cover.jpg"  class="indexImage" alt="an image reads Known Source Shopping Experience Redesign"> 
+  // </div>
+  // `
+  
+  select3.innerHTML = `
+  <div class="portfolioIndexText">
+  <a href="dalleredesign.html"> <h4>Sharing Profile - Dall-e 2 Redesign</h4></a>
+  <a href="dalleredesign.html"><p>UX Design, Case Study</p></a>
+  <a href="dalleredesign.html"><p class="">A redesign of the AI image generation platform, Dall-E 2’s website for sharing of AI images with others and profile personalization.</p></a>
 </div>
-`
-
-// add this back when you can make public     <div class="inner-container" id="select3">
-    // </div>
-    // <div class="inner-container" id="select4">
-    // </div>
-const select1 = document.querySelector("#select1");
-const select2 = document.querySelector("#select2");
-// const select3 = document.querySelector("#select3");
-// const select4 = document.querySelector("#select4");
-// const select5 = document.querySelector("#select5");
-
-select1.innerHTML = `
-  <a class="featureLink" href="dalleredesign.html">
-    <img src="assets/dalle-cover.jpg" alt="A screenshot of the dall-e 2 redesigned screen with a popup overlay of an ai generated glass cat render. The screenshot is surounded by other little images of ai generated glass cats with the word cat underneath each of the squares."> 
-    <h4>Dall-e 2 Redesign - Sharing/Profile <span class="yearIndex"> (2022)</span></h4>
-  </a>
-  <p class="gray">Case Study</p>
-  <p class="tags">#UX Design #UX Research</p>
-  <p class=""> A redesign of the AI image generation platform, Dall-E 2’s website for sharing of AI images with others and profile personalization.</p>
-
-<div class="center-image">
-  <button class="rounded-button" onclick="window.location.href = 'dalleredesign.html';
-">
- View Project	&rarr;
- </button>
+<div class="portfolioIndexImage">
+<a href="dalleredesign.html"><img class="indexImage" src="assets/covers/dalleredesign-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
 </div>
-`
-select2.innerHTML = `
-<a class="featureLink" href="known-source.html">
-    <img src="assets/known-source-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> 
-  <h4>Known Source Redesign <span class="yearIndex">(2022)</span></h4>
-</a>
-<div class="gray">Known Source</div> 
-<p class="tags">#UX Design #UX Research #ECommerce</p>
-<p class="">Redesigned of ecommerce marketplace for customer view of secondhand luxury goods.</p>
-<div class="center-image">
-  <button class="rounded-button" onclick="window.location.href = 'known-source.html';
-  "> 
-  View Project	&rarr;
-  </button>
-</div>
-`
-// select3.innerHTML = `
-// <a class="featureLink" href="twitteraccessibility.html">
-//   <img src="assets/twitter-cover.jpg" alt="a screenshot of newly redesigned emojis that vibrate and animate slightly to express emotion."> 
-//   <h4>Twitter Accessibility <span class="yearIndex"> (2022)</span></h4>
-// </a>
-// <p class="gray">With the Twitter A11y Team</p>
-// <p class="tags">#UX Design #UX Research #Accessibility</p>
-// <p class=""> An exploration on creating a way for users to express themselves in a multi-modal ways.</p>
-// <div class="center-image">
-//   <button class="rounded-button" onclick="window.location.href = 'twitteraccessibility.html';
-//   ">
-//   View Project	&rarr;
-//   </button>
-// </div>
-// `
-
-
-
-// select4.innerHTML = `
-// <a class="featureLink" href="chemvr.html">
-//   <img src="assets/chemvr-cover.jpg" alt="A screenshot of a virtual classroom with a ui with the equation for temperature reacting with particles."> 
-//   <h4>Chem VR <span class="yearIndex"> (2019)</span></h4>
-// </a>
-//   <p class="gray">For San Jose State University E-Campus</p>
-// <p class="tags">#UX Design #UI Design #VR #3D Modeling</p>
-// <p class="">Virtual reality application helping students understand the relationship between physical chemistry equations and the physical world.</p>
-// <div class="center-image">
-//   <button class="rounded-button" onclick="window.location.href = 'chemvr.html';
-//   "> 
-//     View Project	&rarr;
-//   </button>
-// </div>
-// `
-// select5.innerHTML = `
-// <img src="assets/arexplorer-cover.jpg"> 
-// <h4>AR Explorer</h4>
-// <p class="gray">Thesis ()</p>
-// <p class="">.</p>
-// `
-
-
-});
-
-//////////////////////////////÷≥
+  `
+  
+  
+  
+  // select4.innerHTML = `
+  // <div class="portfolioIndexText">
+  // <h4>Chem VR</h4>
+  // <p>UX Design, VR Design, UI Design, Client Project</p>
+  // <p class="">Design of user interface and environment for E-Learning virtual reality application.</p>
+  // <div class="center-image">
+  // </div>
+  // </div>
+  // <div class="portfolioIndexImage">
+  // <img src="assets/chemvr/chemvr-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> 
+  // </div>
+  // `
+  
+  // select5.innerHTML = `
+  // <div class="portfolioIndexText">
+  // <h4>Chem VR</h4>
+  // <p>UX Design, VR Design, UI Design, Client Project</p>
+  // <p class="">Design of user interface and environment for E-Learning virtual reality application.</p>
+  // <div class="center-image">
+  // </div>
+  // </div>
+  // <div class="portfolioIndexImage">
+  // <img src="assets/chemvr/chemvr-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> 
+  // </div>
+  // `
+  });
+  //////////////////////////////
