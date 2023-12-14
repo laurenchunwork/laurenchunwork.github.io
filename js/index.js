@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             Hi, my name is <a class="name" href="about.html"><span >Lauren Chun</span></a>.
           </p>
           <p class="landing-bio-text">
-          I’m a UX designer, passionate about creating pleasing digital experiences with interaction and 3D.</p>
+          I’m a product designer, passionate about creating pleasing digital experiences with interaction and 3D.</p>
           <div class="resumeCallouts">
           <p class="landing-bio-text-call">
           Previously worked with <a class="companyname-landing-bio" href="https://sra.samsung.com/"> Samsung ↗ </a> and <a href="artistcollaboration.html">various artists</a>.
