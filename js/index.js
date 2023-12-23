@@ -45,12 +45,12 @@ document.addEventListener('DOMContentLoaded', function() {
   
   select1.innerHTML = `
     <div class="portfolioIndexText">
-      <a href="known-source.html"> <h4>Known Source Redesign</h4></a>
-      <a href="known-source.html"><p>UX Design, Client Project</p></a>
-      <a href="known-source.html"><p class="">Redesigned user experience for e-commerce luxury goods marketplace to promote credibility and trust in buyers and sellers.</p></a>
+      <a href="knownsource.html"> <h4>Known Source Redesign</h4></a>
+      <a href="knownsource.html"><p>UX Design, Client Project</p></a>
+      <a href="knownsource.html"><p class="">Redesigned user experience for e-commerce luxury goods marketplace to promote credibility and trust in buyers and sellers.</p></a>
     </div>
     <div class="portfolioIndexImage">
-    <a href="known-source.html"><img class="indexImage" src="assets/covers/known-source-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
+    <a href="knownsource.html"><img class="indexImage" src="assets/covers/known-source-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
     </div>
   
   `
