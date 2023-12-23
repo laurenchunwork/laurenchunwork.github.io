@@ -28,8 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
       <div class="inner-container" id="select1">
       </div>
-      <div class="inner-container" id="select3">
-      </div>
       
   </div>
   `
@@ -66,16 +64,16 @@ document.addEventListener('DOMContentLoaded', function() {
   // </div>
   // `
   
-  select3.innerHTML = `
-  <div class="portfolioIndexText">
-  <a href="dalleredesign.html"> <h4>Sharing Profile - Dall-e 2 Redesign</h4></a>
-  <a href="dalleredesign.html"><p>UX Design, Case Study</p></a>
-  <a href="dalleredesign.html"><p class="">A redesign of the AI image generation platform, Dall-E 2’s website for sharing of AI images with others and profile personalization.</p></a>
-</div>
-<div class="portfolioIndexImage">
-<a href="dalleredesign.html"><img class="indexImage" src="assets/covers/dalleredesign-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
-</div>
-  `
+//   select3.innerHTML = `
+//   <div class="portfolioIndexText">
+//   <a href="dalleredesign.html"> <h4>Sharing Profile - Dall-e 2 Redesign</h4></a>
+//   <a href="dalleredesign.html"><p>UX Design, Case Study</p></a>
+//   <a href="dalleredesign.html"><p class="">A redesign of the AI image generation platform, Dall-E 2’s website for sharing of AI images with others and profile personalization.</p></a>
+// </div>
+// <div class="portfolioIndexImage">
+// <a href="dalleredesign.html"><img class="indexImage" src="assets/covers/dalleredesign-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
+// </div>
+//   `
   
   
   
