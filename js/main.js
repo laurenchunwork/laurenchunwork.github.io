@@ -12,7 +12,7 @@ navLink.innerHTML = `
 <a  href="about.html">About</a>
 </li>
   <li class="right">
-  <a href="https://drive.google.com/file/d/1dJuHK3AbujeBrFvhE97PlhqaJtlKa8Qm/view?usp=sharing">Resume</a>
+  <a href="https://drive.google.com/file/d/1dJuHK3AbujeBrFvhE97PlhqaJtlKa8Qm/view?usp=sharing" target="_blank">Resume</a>
 </li>
   <li class="icon right" id="mobileIcon">
         <a href="javascript:void(0);" onclick="toggleMenu()">☰</a>
