@@ -19,14 +19,17 @@ navLink.innerHTML = `
       </li>
       <li class="right work-drop" id="workLink">
     <a href="index.html">Work</a>
-      <div class="work-drop-content">
-      <a href="#">UX</a>
-      <a href="#">AR/VR</a>
-    </div>  
+     
   </li>
  
 </ul> 
 `
+/* for menu dropdown hover but we arent using this rn
+ <div class="work-drop-content">
+<a href="#">UX</a>
+<a href="#">AR/VR</a>
+</div>   */
+
 footer.innerHTML = `
 <p>© Designed by <a href="about.html">Lauren Chun</a> | Product Designer </p>
 <p> <a href="https://www.linkedin.com/in/laurenmchun/">Linkedin↗</a></p>
