@@ -47,6 +47,10 @@ gap: 20px;
 .dividerText{
   padding: 2%  0%;
 }
+
+.padgray{
+  padding: 2.5% 0%;
+}
 .dividerText p{
   margin:0;
 }
@@ -68,6 +72,10 @@ gap: 20px;
 }
 .headerText{
   color:#337AB7;
+}
+
+.sectionHead{
+  width:75%;
 }
 /* SECTION CSS BEGIN */
 .section{
@@ -137,6 +145,7 @@ gap: 20px;
 }
 .userflowImage{
   max-width:700px;
+  /* margin:0% 2.5%; */
 }
 .textbox{
 flex:1;
@@ -175,8 +184,12 @@ gap: 20px;
   align-items: flex-start;
   gap: 15px;
 }
+
 .sectionimagecolumn{
   width:100%;
+  display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .sectioncolumn{
   align-items: center;
