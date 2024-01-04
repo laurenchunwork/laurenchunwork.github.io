@@ -38,7 +38,6 @@ bodyIndex.innerHTML = `
     
 </div>
 `
-
 // <div class="inner-container" id="select3">
 // </div>
 // <div class="inner-container" id="select4">
@@ -47,7 +46,17 @@ const select2 = document.querySelector("#select2");
 const select3 = document.querySelector("#select3");
 // const select4 = document.querySelector("#select4");
 
-
+select1.innerHTML = `
+<div class="portfolioIndexText">
+  <a href="sraintern.html"><h4>Samsung Research America XR Design</h4></a>
+<p>UX Design, Interaction Design, Internship</p>
+<p class="">Designed social interaction for an AI-powered digital human in a virtual environment.</p>
+</div>
+<div class="portfolioIndexImage">
+<a href="sraintern.html">
+<img src="assets/covers/samsungintern-cover.jpg"  class="indexImage" alt="an image reads Known Source Shopping Experience Redesign"> </a>
+</div>
+`
 select2.innerHTML = `
   <div class="portfolioIndexText">
     <a href="knownsource.html"> <h4>Known Source Redesign</h4></a>
@@ -57,34 +66,7 @@ select2.innerHTML = `
   <div class="portfolioIndexImage">
   <a href="knownsource.html"><img class="indexImage" src="assets/covers/known-source-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
   </div>
-
 `
-select1.innerHTML = `
-<div class="portfolioIndexText">
-  <a href="sraintern.html"><h4>Samsung Research America XR Design</h4></a>
-<p>UX Design, Interaction Design, Internship</p>
-<p class="">Designed social interaction for an AI-powered digital human in a virtual environment.</p>
-
-</div>
-<div class="portfolioIndexImage">
-<a href="sraintern.html">
-<img src="assets/covers/samsungintern-cover.jpg"  class="indexImage" alt="an image reads Known Source Shopping Experience Redesign"> </a>
-</div>
-`
-
-// select3.innerHTML = `
-// <div class="portfolioIndexText">
-// <a href="dalleredesign.html"> <h4>Sharing Profile - Dall-e 2 Redesign</h4></a>
-// <a href="dalleredesign.html"><p>UX Design, Case Study</p></a>
-// <a href="dalleredesign.html"><p class="">A redesign of the AI image generation platform, Dall-E 2’s website for sharing of AI images with others and profile personalization.</p></a>
-// </div>
-// <div class="portfolioIndexImage">
-// <a href="dalleredesign.html"><img class="indexImage" src="assets/covers/dalleredesign-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
-// </div>
-// `
-
-
-
 select3.innerHTML = `
 <div class="portfolioIndexText">
 <a href="chemvr.html">
@@ -101,7 +83,16 @@ select3.innerHTML = `
 </a>
 </div>
 `
-
+// select3.innerHTML = `
+// <div class="portfolioIndexText">
+// <a href="dalleredesign.html"> <h4>Sharing Profile - Dall-e 2 Redesign</h4></a>
+// <a href="dalleredesign.html"><p>UX Design, Case Study</p></a>
+// <a href="dalleredesign.html"><p class="">A redesign of the AI image generation platform, Dall-E 2’s website for sharing of AI images with others and profile personalization.</p></a>
+// </div>
+// <div class="portfolioIndexImage">
+// <a href="dalleredesign.html"><img class="indexImage" src="assets/covers/dalleredesign-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
+// </div>
+// `
 // select5.innerHTML = `
 // <div class="portfolioIndexText">
 // <h4>Chem VR</h4>
