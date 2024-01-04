@@ -12,7 +12,7 @@ p {
   font-size: 18px;
 }
 .heroImage{
-width:100%;
+width:100vw;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -27,6 +27,8 @@ align-items: center;
   align-items: center;
   flex-shrink: 0;
   height:400px;
+  width:100vw;
+  object-fit: contain;
 }
 .heroPortfolioText{
   display: inline-flex;

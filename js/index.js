@@ -97,7 +97,7 @@ select3.innerHTML = `
 </div>
 <div class="portfolioIndexImage">
 <a href="chemvr.html">
-<img src="assets/covers/chemvr-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> 
+<img src="assets/covers/chemvr-cover.jpg" class="indexImage" alt="an image reads Known Source Shopping Experience Redesign"> 
 </a>
 </div>
 `
