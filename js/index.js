@@ -48,7 +48,7 @@ const select3 = document.querySelector("#select3");
 // const select4 = document.querySelector("#select4");
 
 
-select1.innerHTML = `
+select2.innerHTML = `
   <div class="portfolioIndexText">
     <a href="knownsource.html"> <h4>Known Source Redesign</h4></a>
     <a href="knownsource.html"><p>UX Design, Client Project</p></a>
@@ -59,7 +59,7 @@ select1.innerHTML = `
   </div>
 
 `
-select2.innerHTML = `
+select1.innerHTML = `
 <div class="portfolioIndexText">
   <a href="sraintern.html"><h4>Samsung Research America XR Design</h4></a>
 <p>UX Design, Interaction Design, Internship</p>

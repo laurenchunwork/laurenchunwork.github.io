@@ -146,6 +146,7 @@ place-items: center;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  flex-direction: row;
   margin:2.5% 12.5%;
   width:75%;
   gap:10px;
@@ -309,5 +310,8 @@ gap: 20px;
   }
   .column{
     margin: 0% 12.5%;
+  }
+  .stats{
+    flex-direction: column;
   }
 }
