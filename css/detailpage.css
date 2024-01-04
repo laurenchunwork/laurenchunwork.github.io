@@ -91,7 +91,9 @@ place-items: center;
   flex-direction: column;
   align-items: center;
   gap: 15px;
-  width:100%;}
+  width:100%;
+  /* margin: */
+}
   .section h1{
     margin:0;
   }
@@ -132,7 +134,7 @@ place-items: center;
   flex-direction:column;
   display:flex;
   align-items: flex-start;
-  gap: 10px;
+  gap: 5px;
 }
 .stat-list p{
   gap:10px;
@@ -144,13 +146,14 @@ place-items: center;
   align-items: flex-start;
   margin:2.5% 12.5%;
   width:75%;
+  gap:10px;
 }
 .featureImage{
   width:100%;
   margin: 0% 12.5%;
 }
 .iconImage{
-  max-width: 200px;
+  max-width: 200px !important;
 }
 .mediumImage{
   max-width: 400px;
@@ -182,6 +185,8 @@ gap: 20px;
   display: inline-flex;
   justify-content: space-between;
   align-items: flex-start;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
   gap: 30px;
   width:75%;
   margin: 2.5% 12.5% 2.5% 12.5%;
@@ -189,9 +194,20 @@ gap: 20px;
 .threecolumn{
   display: inline-flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  flex-direction: row;
   gap: 30px;
-  width:75%;
+  width:100%;
+  margin: 2.5% 12.5% 2.5% 12.5%;
+}
+
+.threecolumnsmall{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+  width:100%;
   margin: 2.5% 12.5% 2.5% 12.5%;
 }
 
@@ -199,10 +215,12 @@ gap: 20px;
   display: inline-flex;
   justify-content: center;
   align-items: flex-start;
+  flex-direction: row;
   gap: 10px;
-  width:100%;
-  margin: 2.5% 0% 2.5% 0%;
+  margin:2.5%;
+  /* margin: 0% 2.5% 0% 2.5%; */
 }
+
 .sectiontextcolumn{
   display: flex;
   flex-direction: column;
@@ -215,7 +233,23 @@ gap: 20px;
   display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 2.5% 0% ;
+    justify-content: center;
 }
+
+/*  */
+.column {
+
+  text-align: center;
+}
+
+.column img {
+  max-width: 100%;
+  height: auto; 
+}
+
+
+/*  */
 .sectioncolumn{
   align-items: center;
   display: flex;
@@ -253,10 +287,37 @@ gap: 20px;
  p{
   font-size: 16px;;
  }
+.section h2{
+  font-size: 24px;
+}
+ .twocolumn{
+  flex-direction: column;
+  gap:0px;
+ }
+ .threecolumn{
+  flex-direction: column;
 
- /* .threecolumn .threecolumnbig{
+ }
+ .threecolumnbig{
+  flex-direction: column;
+  width:75%;
+  align-items: center;
 
- } */
+ }
 
+ .userflowImage{
+  margin: 2.5%;
+  width:95% !important;
+ }
 
+}
+
+@media (max-width:400px){
+  .threecolumnsmall{
+    flex-direction: column;
+
+  }
+  .column{
+    margin: 0% 12.5%;
+  }
 }
