@@ -227,7 +227,6 @@ gap: 20px;
   align-items: flex-start;
   gap: 15px;
 }
-
 .sectionimagecolumn{
   width:100%;
   display: flex;
@@ -236,19 +235,15 @@ gap: 20px;
     margin: 2.5% 0% ;
     justify-content: center;
 }
-
 /*  */
 .column {
 
   text-align: center;
 }
-
 .column img {
   max-width: 100%;
   height: auto; 
 }
-
-
 /*  */
 .sectioncolumn{
   align-items: center;
@@ -259,7 +254,6 @@ gap: 20px;
 .sectioncolumn img{
   max-width:250px;
 }
-
 .section h3{
   font-weight: 400;
 }
@@ -296,26 +290,20 @@ gap: 20px;
  }
  .threecolumn{
   flex-direction: column;
-
  }
  .threecolumnbig{
   flex-direction: column;
   width:75%;
   align-items: center;
-
  }
-
  .userflowImage{
   margin: 2.5%;
   width:95% !important;
  }
-
 }
-
 @media (max-width:400px){
   .threecolumnsmall{
     flex-direction: column;
-
   }
   .column{
     margin: 0% 12.5%;
