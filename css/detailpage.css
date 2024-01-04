@@ -7,6 +7,10 @@
   gap: 15px;
   margin-top: 2.5%;
 }
+
+p {
+  font-size: 18px;
+}
 .heroImage{
 width:100%;
 display: flex;
@@ -39,10 +43,14 @@ text-align: center;
 display: grid;
 grid-template-columns: 1fr;
 place-items: center;
-gap: 20px;
+/* gap: 20px; */
 }
 .grayaccent{
   background-color: #F5F5F5;
+}
+.blackaccent{
+  background-color: #39364F;
+  color:#E8E8E8;
 }
 .dividerText{
   padding: 2%  0%;
@@ -89,6 +97,7 @@ gap: 20px;
   }
   .section h2{
     margin:0;
+    font-weight: 400;
   }
   .blurb{
     text-align: start;
@@ -98,6 +107,9 @@ gap: 20px;
     text-align: start;
     width:75%;
   }
+  /* .p-blurb p{
+    margin:0;
+  } */
   .section ul{
     margin:0;
   }
@@ -126,7 +138,7 @@ gap: 20px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin:0% 12.5%;
+  margin:2.5% 12.5%;
   width:75%;
 }
 .featureImage{
@@ -176,7 +188,16 @@ gap: 20px;
   align-items: flex-start;
   gap: 30px;
   width:75%;
-  margin: 0% 12.5%;
+  margin: 2.5% 12.5% 2.5% 12.5%;
+}
+
+.threecolumnbig{
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  width:100%;
+  margin: 2.5% 0% 2.5% 0%;
 }
 .sectiontextcolumn{
   display: flex;
@@ -200,9 +221,18 @@ gap: 20px;
 .sectioncolumn img{
   max-width:250px;
 }
+
+.section h3{
+  font-weight: 400;
+}
 .number{
   color:#337AB7;
   font-size: 60px;
+  margin:0;
+}
+.numberoffwhite{
+  color:#E8E8E8;
+  font-size: 36px;
   margin:0;
 }
 .keypoint{

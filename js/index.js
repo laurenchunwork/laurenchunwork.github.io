@@ -28,7 +28,9 @@ bodyIndex.innerHTML = `
     </div>
     <div class="inner-container" id="select1">
     </div>
-  
+    <hr class="divider">
+    <div class="inner-container" id="select2">
+    </div>
     <hr class="divider">
     <div class="inner-container" id="select3">
     </div>
@@ -57,18 +59,18 @@ select1.innerHTML = `
   </div>
 
 `
-// select2.innerHTML = `
-// <div class="portfolioIndexText">
-//   <a href="sraintern.html"><h4>Samsung Research America XR Design</h4></a>
-// <p>UX Design, Interaction Design, Internship</p>
-// <p class="">Designed social interaction for an AI-powered digital human in a virtual environment.</p>
+select2.innerHTML = `
+<div class="portfolioIndexText">
+  <a href="sraintern.html"><h4>Samsung Research America XR Design</h4></a>
+<p>UX Design, Interaction Design, Internship</p>
+<p class="">Designed social interaction for an AI-powered digital human in a virtual environment.</p>
 
-// </div>
-// <div class="portfolioIndexImage">
-// <a href="sraintern.html">
-// <img src="assets/covers/samsungintern-cover.jpg"  class="indexImage" alt="an image reads Known Source Shopping Experience Redesign"> </a>
-// </div>
-// `
+</div>
+<div class="portfolioIndexImage">
+<a href="sraintern.html">
+<img src="assets/covers/samsungintern-cover.jpg"  class="indexImage" alt="an image reads Known Source Shopping Experience Redesign"> </a>
+</div>
+`
 
 // select3.innerHTML = `
 // <div class="portfolioIndexText">
