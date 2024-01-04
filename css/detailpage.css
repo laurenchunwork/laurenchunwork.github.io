@@ -53,7 +53,7 @@ place-items: center;
   color:#E8E8E8;
 }
 .dividerText{
-  padding: 2%  0%;
+  padding: 2.5%  0%;
 }
 
 .padgray{
@@ -94,6 +94,10 @@ place-items: center;
   width:100%;}
   .section h1{
     margin:0;
+  }
+  .section h1{
+    font-weight:400;
+
   }
   .section h2{
     margin:0;
@@ -245,8 +249,14 @@ gap: 20px;
 .keypoint-bold{
   font-weight: 800;
 }
-@media (max-width:800px){
-  /* .twocolumn{
-    display:flex;
-  } */
+@media (max-width:1000px){
+ p{
+  font-size: 16px;;
+ }
+
+ /* .threecolumn .threecolumnbig{
+
+ } */
+
+
 }
