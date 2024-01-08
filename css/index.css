@@ -19,6 +19,13 @@ body{
     align-items: flex-start;
     flex-shrink: 0;
 }
+
+.menubutton{
+  background-color:white;
+  border: none;
+  width:100%;
+  font-size: 24px;
+}
 a{
     color: rgb(25, 71, 255);
 }
@@ -654,13 +661,17 @@ portfolioIndexText{
     margin: 1rem 3rem;
   }
 }
-
-
 @media (max-width: 750px){
   #footer{
     border-top: solid #6f7287 1px;
     margin: 5% auto auto auto;
     width: 80%;
+    padding: 0%;
+  }
+}
+@media (max-width: 400px){
+  #footer{
+    width: 90%;
   }
 }
 
