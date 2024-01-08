@@ -7,6 +7,7 @@
   gap: 15px;
   margin-top: 2.5%;
 }
+
 p {
   font-size: 18px;
 }
@@ -56,6 +57,7 @@ place-items: center;
 .dividerText{
   padding: 2.5%  0%;
 }
+
 .padgray{
   padding: 2.5% 0%;
 }
@@ -81,6 +83,7 @@ place-items: center;
 .headerText{
   color:#337AB7;
 }
+
 .sectionHead{
   width:75%;
 }
@@ -162,6 +165,23 @@ place-items: center;
 .largeImage{
   max-width: 600px;
 }
+
+.designprocessimg{
+  margin: 0% 12.5%;
+  width:75% !important;
+  display: inline-block;
+}
+
+.designprocessmobile{
+  /* margin: 0% 12.5%; */
+  /* width:50% !important; */
+  max-height: 400px;
+  display: none;
+}
+.designprocesspicture{
+  margin: 0% 12.5%;
+}
+
 .userflowImage{
   max-width:700px;
   /* margin:0% 2.5%; */
@@ -310,5 +330,15 @@ gap: 20px;
   }
   .stats{
     flex-direction: column;
+  }
+}
+
+@media (max-width:600px){
+  .designprocessimg{
+    display: none;
+  }
+  
+  .designprocessmobile{
+    display: inline-block;
   }
 }
