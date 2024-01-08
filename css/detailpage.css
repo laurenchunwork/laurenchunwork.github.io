@@ -173,8 +173,6 @@ place-items: center;
 }
 
 .designprocessmobile{
-  height: auto;
-  max-height: 400px;
   display: none;
 }
 .designprocesspicture{
