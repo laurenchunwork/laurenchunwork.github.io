@@ -173,8 +173,7 @@ place-items: center;
 }
 
 .designprocessmobile{
-  /* margin: 0% 12.5%; */
-  /* width:50% !important; */
+  height: auto;
   max-height: 400px;
   display: none;
 }
