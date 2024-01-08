@@ -652,8 +652,6 @@ portfolioIndexText{
     /* margin: 1rem 0rem !important; */
     /*  */
     grid-template-columns: 1fr;
-
-
   }
 }
 @media (max-width: 1200px){
