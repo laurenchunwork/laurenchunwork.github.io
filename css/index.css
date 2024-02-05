@@ -181,7 +181,7 @@ div.menu li:hover{
   }
 
   .top-container {
-    /* margin: 0% 10% 0% 10%; */
+    margin: 5% 0% 5% 0%;
     display: flex;
     gap: 25px;
     flex-direction:row;
