@@ -667,7 +667,7 @@ portfolioIndexText{
     padding: 0%;
   }
 }
-@media (max-width: 400px){
+@media (max-width: 600px){
   #footer{
     width: 90%;
   }
