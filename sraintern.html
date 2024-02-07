@@ -17,6 +17,20 @@
     <!-- <script type="text/javascript" src="js/detailpage.js" defer></script> -->
     <script type="text/javascript" src="js/main.js" defer></script>
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-Z3RP5DVHQK"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-Z3RP5DVHQK");
+  </script>
   <body>
     <nav id="nav"></nav>
     <div id="menu" class="menu"></div>
@@ -588,12 +602,25 @@
           <p>Back to Selected Work</p>
         </a>
       </div>
-      <!-- <div class="recommendedprojects">
-        <div class="">Recommend</div>
+<!--
+      <div class="recommendedprojects">
+        <div class="">Recommended Works</div>
         <div class="">
-          <picture></picture>
+          <picture>
+            <source
+              srcset="assets/chemvr/chemvr-header.webp"
+              type="image/webp"
+            />
+            <img
+              class="mediumImage"
+              src="assets/chemvr/chemvr-header.jpg"
+              loading="lazy"
+              alt="a vr scene in a room with a chemistry equation on the board and a large human scale glass container with particles in it moving."
+            />
+          </picture>
         </div>
-      </div> -->
+      </div>
+-->
     </div>
     <div id="footer"></div>
   </body>
