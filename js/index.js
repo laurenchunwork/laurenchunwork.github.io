@@ -12,10 +12,10 @@ bodyIndex.innerHTML = `
         I’m a product designer, passionate about creating pleasing digital experiences with interaction and 3D.</p>
         <div class="resumeCallouts">
         <p class="landing-bio-text-call">
-        Previously worked with <a class="companyname-landing-bio" href="https://sra.samsung.com/" target="_blank"> Samsung ↗ </a> and <a href="artistcollaboration.html">various artists</a>.
+        Previously worked with <a class="companyname-landing-bio" href="https://sra.samsung.com/" target="_blank"> Samsung </a> and <a href="artistcollaboration.html">various artists</a>.
         </p>    
         <p class="landing-bio-text-call">
-        Graduated from<a class="companyname-landing-bio" href="https://itp.nyu.edu/itp/" target="_blank"> NYU ITP ↗</a>,<a class="companyname-landing-bio" href="https://cadre.sjsu.edu/" target="_blank"> SJSU CADRE Media Lab ↗.</a>
+        Graduated from<a class="companyname-landing-bio" href="https://itp.nyu.edu/itp/" target="_blank"> NYU ITP</a>,<a class="companyname-landing-bio" href="https://cadre.sjsu.edu/" target="_blank"> SJSU CADRE Media Lab.</a>
         </p>  
         </div>
       </div>

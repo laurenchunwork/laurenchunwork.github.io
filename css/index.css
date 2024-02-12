@@ -1,6 +1,6 @@
 body{
     padding: 3rem 0rem 0rem 0rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@ flex-direction: column;
 justify-content: space-between;
 align-items: flex-start;
 flex-shrink: 0;
-padding: 5% 10% 0% 10%;
+padding: 0% 10% 0% 10%;
 /* margin: 0% 12.5%; */
 bottom: 0;
 position:relative;
@@ -59,7 +59,8 @@ margin-top: auto;
   text-decoration: underline;
 }
 .name{
-  color:#337AB7;
+  /* color:#39364f;; */
+  /* color:#337AB7; */
   text-decoration-line: none;
     font-weight: medium;
 }
@@ -183,7 +184,7 @@ div.menu li:hover{
   .top-container {
     margin: 5% 0% 5% 0%;
     display: flex;
-    gap: 25px;
+    gap: 100px;
     flex-direction:row;
     justify-content: space-between;
     align-items: center;
@@ -210,7 +211,7 @@ div.menu li:hover{
     font-size: 18px;
   }
   .heroName{
-    font-size: 26px;
+    font-size: 36px;
     margin:0;
     color:#39364f;
   }
@@ -228,12 +229,16 @@ div.menu li:hover{
   
   .top-container-text p a{
     text-decoration: none;
-    color:#337AB7;
+    /* color:#337AB7; */
+    color:#39364f;
   }
   .companyname-landing-bio{
     color:#38393a !important;
   }
 
+  .companyname-landing-bio:hover{
+    text-decoration: underline;
+  }
   .header2title{
     margin: 0% 12.5%;
     text-align: center;
@@ -271,14 +276,13 @@ portfolioIndexText{
 
   .inner-container img {
     width:100%;
-    /* max-width: 600px;  */
-    /* Ensures the image fits within the container */
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
   }
   .inner-container p{
     color:#39364f;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     letter-spacing: 1.4px;
   }
@@ -382,9 +386,8 @@ portfolioIndexText{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
-  gap:20px;
   /* margin: 0% 12.5% 5% 12.5%; */
-  width:87.5%
+  width:75%
 }
 
 .catergory{
@@ -393,7 +396,7 @@ portfolioIndexText{
   flex-wrap: wrap;
   flex-direction: column;
   text-align: center;
-  max-width:500px;
+  width:80%;
   height: auto;
 }
 .catergory a img{
@@ -410,12 +413,13 @@ portfolioIndexText{
   color:#39364f;
   display: flex;
   flex-direction: column;
+  gap:10px;
 }
 .otherprojects{
   /* margin-top: 20px; */
   margin-top: 70px;
   /* padding: 2.5% 0px; */
-  /* background: #F5F5F5; */
+  background: #F5F5F5;
   display: flex;
   flex-direction: column;
   justify-content: center; 
@@ -665,7 +669,7 @@ portfolioIndexText{
 @media (max-width: 750px){
   #footer{
     border-top: solid #6f7287 1px;
-    margin: 5% auto auto auto;
+    margin: 0% auto auto auto;
     width: 90%;
     padding: 0%;
   }
