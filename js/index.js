@@ -50,7 +50,7 @@ select1.innerHTML = `
 <div class="portfolioIndexText">
   <a href="sraintern.html"><h4>Samsung Research America XR Design</h4></a>
 <p>UX Design, Interaction Design, Internship</p>
-<p class="">Designed social interaction for an AI-powered digital human in a virtual environment.</p>
+<p class="">Designed social interaction for an AI-powered digital human in a mixed reality environment.</p>
 </div>
 <div class="portfolioIndexImage">
 <a href="sraintern.html">
