@@ -12,10 +12,12 @@ navLink.innerHTML = `
 <a  href="about.html">About</a>
 </li>
   <li class="right">
-  <a href="https://drive.google.com/file/d/1dJuHK3AbujeBrFvhE97PlhqaJtlKa8Qm/view?usp=sharing" target="_blank">Resume</a>
+  <a href="https://drive.google.com/file/d/1uJ-kqILwWXm0wNTt8dFsc98VILNAo1B1/view?usp=sharing" target="_blank">Resume</a>
 </li>
   <li class="icon right" id="mobileIcon">
-        <a href="javascript:void(0);" onclick="toggleMenu()">☰</a>
+  <button href="javascript:void(0);" onclick="toggleMenu()" title="toggle menu" class="menubutton">☰
+</button> 
+        
       </li>
       <li class="right work-drop" id="workLink">
     <a href="index.html">Work</a>
@@ -24,6 +26,9 @@ navLink.innerHTML = `
  
 </ul> 
 `
+{/* <button href="javascript:void(0);" onclick="toggleMenu()" title="toggle menu" class="menubutton">☰
+</button> */}
+{/* <a href="javascript:void(0);" onclick="toggleMenu()">☰</a> */}
 /* for menu dropdown hover but we arent using this rn
  <div class="work-drop-content">
 <a href="#">UX</a>
