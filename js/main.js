@@ -17,11 +17,9 @@ navLink.innerHTML = `
   <li class="icon right" id="mobileIcon">
   <button href="javascript:void(0);" onclick="toggleMenu()" title="toggle menu" class="menubutton">☰
 </button> 
-        
       </li>
       <li class="right work-drop" id="workLink">
     <a href="index.html">Work</a>
-     
   </li>
  
 </ul> 
