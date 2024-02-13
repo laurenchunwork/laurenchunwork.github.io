@@ -20,6 +20,8 @@ body{
     flex-shrink: 0;
 }
 
+/* 
+    filter:drop-shadow(0 1mm 1mm rgba(0,0,0,.1)); */
 .menubutton{
   background-color:white;
   border: none;
@@ -44,7 +46,6 @@ justify-content: space-between;
 align-items: flex-start;
 flex-shrink: 0;
 padding: 0% 10% 0% 10%;
-/* margin: 0% 12.5%; */
 bottom: 0;
 position:relative;
 margin-top: auto;
@@ -179,6 +180,7 @@ div.menu li:hover{
     gap: 20px; /* Adds a 20px gap between grid items */
     padding:0vw 12.5vw;
     align-items: start;
+    margin-bottom: 2.5%;
   }
 
   .top-container {
