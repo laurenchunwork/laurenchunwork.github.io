@@ -296,6 +296,12 @@ gap: 20px;
 .keypoint-bold{
   font-weight: 800;
 }
+
+.image-section{
+  width:90%;
+}
+
+/* media queries */
 @media (max-width:1000px){
  p{
   font-size: 18px;;
