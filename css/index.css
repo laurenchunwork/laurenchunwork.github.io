@@ -94,7 +94,7 @@ ul.topnav {
 
   }
   ul.topnav li.right a:hover{
-    text-decoration-line: underline;
+    /* text-decoration-line: underline; */
     color: #39364f;
     /* font-weight:700; */
   }
@@ -111,7 +111,7 @@ ul.topnav {
   }
   ul.topnav li.current a{
     color: #39364f;
-    text-decoration-line: underline;
+    /* text-decoration-line: underline; */
 
   }
   .work-drop-content {
