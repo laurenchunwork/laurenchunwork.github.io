@@ -20,7 +20,7 @@ bodyIndex.innerHTML = `
         </div>
       </div>
       <div class="landing-icon">
-        <img src="assets/icon-landingpage.png"  alt="icon of a geometric lotus flower in black and white">
+    <dotlottie-player src="https://lottie.host/5b1743ac-8e77-43bc-86b7-c243701e00d6/lVCuYnqr5U.json" background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay></dotlottie-player>
       </div>
   </div>
     <div class="header2title"> 
@@ -34,10 +34,10 @@ bodyIndex.innerHTML = `
     <hr class="divider">
     <div class="inner-container" id="select3">
     </div>
-
-    
 </div>
 `
+//   <img src="assets/icon-landingpage.png"  alt="icon of a geometric lotus flower in black and white">
+
 // <div class="inner-container" id="select3">
 // </div>
 // <div class="inner-container" id="select4">
