@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
 const navLink = document.querySelector("#nav");
 const mobileMenu = document.querySelector("#menu");
 const footer = document.querySelector("#footer");
+const otherWork = document.querySelector("#otherwork")
+const backButton = document.querySelector("#backbutton")
 navLink.innerHTML = `
 <ul class="topnav">
   <li class="HomeIcon">
@@ -32,12 +34,53 @@ navLink.innerHTML = `
 <a href="#">UX</a>
 <a href="#">AR/VR</a>
 </div>   */
-
+if (footer !== null) {
+console.log("footer is present in page");
 footer.innerHTML = `
 <p>© Designed by <a href="about.html">Lauren Chun</a> | Product Designer </p>
 <p> <a href="https://www.linkedin.com/in/laurenmchun/">Linkedin↗</a></p>
-
 `
+}
+
+if (otherWork !==null){
+  console.log("adding otherwork")
+  otherWork.innerHTML = `
+  <div class="otherprojects">
+  <div class="header2title">
+    <h2>Other work</h2>
+  </div>
+  <div class="catergories">
+    <div class="catergory">
+      <a href="3dweb.html">
+        <img src="assets/covers/otherwork/nacgallerytemp-color.jpg" />
+        <p>3D Interactive</p>
+      </a>
+    </div>
+    <div class="catergory">
+      <a href="3drender.html">
+      <img src="assets/covers/otherwork/standardhotelredesign.jpg" />
+      <p>3D Renders</p>
+      </a>
+    </div>
+    <div class="catergory">
+      <a href="arvr.html">
+      <img src="assets/covers/otherwork/soulstealer-cover.jpg" />
+      <p>AR/VR</p>
+      </a>
+    </div>
+  </div>
+  </div>`
+}
+
+if (backButton !==null){
+  backButton.innerHTML = `
+  <a href="index.html">
+    <p>Back to Selected Work</p>
+  </a>
+  `
+}
+
+if (mobileMenu !==null){
 ////set mobile menu/////
 // const mobileMenu = document.querySelector("#menu");
 mobileMenu.innerHTML = `
@@ -51,14 +94,9 @@ mobileMenu.innerHTML = `
       <li>
         <a href="about.html">About</a>
       </li>
-      <li>
-      <a href="https://www.linkedin.com/in/laurenmchun/"> 
-      <img src="assets/linkedinIcon.svg" alt="Linkedin icon">
-    </a>
-      </li>
     </ul>
 `
-
+}
 });
 {/* <li>
 <a href="#"><img src="assets/githubIcon.svg" alt="Github icon"></a>

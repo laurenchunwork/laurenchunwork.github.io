@@ -273,6 +273,10 @@ gap: 20px;
 .sectioncolumn img{
   max-width:250px;
 }
+
+.sectioncolumn p{
+  width:300px;
+}
 .section h3{
   font-weight: 400;
 }

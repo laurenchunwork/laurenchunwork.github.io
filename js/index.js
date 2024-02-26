@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
 const bodyIndex = document.querySelector("#body");
-
 bodyIndex.innerHTML = `
 <div class="container">
   <div class="top-container">
@@ -20,7 +19,7 @@ bodyIndex.innerHTML = `
         </div>
       </div>
       <div class="landing-icon">
-    <dotlottie-player src="https://lottie.host/5b1743ac-8e77-43bc-86b7-c243701e00d6/lVCuYnqr5U.json" background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay></dotlottie-player>
+    <dotlottie-player src="https://lottie.host/5b1743ac-8e77-43bc-86b7-c243701e00d6/lVCuYnqr5U.json" background="transparent" speed="1" style="width: 400px;" loop autoplay></dotlottie-player>
       </div>
   </div>
     <div class="header2title"> 
@@ -32,10 +31,12 @@ bodyIndex.innerHTML = `
     <div class="inner-container" id="select2">
     </div>
     <hr class="divider">
-    <div class="inner-container" id="select3">
+     <div class="inner-container" id="select4">
     </div>
 </div>
 `
+{/* <div class="inner-container" id="select3">
+</div> */}
 //   <img src="assets/icon-landingpage.png"  alt="icon of a geometric lotus flower in black and white">
 
 // <div class="inner-container" id="select3">
@@ -43,15 +44,16 @@ bodyIndex.innerHTML = `
 // <div class="inner-container" id="select4">
 const select1 = document.querySelector("#select1");
 const select2 = document.querySelector("#select2");
-const select3 = document.querySelector("#select3");
-// const select4 = document.querySelector("#select4");
+// const select3 = document.querySelector("#select3");
+const select4 = document.querySelector("#select4");
 
 select1.innerHTML = `
 <div class="portfolioIndexText">
   <a href="sraintern.html"><h4>Samsung Research America XR Design</h4></a>
-<p>UX Design, Interaction Design, Internship</p>
-<p class="">Designed social interaction for an AI-powered digital human in a mixed reality environment.</p>
+  <a href="sraintern.html"><p>UX Design, Interaction Design, Internship</p></a>
+  <a href="sraintern.html"><p class="">Designed user experience of social interaction for an AI-powered digital human in a mixed reality environment.</p></a>
 </div>
+</a>
 <div class="portfolioIndexImage">
 <a href="sraintern.html">
 <img src="assets/covers/samsungintern-cover.jpg"  class="indexImage" alt="an image reads Known Source Shopping Experience Redesign"> </a>
@@ -60,17 +62,17 @@ select1.innerHTML = `
 select2.innerHTML = `
   <div class="portfolioIndexText">
     <a href="knownsource.html"> <h4>Known Source Redesign</h4></a>
-    <a href="knownsource.html"><p>UX Design, Client Project</p></a>
+    <a href="knownsource.html"><p>Web, Mobile, Client Project</p></a>
     <a href="knownsource.html"><p class="">Redesigned user experience for e-commerce luxury goods marketplace to promote credibility and trust in buyers and sellers.</p></a>
   </div>
   <div class="portfolioIndexImage">
-  <a href="knownsource.html"><img class="indexImage" src="assets/covers/known-source-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
+  <a href="knownsource.html"><img class="indexImage" src="assets/covers/knownsource-dealerpage2.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
   </div>
 `
-select3.innerHTML = `
+select4.innerHTML = `
 <div class="portfolioIndexText">
 <a href="chemvr.html">
-<h4>Chem VR</h4>
+<h4>E-Learning Chemistry App</h4>
 <p>UX Design, VR, UI Design, Client Project</p>
 <p class="">Designed of user interface and environment for E-Learning virtual reality application.</p>
 </a>
@@ -105,5 +107,8 @@ select3.innerHTML = `
 // <img src="assets/chemvr/chemvr-cover.jpg" alt="an image reads Known Source Shopping Experience Redesign"> 
 // </div>
 // `
+
+
 });
 //////////////////////////////
+
