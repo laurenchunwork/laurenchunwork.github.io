@@ -11,10 +11,10 @@ bodyIndex.innerHTML = `
         I’m a product designer, passionate about creating pleasing digital experiences with interaction and 3D.</p>
         <div class="resumeCallouts">
         <p class="landing-bio-text-call">
-        Previously worked with <a class="companyname-landing-bio" href="https://sra.samsung.com/" target="_blank"> Samsung ↗  </a> and <a href="artistcollaboration.html">various artists</a>.
+        Previously worked with <a class="companyname-landing-bio" href="https://sra.samsung.com/" target="_blank"> Samsung ↗</a> and <a href="artistcollaboration.html">various artists</a>.
         </p>    
         <p class="landing-bio-text-call">
-        Graduated from<a class="companyname-landing-bio" href="https://itp.nyu.edu/itp/" target="_blank"> NYU ITP↗ </a>,<a class="companyname-landing-bio" href="https://cadre.sjsu.edu/" target="_blank"> SJSU CADRE Media Lab↗ .</a>
+        Graduated from<a class="companyname-landing-bio" href="https://itp.nyu.edu/itp/" target="_blank"> NYU ITP↗</a>,<a class="companyname-landing-bio" href="https://cadre.sjsu.edu/" target="_blank"> SJSU CADRE Media Lab↗.</a>
         </p>  
         </div>
       </div>
@@ -48,9 +48,21 @@ const select2 = document.querySelector("#select2");
 const select4 = document.querySelector("#select4");
 
 select1.innerHTML = `
+  <div class="portfolioIndexText">
+    <a href="knownsource.html"> <h4>Known Source Redesign</h4></a>
+    <a href="knownsource.html"><p>Web, Mobile, Client Project</p></a>
+    <hr>
+    <a href="knownsource.html"><p class="">Redesigned user experience for e-commerce luxury goods marketplace to promote credibility and trust in buyers and sellers.</p></a>
+  </div>
+  <div class="portfolioIndexImage">
+  <a href="knownsource.html"><img class="indexImage" src="assets/covers/knownsource-2.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
+  </div>
+`
+select2.innerHTML = `
 <div class="portfolioIndexText">
   <a href="sraintern.html"><h4>Samsung Research America XR Design</h4></a>
   <a href="sraintern.html"><p>UX Design, Interaction Design, Internship</p></a>
+  <hr>
   <a href="sraintern.html"><p class="">Designed user experience of social interaction for an AI-powered digital human in a mixed reality environment.</p></a>
 </div>
 </a>
@@ -59,21 +71,16 @@ select1.innerHTML = `
 <img src="assets/covers/samsungintern-cover.jpg"  class="indexImage" alt="an image reads Known Source Shopping Experience Redesign"> </a>
 </div>
 `
-select2.innerHTML = `
-  <div class="portfolioIndexText">
-    <a href="knownsource.html"> <h4>Known Source Redesign</h4></a>
-    <a href="knownsource.html"><p>Web, Mobile, Client Project</p></a>
-    <a href="knownsource.html"><p class="">Redesigned user experience for e-commerce luxury goods marketplace to promote credibility and trust in buyers and sellers.</p></a>
-  </div>
-  <div class="portfolioIndexImage">
-  <a href="knownsource.html"><img class="indexImage" src="assets/covers/knownsource-dealerpage2.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
-  </div>
-`
 select4.innerHTML = `
 <div class="portfolioIndexText">
 <a href="chemvr.html">
 <h4>E-Learning Chemistry App</h4>
+</a>
+<a href="chemvr.html">
 <p>UX Design, VR, UI Design, Client Project</p>
+</a>
+<hr>
+<a href="chemvr.html">
 <p class="">Designed of user interface and environment for E-Learning virtual reality application.</p>
 </a>
 <div class="center-image">
