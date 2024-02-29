@@ -66,7 +66,7 @@ select2.innerHTML = `
     <a href="knownsource.html"><p class="">Redesigned user experience for e-commerce luxury goods marketplace to promote credibility and trust in buyers and sellers.</p></a>
   </div>
   <div class="portfolioIndexImage">
-  <a href="knownsource.html"><img class="indexImage" src="assets/covers/knownsource-dealerpage2.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
+  <a href="knownsource.html"><img class="indexImage" src="assets/covers/knownsource-2.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
   </div>
 `
 select4.innerHTML = `
