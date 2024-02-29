@@ -204,7 +204,7 @@ div.menu li:hover{
   .landing-bio-text{
     font-size:18px;
     margin:0;
-    /* color:#6f7287; */
+        /* color:#6f7287; */
   }
  
   .landing-bio-text-call{
@@ -236,6 +236,8 @@ div.menu li:hover{
   }
   .companyname-landing-bio{
     color:#38393a !important;
+    font-weight: 600;
+
   }
 
   .companyname-landing-bio:hover{
@@ -284,7 +286,8 @@ div.menu li:hover{
 
   .inner-container img {
     width:100%;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    /* box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25); */
   }
   .inner-container p{
     color:#39364f;

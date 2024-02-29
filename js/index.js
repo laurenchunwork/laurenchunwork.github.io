@@ -11,10 +11,10 @@ bodyIndex.innerHTML = `
         I’m a product designer, passionate about creating pleasing digital experiences with interaction and 3D.</p>
         <div class="resumeCallouts">
         <p class="landing-bio-text-call">
-        Previously worked with <a class="companyname-landing-bio" href="https://sra.samsung.com/" target="_blank"> Samsung </a> and <a href="artistcollaboration.html">various artists</a>.
+        Previously worked with <a class="companyname-landing-bio" href="https://sra.samsung.com/" target="_blank"> Samsung ↗  </a> and <a href="artistcollaboration.html">various artists</a>.
         </p>    
         <p class="landing-bio-text-call">
-        Graduated from<a class="companyname-landing-bio" href="https://itp.nyu.edu/itp/" target="_blank"> NYU ITP</a>,<a class="companyname-landing-bio" href="https://cadre.sjsu.edu/" target="_blank"> SJSU CADRE Media Lab.</a>
+        Graduated from<a class="companyname-landing-bio" href="https://itp.nyu.edu/itp/" target="_blank"> NYU ITP↗ </a>,<a class="companyname-landing-bio" href="https://cadre.sjsu.edu/" target="_blank"> SJSU CADRE Media Lab↗ .</a>
         </p>  
         </div>
       </div>
@@ -66,7 +66,7 @@ select2.innerHTML = `
     <a href="knownsource.html"><p class="">Redesigned user experience for e-commerce luxury goods marketplace to promote credibility and trust in buyers and sellers.</p></a>
   </div>
   <div class="portfolioIndexImage">
-  <a href="knownsource.html"><img class="indexImage" src="assets/covers/knownsource-2.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
+  <a href="knownsource.html"><img class="indexImage" src="assets/covers/knownsource-dealerpage2.jpg" alt="an image reads Known Source Shopping Experience Redesign"> </a>
   </div>
 `
 select4.innerHTML = `
