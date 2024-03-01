@@ -35,7 +35,6 @@ navLink.innerHTML = `
 <a href="#">AR/VR</a>
 </div>   */
 if (footer !== null) {
-console.log("footer is present in page");
 footer.innerHTML = `
 <p>© Designed by <a href="about.html">Lauren Chun</a> | Product Designer </p>
 <p> <a href="https://www.linkedin.com/in/laurenmchun/">Linkedin↗</a></p>
@@ -43,7 +42,6 @@ footer.innerHTML = `
 }
 
 if (otherWork !==null){
-  console.log("adding otherwork")
   otherWork.innerHTML = `
   <div class="otherprojects">
   <div class="header2title">
