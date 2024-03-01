@@ -672,7 +672,6 @@ div.menu li:hover{
 
   .landing-icon img{
     width:90%;
-
   }
 
   .header2title{
@@ -682,7 +681,6 @@ div.menu li:hover{
 
   .column3people{
     grid-template-columns: 1fr;
-
   }
   .header2title{
     margin:2.5% 12.5% 2.5% 12.5%;
@@ -692,9 +690,7 @@ div.menu li:hover{
   }
   .catergory a img{
     width:100%;
-    
   }
-
 
 }
 
