@@ -213,6 +213,7 @@ gap: 20px;
   display: inline-flex;
   justify-content: space-between;
   align-items: flex-start;
+  /* flex-wrap: wrap; */
   flex-direction: row;
   gap: 30px;
   width:66%;
@@ -362,6 +363,12 @@ gap: 20px;
   .heroTitle{
     width:90%;
   }
+  /* .hero{
+    width:90%;
+  } */
+  /* .heroImage{
+    width:90%;
+  } */
   .stats{
     margin: 5% 5%;
     width:90%;
@@ -401,3 +408,21 @@ gap: 20px;
   display: flex;
   flex-direction: start;
 }
+/* add some animation */
+      @keyframes drawline{
+        0%{
+          stroke-dashoffset: 202;
+        }100%{
+          stroke-dashoffset: 0;
+        }
+      }
+      .accentline{
+        stroke-dasharray: 202;
+        stroke-dashoffset: 202;
+      }
+      .accentline.enteranimate{
+        animation: drawline 1.2s ease-in-out;
+        animation-fill-mode: forwards;
+        /* animation-delay: 1s; */
+      }
+/* end of animation */

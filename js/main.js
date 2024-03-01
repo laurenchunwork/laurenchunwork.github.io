@@ -77,6 +77,24 @@ if (backButton !==null){
   </a>
   `
 }
+const triggerSets = document.querySelectorAll('.trigger-set');
+if(triggerSets!==null){
+  console.log("i am triggered")
+window.addEventListener('scroll', () => {
+  triggerSets.forEach((triggerSet) => {
+    const trigger = triggerSet.querySelector('.trigger');
+    const line = triggerSet.querySelector('.accentline');
+    const triggerPosition = trigger.getBoundingClientRect().top;
+    if (triggerPosition < window.innerHeight) {
+      line.classList.add('enteranimate');
+    }
+  });
+});
+
+}
+
+
+
 
 if (mobileMenu !==null){
 ////set mobile menu/////
