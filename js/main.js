@@ -115,14 +115,15 @@ function toggleMenu() {
 document.addEventListener("DOMContentLoaded", function () {
   const dropdown = document.querySelector(".work-drop");
   const dropdownContent = document.querySelector(".work-drop-content");
-
-  dropdown.addEventListener("mouseover", function () {
+  if( dropdown!==null){
+    dropdown.addEventListener("mouseover", function () {
       dropdownContent.style.display = "block";
   });
-
   dropdown.addEventListener("mouseout", function () {
       dropdownContent.style.display = "none";
   });
+  }
+
 });
 
 /////////////ACTIVE UNDERLINE //////////////////
