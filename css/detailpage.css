@@ -153,9 +153,11 @@ place-items: center;
   align-items: flex-start;
   /* align-items: center; */
   flex-direction: row;
-  margin:2.5% 12.5%;
   width:66%;
   gap:10px;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 .featureImage{
   width:100%;
@@ -360,12 +362,6 @@ gap: 20px;
   .heroTitle{
     width:90%;
   }
-  /* .hero{
-    width:90%;
-  } */
-  /* .heroImage{
-    width:90%;
-  } */
   .stats{
     margin: 5% 5%;
     width:90%;
