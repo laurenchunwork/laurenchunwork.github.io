@@ -19,6 +19,10 @@ body{
     align-items: flex-start;
     flex-shrink: 0;
 }
+.navbar-with-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust the shadow properties as needed */
+}
+
 
 /* 
     filter:drop-shadow(0 1mm 1mm rgba(0,0,0,.1)); */

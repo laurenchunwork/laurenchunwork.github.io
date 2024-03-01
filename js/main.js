@@ -26,6 +26,15 @@ navLink.innerHTML = `
  
 </ul> 
 `
+window.addEventListener('scroll', function() {
+  const navbar = document.getElementById('nav');
+  if (window.scrollY > 0) { // Adjust the scroll position threshold as needed
+    navbar.classList.add('navbar-with-shadow');
+  } else {
+    navbar.classList.remove('navbar-with-shadow');
+  }
+});
+
 {/* <button href="javascript:void(0);" onclick="toggleMenu()" title="toggle menu" class="menubutton">☰
 </button> */}
 {/* <a href="javascript:void(0);" onclick="toggleMenu()">☰</a> */}
