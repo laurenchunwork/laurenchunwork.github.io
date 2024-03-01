@@ -204,7 +204,7 @@ div.menu li:hover{
   .landing-bio-text{
     font-size:18px;
     margin:0;
-        /* color:#6f7287; */
+    /* color:#6f7287; */
   }
  
   .landing-bio-text-call{
@@ -237,7 +237,6 @@ div.menu li:hover{
   .companyname-landing-bio{
     color:#38393a !important;
     font-weight: 600;
-
   }
 
   .companyname-landing-bio:hover{
@@ -264,6 +263,9 @@ div.menu li:hover{
     gap:5rem;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    /* background-color: #FAFAFA;
+    border-radius: 10px;
+    padding: 2.5% 2.5%; */
   }
   
   
@@ -310,9 +312,9 @@ div.menu li:hover{
       text-decoration: none;
       
     }
-    .inner-container h4:hover {
+    /* .inner-container h4:hover {
     text-decoration: underline;
-  } 
+  }  */
   .gray{
     color:rgb(93, 93, 93) !important;
   }
@@ -654,9 +656,10 @@ div.menu li:hover{
 
   .divider{
     display:block;
-    height: 0.2px;
-    background-color: #39364F;
     width:80%;
+    height: 1.4px;
+    background-color: rgba(0,0,0,.09);
+    margin-bottom: 32px;
   }
   
   .indexImage{

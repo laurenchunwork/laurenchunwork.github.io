@@ -1,0 +1,354 @@
+.svg-contentscontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .svg-container {
+    box-shadow: 0px 10px 20px 1px rgba(65, 65, 65, 0.895);
+    border-radius: 10px;
+    /* max-width: 100%; */
+    width: 60%;
+    height: auto;
+    /* max-height: 844px; */
+  }
+
+  /* set up svg */
+  #svgscreen {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  #header {
+    fill: url("#headerimg");
+  }
+  #home-indicator {
+    transform: translateY(98%) translateX(30%);
+  }
+  /* Animation 1 */
+  #screen1 {
+    /* fill: url(#dealerpage); */
+    /* transform: translateY(-59%); */
+    animation: scroll-dealer 7s ease-in-out forwards infinite;
+  }
+  #touch {
+    /* transform: translateX(10%) translateY(10%); */
+    animation: scroll-touch 7s ease-in-out forwards infinite;
+    fill: black;
+    fill-opacity: 0.2;
+    stroke: white;
+  }
+
+  @keyframes scroll-touch {
+    0%,
+    30% {
+      transform: translateX(10%) translateY(30%);
+    }
+    30%,
+    70% {
+      transform: translateX(10%) translateY(70%);
+    }
+    70%,
+    100% {
+      transform: translateX(10%) translateY(30%);
+    }
+  }
+  #background-screen {
+    fill: url(#dealerpage);
+  }
+  @keyframes scroll-dealer {
+    0%,
+    30% {
+      transform: translateY(0%);
+    }
+    70% {
+      transform: translateY(0%);
+    }
+    70%,
+    100% {
+      transform: translateY(-59%);
+    }
+  }
+  #submenu-button {
+    /* transform: translateY(4.5%); */
+    transform: translateY(62.8%);
+  }
+  #product-button {
+    animation: selectproduct 7s ease forwards infinite;
+  }
+  #about-button {
+    animation: selectabout 7s ease forwards infinite;
+  }
+  #active-indicator {
+    animation: activate-button 7s ease forwards infinite;
+  }
+  #review-button {
+    fill: url("#reviews1");
+  }
+  #about-button {
+    fill: url("#about1");
+  }
+
+  @keyframes selectproduct {
+    0%,
+    30% {
+      fill: url("#products3");
+    }
+    50% {
+      fill: url("#products2");
+    }
+    50%,
+    100% {
+      fill: url("#products3");
+    }
+  }
+
+  /* Animation 2 */
+  #screen {
+    fill: url(#dealerpage);
+    transform: translateY(-59%);
+  }
+  #submenu {
+    fill: url("#submenuimg");
+    transform: translateY(13.6%);
+  }
+  #featured-section {
+    transform: translateY(19.3%);
+  }
+  #feature-back {
+    fill: url("#featured-back-img");
+  }
+
+  #carousel {
+    fill: url("#carousel-img");
+    animation: featured-scroll 8s ease forwards infinite;
+  }
+  #touch3 {
+    animation: scroll-touch3 7s ease-in-out forwards infinite;
+    fill: black;
+    fill-opacity: 0.2;
+    stroke: white;
+  }
+  @keyframes scroll-touch3 {
+    0%,
+    12% {
+      transform: translateX(50%) translateY(30%);
+    }
+    12%,
+    24% {
+      transform: translateX(10%) translateY(30%);
+    }
+    24%,
+    36% {
+      transform: translateX(50%) translateY(30%);
+    }
+    36%,
+    48% {
+      transform: translateX(10%) translateY(30%);
+    }
+    48%,
+    60% {
+      transform: translateX(50%) translateY(30%);
+    }
+    60%,
+    72% {
+      transform: translateX(10%) translateY(30%);
+    }
+    72%,
+    100% {
+      transform: translateX(50%) translateY(30%);
+    }
+  }
+  #scrolling-dots g {
+    fill: #9d9d9d;
+    animation: featured-dots 8s linear forwards infinite;
+    animation-delay: calc(var(--order) * 1000ms);
+  }
+  @keyframes featured-scroll {
+    0%,
+    20% {
+      transform: translateX(0%);
+    }
+    20%,
+    40% {
+      transform: translateX(-60%);
+    }
+    40%,
+    60% {
+      transform: translateX(-130%);
+    }
+    60%,
+    80% {
+      transform: translateX(-200%);
+    }
+    80%,
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  @keyframes featured-dots {
+    0%,
+    20% {
+      fill: #141414;
+    }
+    20%,
+    40% {
+      fill: #9d9d9d;
+    }
+    60%,
+    80% {
+      fill: #9d9d9d;
+    }
+    60%,
+    80% {
+      fill: #9d9d9d;
+    }
+    80%,
+    100% {
+      fill: #141414;
+    }
+  }
+  /* ANIMATION 3 */
+  #screen2 {
+    animation: scroll-dealer2 7s ease-in-out forwards infinite;
+  }
+  #touch2 {
+    animation: scroll-touch2 7s ease-in-out forwards infinite;
+    fill: black;
+    fill-opacity: 0.2;
+    stroke: white;
+  }
+  @keyframes scroll-touch2 {
+    0%,
+    30% {
+      transform: translateX(10%) translateY(70%);
+    }
+    30%,
+    70% {
+      transform: translateX(30%) translateY(10%);
+    }
+    70%,
+    100% {
+      transform: translateX(30%) translateY(10%);
+    }
+  }
+  #background-screen2 {
+    fill: url(#dealerpage);
+  }
+  @keyframes scroll-dealer2 {
+    0%,
+    30% {
+      transform: translateY(-59%);
+    }
+    70% {
+      transform: translateY(-59%);
+    }
+    70%,
+    100% {
+      transform: translateY(-183.4%);
+    }
+  }
+  #submenu-button2 {
+    transform: translateY(4.5%);
+  }
+  #product-button2 {
+    animation: selectproduct2 7s ease forwards infinite;
+  }
+  #about-button2 {
+    animation: selectabout2 7s ease forwards infinite;
+  }
+  #active-indicator2 {
+    animation: activatebutton2 7s ease forwards infinite;
+  }
+  #review-button2 {
+    fill: url("#reviews1");
+  }
+
+  @keyframes selectproduct2 {
+    0%,
+    30% {
+      fill: url("#products3");
+    }
+    50% {
+      fill: url("#products3");
+    }
+    50%,
+    100% {
+      fill: url("#products1");
+    }
+  }
+  @keyframes selectabout2 {
+    0%,
+    30% {
+      fill: url("#about1");
+    }
+    50% {
+      opacity: 1;
+      fill: url("#about1");
+    }
+    /* 30%,70%{
+
+    } */
+    50%,
+    100% {
+      fill: url("#about3");
+    }
+  }
+  @keyframes activatebutton2 {
+    0%,
+    30% {
+      transform: translateX(0%);
+    }
+    50% {
+      transform: translateX(0%);
+    }
+    50%,
+    100% {
+      transform: translateX(33.3%);
+    }
+  }
+  /* ABOUT PAGE */
+   /* ANIMATION 4 */
+   #screen4 {
+    fill: url("#aboutpage");
+    animation: scrolltocircle 7s ease-in-out forwards infinite;
+  }
+  @keyframes scrolltocircle {
+    0%,
+    5% {
+      transform: translateY(0%);
+    }
+    60%,
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  /* ANIMATION 5 */
+  #screen5 {
+    fill: url("#aboutpage");
+    transform: translateY(-100%);
+    animation: scrolltobio 7s ease-in-out forwards infinite;
+  }
+  @keyframes scrolltobio {
+    0%,
+    5% {
+      transform: translateY(-100%);
+    }
+    60%,
+    100% {
+      transform: translateY(-188%);
+    }
+  }
+  /* ANIMATION 6 */
+  #screen6 {
+    fill: url("#aboutpage");
+    animation: scrolltotest 7s ease-in-out forwards infinite;
+  }
+  @keyframes scrolltotest {
+    0%,
+    5% {
+      transform: translateY(-180%);
+    }
+    60%,
+    100% {
+      transform: translateY(-327%);
+    }
+  }

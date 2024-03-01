@@ -18,7 +18,7 @@ justify-content: center;
 align-items: center;
 }
 .heroTitle{
-  width:75%;
+  width:66%;
 }
 .heroImage img{
   /* margin:2.5% 0%; */
@@ -26,7 +26,7 @@ align-items: center;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  height:400px;
+  height:500px;
   width:100vw;
   object-fit: contain;
 }
@@ -51,8 +51,12 @@ place-items: center;
   background-color: #F5F5F5;
 }
 .blackaccent{
-  background-color: #39364F;
+  background-color: #434a63;
   color:#E8E8E8;
+}
+/* #434a63 */
+.blueaccent{
+  background-color: #f4f7fc;
 }
 .dividerText{
   padding: 2.5%  0%;
@@ -85,7 +89,7 @@ place-items: center;
 }
 
 .sectionHead{
-  width:75%;
+  width:66%;
 }
 /* SECTION CSS BEGIN */
 .section{
@@ -113,7 +117,7 @@ place-items: center;
   .p-blurb{
     margin: 2.5% 12.5% 2.5% 12.5%;
     text-align: start;
-    width:75%;
+    width:66%;
   }
   /* .p-blurb p{
     margin:0;
@@ -150,7 +154,7 @@ place-items: center;
   /* align-items: center; */
   flex-direction: row;
   margin:2.5% 12.5%;
-  width:75%;
+  width:66%;
   gap:10px;
 }
 .featureImage{
@@ -164,13 +168,16 @@ place-items: center;
   max-width: 400px;
   flex: 1;
 }
+.designprocessimage{
+  max-width:900px;
+}
 .largeImage{
   max-width: 600px;
 }
 
 .designprocessimg{
   margin: 0% 12.5%;
-  width:75% !important;
+  width:66% !important;
   display: inline-block;
 }
 
@@ -194,7 +201,7 @@ gap: 20px;
 }
 
 .singlecolumn{
-  width:75%;
+  width:66%;
   margin: 2.5% 12.5% 2.5% 12.5%;
   align-items: center;
   display: flex;
@@ -207,7 +214,7 @@ gap: 20px;
   /* flex-wrap: wrap; */
   flex-direction: row;
   gap: 30px;
-  width:75%;
+  width:66%;
   margin: 2.5% 12.5% 2.5% 12.5%;
 }
 .threecolumn{
@@ -216,10 +223,15 @@ gap: 20px;
   align-items: center;
   flex-direction: row;
   gap: 30px;
+  width:100%;}
+.threesvg{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 0px;
   width:100%;
-  margin: 2.5% 12.5% 2.5% 12.5%;
 }
-
 .threecolumnsmall{
   display: inline-flex;
   justify-content: center;
@@ -227,7 +239,7 @@ gap: 20px;
   flex-direction: row;
   gap: 30px;
   width:100%;
-  margin: 2.5% 12.5% 2.5% 12.5%;
+  /* margin: 2.5% 12.5% 2.5% 12.5%; */
 }
 
 .threecolumnbig{
@@ -251,7 +263,7 @@ gap: 20px;
   display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 2.5% 0% ;
+    /* margin: 2.5% 0% ; */
     justify-content: center;
 }
 /*  */
@@ -322,7 +334,7 @@ gap: 20px;
  }
  .threecolumnbig{
   flex-direction: column;
-  width:75%;
+  width:66%;
   align-items: center;
  }
  .userflowImage{
