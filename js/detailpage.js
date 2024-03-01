@@ -3,14 +3,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var overlay = document.getElementById("overlay");
     overlay.style.display = "block";
   });
-  
+
   window.addEventListener("click", function(event) {
     var overlay = document.getElementById("overlay");
     if (!event.target.closest(".overlay-content")) {
       overlay.style.display = "none";
     }
   });
-  
+
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
       e.preventDefault();
