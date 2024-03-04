@@ -51,6 +51,38 @@ ksVintageThread.innerHTML =
               </g>
             </g>
           </g>
+          <g id="screen1-2">
+            <rect id="background-screen" width="390" height="4491" rx="10" />
+            <g id="submenu-button">
+              <g id="submenu-spec">
+                <g id="review-button">
+                  <rect x="260" y="77" width="130" height="38" />
+                </g>
+                <g id="about-button">
+                  <rect x="130" y="77" width="130" height="38" />
+                </g>
+                <g id="product-button">
+                  <rect x="0" y="77" width="130" height="38" />
+                </g>
+                <rect
+                  id="active-indicator"
+                  y="115"
+                  width="130"
+                  height="4"
+                  fill="#255AF6"
+                />
+              </g>
+              <g id="action bar">
+                <rect
+                  id="divider"
+                  y="75"
+                  width="390"
+                  height="2"
+                  fill="#9D9D9D"
+                />
+              </g>
+            </g>
+          </g>
           <!--  -->
           <g id="header" clip-path="url(#clip0_204_3625)">
             <path
@@ -67,6 +99,7 @@ ksVintageThread.innerHTML =
             fill="#525259"
           />
           <circle id="touch" cx="42" cy="42" r="42" />
+          <circle id="touch-2" cx="42" cy="42" r="42" />
           <defs>
             <!-- main page -->
             <pattern
@@ -367,6 +400,9 @@ ksAbout.innerHTML =
   <g id="screen2">
     <rect id="background-screen" width="390" height="4491" rx="10" />
   </g>
+  <g id="screen2-5">
+  <rect id="background-screen" width="390" height="4491" rx="10" />
+</g>
   <g id="submenu-button2">
     <g id="submenu-spec">
       <g id="review-button2">
@@ -405,6 +441,8 @@ ksAbout.innerHTML =
     fill="#525259"
   />
   <circle id="touch2" cx="42" cy="42" r="42" />
+  <circle id="touch2-5" cx="42" cy="42" r="42" />
+
   <defs>
     <!-- main page -->
     <pattern
@@ -574,6 +612,9 @@ kscircle.innerHTML =
           <g id="screen4">
             <rect width="390" height="4986" rx="10" />
           </g>
+          <g id="screen4-5">
+              <rect width="390" height="4986" rx="10" />
+            </g>
           <!--  -->
           <g id="header" clip-path="url(#clip0_204_3625)">
             <path
@@ -633,6 +674,9 @@ ksbio.innerHTML =
           xmlns="http://www.w3.org/2000/svg"
         >
           <g id="screen5">
+            <rect width="390" height="4986" rx="10" />
+          </g>
+          <g id="screen5-5">
             <rect width="390" height="4986" rx="10" />
           </g>
           <!--  -->
@@ -696,6 +740,9 @@ kstest.innerHTML =
           <g id="screen6">
             <rect width="390" height="4986" rx="10" />
           </g>
+          <g id="screen6-5">
+          <rect width="390" height="4986" rx="10" />
+        </g>
           <!--  -->
           <g id="header" clip-path="url(#clip0_204_3625)">
             <path

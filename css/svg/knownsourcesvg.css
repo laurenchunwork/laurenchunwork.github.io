@@ -24,31 +24,98 @@
   #home-indicator {
     transform: translateY(98%) translateX(30%);
   }
-  /* Animation 1 */
-  #screen1 {
-    /* fill: url(#dealerpage); */
-    /* transform: translateY(-59%); */
-    animation: scroll-dealer 7s ease-in-out forwards infinite;
+   /* Animation 1 */
+   #screen1 {
+    animation: scroll-dealer 14s ease-in-out forwards infinite;
+  }
+  #screen1-2 {
+    animation: scroll-dealer-2 14s ease-in-out forwards infinite;
   }
   #touch {
-    /* transform: translateX(10%) translateY(10%); */
-    animation: scroll-touch 7s ease-in-out forwards infinite;
+    animation: scroll-touch 14s ease-in-out forwards infinite;
     fill: black;
     fill-opacity: 0.2;
     stroke: white;
   }
-
+  #touch-2 {
+    animation: scroll-touch-2 14s ease-in-out forwards infinite;
+  }
   @keyframes scroll-touch {
     0%,
-    30% {
+    15% {
+      transform: translateX(10%) translateY(30%);
+      fill: black;
+      fill-opacity: 0.2;
+      stroke: white;
+    }
+    15%,
+    35% {
+      transform: translateX(10%) translateY(70%);
+      fill: black;
+      fill-opacity: 0.2;
+      stroke: white;
+    }
+    35%,
+    50% {
+      transform: translateX(10%) translateY(30%);
+      fill: black;
+      fill-opacity: 0.2;
+      stroke: white;
+    }
+    50%,
+    95% {
+      fill-opacity: 0;
+      stroke: none;
       transform: translateX(10%) translateY(30%);
     }
-    30%,
-    70% {
-      transform: translateX(10%) translateY(70%);
-    }
-    70%,
+    95%,
     100% {
+      fill-opacity: 0;
+      stroke: none;
+      transform: translateX(10%) translateY(30%);
+    }
+  }
+  @keyframes scroll-touch-2 {
+    0%,
+    45% {
+      fill-opacity: 0;
+      fill: black;
+      stroke: none;
+      transform: translateX(10%) translateY(30%);
+    }
+    45%,
+    50% {
+      fill-opacity: 0;
+      fill: black;
+      stroke: none;
+      transform: translateX(10%) translateY(30%);
+    }
+    50%,
+    65% {
+      transform: translateX(10%) translateY(30%);
+      fill: black;
+      fill-opacity: 0.2;
+      stroke: white;
+    }
+    65%,
+    85% {
+      transform: translateX(10%) translateY(70%);
+      fill: black;
+      fill-opacity: 0.2;
+      stroke: white;
+    }
+    85%,
+    95% {
+      transform: translateX(10%) translateY(30%);
+      fill: black;
+      fill-opacity: 0.2;
+      stroke: white;
+    }
+    95%,
+    100% {
+      fill-opacity: 0;
+      fill: black;
+      stroke: none;
       transform: translateX(10%) translateY(30%);
     }
   }
@@ -56,16 +123,71 @@
     fill: url(#dealerpage);
   }
   @keyframes scroll-dealer {
+    0% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
     0%,
-    30% {
+    15% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+    15%,
+    35% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+    35%,
+    50% {
+      transform: translateY(-59%);
+      opacity: 1;
+    }
+    50%,
+    60% {
+      opacity: 0;
+      transform: translateY(-59%);
+    }
+    60%,
+    95% {
+      transform: translateY(0%);
+      opacity: 0;
+    }
+    95%,
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  @keyframes scroll-dealer-2 {
+    0%,
+    45% {
+      opacity: 0;
       transform: translateY(0%);
     }
-    70% {
+    45%,
+    50% {
+      opacity: 0;
       transform: translateY(0%);
     }
-    70%,
+    50%,
+    65% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+    65%,
+    85% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+    85%,
+    95% {
+      transform: translateY(-59%);
+      opacity: 1;
+    }
+    95%,
     100% {
       transform: translateY(-59%);
+      opacity: 0;
     }
   }
   #submenu-button {
@@ -117,7 +239,6 @@
   #feature-back {
     fill: url("#featured-back-img");
   }
-
   #carousel {
     fill: url("#carousel-img");
     animation: featured-scroll 8s ease forwards infinite;
@@ -130,30 +251,30 @@
   }
   @keyframes scroll-touch3 {
     0%,
-    12% {
-      transform: translateX(50%) translateY(30%);
-    }
-    12%,
     24% {
-      transform: translateX(10%) translateY(30%);
+      transform: translateX(50%) translateY(30%);
     }
     24%,
     36% {
-      transform: translateX(50%) translateY(30%);
+      transform: translateX(10%) translateY(30%);
     }
     36%,
     48% {
-      transform: translateX(10%) translateY(30%);
+      transform: translateX(50%) translateY(30%);
     }
     48%,
     60% {
-      transform: translateX(50%) translateY(30%);
+      transform: translateX(10%) translateY(30%);
     }
     60%,
     72% {
-      transform: translateX(10%) translateY(30%);
+      transform: translateX(50%) translateY(30%);
     }
     72%,
+    84% {
+      transform: translateX(10%) translateY(30%);
+    }
+    84%,
     100% {
       transform: translateX(50%) translateY(30%);
     }
@@ -209,42 +330,139 @@
   }
   /* ANIMATION 3 */
   #screen2 {
-    animation: scroll-dealer2 7s ease-in-out forwards infinite;
+    animation: scroll-dealer2 14s ease-in-out forwards infinite;
   }
   #touch2 {
-    animation: scroll-touch2 7s ease-in-out forwards infinite;
+    animation: scroll-touch2 14s ease-in-out forwards infinite;
     fill: black;
     fill-opacity: 0.2;
     stroke: white;
   }
-  @keyframes scroll-touch2 {
-    0%,
-    30% {
-      transform: translateX(10%) translateY(70%);
-    }
-    30%,
-    70% {
-      transform: translateX(30%) translateY(10%);
-    }
-    70%,
-    100% {
-      transform: translateX(30%) translateY(10%);
-    }
+  #screen2-5 {
+    animation: scroll-dealer2-5 14s ease-in-out forwards infinite;
+  }
+  #touch2-5 {
+    animation: scroll-touch2-5 14s ease-in-out forwards infinite;
+    fill: black;
+    fill-opacity: 0.2;
+    stroke: white;
   }
   #background-screen2 {
     fill: url(#dealerpage);
   }
+  @keyframes scroll-touch2 {
+    0%,
+    15% {
+      transform: translateX(10%) translateY(70%);
+      opacity: 1;
+    }
+    15%,
+    35% {
+      transform: translateX(30%) translateY(10%);
+      opacity: 1;
+    }
+    35%,
+    50% {
+      transform: translateX(30%) translateY(10%);
+      opacity: 1;
+    }
+    50%,
+    65% {
+      opacity: 0;
+    }
+    65%,
+    90% {
+      opacity: 0;
+      transform: translateX(10%) translateY(70%);
+    }
+    95%,
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes scroll-touch2-5 {
+    0%,
+    40% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    50%,
+    65% {
+      opacity: 1;
+      transform: translateX(10%) translateY(70%);
+    }
+    65%,
+    85% {
+      opacity: 1;
+      transform: translateX(30%) translateY(10%);
+    }
+    85%,
+    90% {
+      transform: translateX(30%) translateY(10%);
+      opacity: 1;
+    }
+    99%,
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes scroll-dealer2-5 {
+    0%,
+    40% {
+      transform: translateY(-59%);
+      opacity: 0;
+    }
+    50% {
+      transform: translateY(-59%);
+      opacity: 1;
+    }
+    50%,
+    65% {
+      transform: translateY(-59%);
+    }
+    65%,
+    85% {
+      transform: translateY(-59%);
+    }
+    85%,
+    95% {
+      transform: translateY(-183.4%);
+      opacity: 1;
+    }
+    95%,
+    100% {
+      opacity: 0;
+    }
+  }
   @keyframes scroll-dealer2 {
     0%,
-    30% {
+    15% {
       transform: translateY(-59%);
+      opacity: 1;
     }
-    70% {
+    15%,
+    35% {
       transform: translateY(-59%);
+      opacity: 1;
     }
-    70%,
-    100% {
+    35%,
+    50% {
       transform: translateY(-183.4%);
+      opacity: 1;
+    }
+    50%,
+    65% {
+      opacity: 0;
+    }
+    65% {
+      opacity: 0;
+      transform: translateY(-59%);
+    }
+    90%,
+    100% {
+      opacity: 1;
     }
   }
   #submenu-button2 {
@@ -306,19 +524,58 @@
       transform: translateX(33.3%);
     }
   }
-  /* ABOUT PAGE */
-   /* ANIMATION 4 */
-   #screen4 {
+  /* ANIMATION 4 */
+  #screen4 {
     fill: url("#aboutpage");
-    animation: scrolltocircle 7s ease-in-out forwards infinite;
+    animation: scrolltocircle 14s ease-in-out forwards infinite;
+  }
+  #screen4-5 {
+    fill: url("#aboutpage");
+    animation: scrolltocircle2 14s ease-in-out forwards infinite;
   }
   @keyframes scrolltocircle {
     0%,
-    5% {
+    30% {
+      opacity: 1;
       transform: translateY(0%);
     }
-    60%,
+    30%,
+    50% {
+      opacity: 1;
+      transform: translateY(-100%);
+    }
+    50%,
+    90% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    90% {
+      transform: translateY(0%);
+    }
     100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @keyframes scrolltocircle2 {
+    0%,
+    40% {
+      opacity: 0;
+      transform: translateY(0%);
+    }
+    50%,
+    80% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    80%,
+    90% {
+      opacity: 1;
+      transform: translateY(-100%);
+    }
+    90%,
+    100% {
+      opacity: 0;
       transform: translateY(-100%);
     }
   }
@@ -326,30 +583,112 @@
   #screen5 {
     fill: url("#aboutpage");
     transform: translateY(-100%);
-    animation: scrolltobio 7s ease-in-out forwards infinite;
+    animation: scrolltobio 14s ease-in-out forwards infinite;
+  }
+  #screen5-5 {
+    fill: url("#aboutpage");
+    transform: translateY(-100%);
+    animation: scrolltobio2 14s ease-in-out forwards infinite;
   }
   @keyframes scrolltobio {
     0%,
-    5% {
+    30% {
+      opacity: 1;
       transform: translateY(-100%);
     }
-    60%,
+    30%,
+    50% {
+      opacity: 1;
+      transform: translateY(-188%);
+    }
+    50%,
+    90% {
+      opacity: 0;
+      transform: translateY(-188%);
+    }
+    90% {
+      transform: translateY(-100%);
+    }
     100% {
+      opacity: 1;
+      transform: translateY(-100%);
+    }
+  }
+  @keyframes scrolltobio2 {
+    0%,
+    40% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    50%,
+    80% {
+      opacity: 1;
+      transform: translateY(-100%);
+    }
+    80%,
+    90% {
+      opacity: 1;
+      transform: translateY(-188%);
+    }
+    90%,
+    100% {
+      opacity: 0;
       transform: translateY(-188%);
     }
   }
+
   /* ANIMATION 6 */
   #screen6 {
     fill: url("#aboutpage");
-    animation: scrolltotest 7s ease-in-out forwards infinite;
+    animation: scrolltotest 14s ease-in-out forwards infinite;
+  }
+  #screen6-5 {
+    fill: url("#aboutpage");
+    animation: scrolltotest2 14s ease-in-out forwards infinite;
   }
   @keyframes scrolltotest {
     0%,
-    5% {
-      transform: translateY(-180%);
+    30% {
+      opacity: 1;
+      transform: translateY(-188%);
     }
-    60%,
+    30%,
+    50% {
+      opacity: 1;
+      transform: translateY(-327%);
+    }
+    50%,
+    90% {
+      opacity: 0;
+      transform: translateY(-327%);
+    }
+    90% {
+      transform: translateY(-188%);
+    }
     100% {
+      opacity: 1;
+      transform: translateY(-188%);
+    }
+  }
+  @keyframes scrolltotest2 {
+    0%,
+    40% {
+      opacity: 0;
+      transform: translateY(-188%);
+    }
+    50%,
+    80% {
+      opacity: 1;
+      transform: translateY(-188%);
+    }
+    80%,
+    90% {
+      opacity: 1;
+      transform: translateY(-327%);
+    }
+    90%,
+    100% {
+      opacity: 0;
       transform: translateY(-327%);
     }
   }
