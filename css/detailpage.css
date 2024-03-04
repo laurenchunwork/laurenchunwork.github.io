@@ -189,6 +189,7 @@ place-items: center;
 .designprocesspicture{
   margin: 0% 12.5%;
 }
+
 .userflowImage{
   max-width:700px;
   /* margin:0% 2.5%; */
@@ -225,14 +226,30 @@ gap: 20px;
   flex-direction: row;
   gap: 30px;
   width:100%;}
+/* SVG STUFF */
 .threesvg{
   display: inline-flex;
   justify-content: center;
-  align-items: center;
   flex-direction: row;
   gap: 0px;
+  width:66.6%;
+  /* flex-wrap: wrap; */
+}
+.svgcolumn{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  width:100%;
+  gap:10px;
+}
+.svgcolumn img{
+  max-width:250px;
+}
+.svgcolumn p{
   width:100%;
 }
+/* SVG STUFF */
 .threecolumnsmall{
   display: inline-flex;
   justify-content: center;
@@ -362,6 +379,12 @@ gap: 20px;
   .heroTitle{
     width:90%;
   }
+  /* .hero{
+    width:90%;
+  } */
+  /* .heroImage{
+    width:90%;
+  } */
   .stats{
     margin: 5% 5%;
     width:90%;
@@ -398,31 +421,58 @@ gap: 20px;
 }
 
 .recommendedprojects{
+  margin:2.5% 2.5% 0% 2.5%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* width: 300px; */
   align-items: center;
   font-size: 18px;
+  gap:20px;
+}
+/* .recommendedheader h3{
+  font-weight: 400;
+} */
+.recommendedheader{
+  width:66.6%;
+  /* text-align: center; */
 }
 
 .suggested-blocks{
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   flex-wrap: wrap;
+  /* justify-content: space-around; */
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   font-size: 18px;
-  width:90%;
+  width:66.6%;
 }
 
+.hr-recommend {
+  height: 1.4px;
+  border: none; 
+  border-top: 1px solid #ccc; 
+  margin: 20px 16.65%;
+}
 .suggestion{
-  margin: 10px;
+  /* margin: 10px; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width:30%;
+  width:40%;
   height: auto;
+}
+.suggestion h4{
+  margin:0;
+
+}
+.suggestion p{
+  margin:0;
+
+}
+
+.subdescription{
+color:#6f7287;
 }
 .suggestion a img{
   width:100%;
@@ -445,6 +495,7 @@ gap: 20px;
   flex-direction: column;
   gap:10px;
 }
+
 /* add some animation */
       @keyframes drawline{
         0%{

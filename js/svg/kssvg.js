@@ -9,7 +9,6 @@ const ksAbout =  document.querySelector('#aboutscrollsvg');
 
 ksVintageThread.innerHTML = 
 `
-<div class="svg-contentscontainer">
 <div class="svg-container">
         <svg
           id="svgscreen"
@@ -222,11 +221,9 @@ ksVintageThread.innerHTML =
           </defs>
         </svg>
       </div>
-      </div>
 `
 ksFeature.innerHTML =
 `
-<div class="svg-contentscontainer">
 <div class="svg-container">
 <svg
   id="svgscreen"
@@ -354,11 +351,9 @@ ksFeature.innerHTML =
   </defs>
 </svg>
 </div>
-    </div>
 `
 ksAbout.innerHTML = 
 `
-<div class="svg-contentscontainer">
 <div class="svg-container">
 <svg
   id="svgscreen"
@@ -564,11 +559,9 @@ ksAbout.innerHTML =
   </defs>
 </svg>
 </div>
-</div>
 `
 kscircle.innerHTML =
 `
-<div class="svg-contentscontainer">
 <div class="svg-container">
         <svg
           id="svgscreen"
@@ -627,11 +620,9 @@ kscircle.innerHTML =
           </defs>
         </svg>
       </div>
-</div>
 `
 ksbio.innerHTML =
 `
-<div class="svg-contentscontainer">
 <div class="svg-container">
         <svg
           id="svgscreen"
@@ -690,11 +681,9 @@ ksbio.innerHTML =
           </defs>
         </svg>
       </div>
-</div>
 `
 kstest.innerHTML =
 `
-<div class="svg-contentscontainer">
 <div class="svg-container">
         <svg
           id="svgscreen"
@@ -753,5 +742,5 @@ kstest.innerHTML =
           </defs>
         </svg>
       </div>
-</div>
+
 `
