@@ -20,6 +20,9 @@ align-items: center;
 .heroTitle{
   width:66%;
 }
+.subtags{
+color: #6f7287;
+}
 .heroImage img{
   /* margin:2.5% 0%; */
   display:flex;
@@ -91,6 +94,9 @@ place-items: center;
 .sectionHead{
   width:66%;
 }
+.sectionHead p{
+  margin:0;
+}
 /* SECTION CSS BEGIN */
 .section{
   display: flex;
@@ -114,16 +120,40 @@ place-items: center;
   .blurb{
     text-align: start;
   }
+  .blurb p{
+    margin:0;
+  }
+
+  .blurb2{
+    margin-bottom: 1rem;
+  }
+  /* .blurb2 p{
+    margin;
+  } */
   .p-blurb{
     margin: 2.5% 12.5% 2.5% 12.5%;
     text-align: start;
     width:66%;
+  }
+  .p-blurb-top2{
+    margin: 2.5% 12.5% 0% 12.5%;
+    text-align: start;
+    width:66%;
+  }
+  .p-blurb-bot2{
+    margin: 0% 12.5% 0% 12.5%;
+    text-align: start;
+    width:66%;
+  }
+  .botmargin{
+    margin-bottom: 2.5%;
   }
   /* .p-blurb p{
     margin:0;
   } */
   .section ul{
     margin:0;
+    padding: 0rem 1rem;
   }
   .section li{
     margin:0;
@@ -131,6 +161,9 @@ place-items: center;
   .section img{
     width:100%;
   }
+  /* .section p{
+    margin:0;
+  } */
   .section ul li{
     margin:0;
     padding:0;
@@ -266,23 +299,60 @@ gap: 20px;
   align-items: flex-start;
   flex-direction: row;
   gap: 10px;
-  /* margin:2.5%; */
   margin: 0% 12.5% 0% 12.5%;
+  width:66.6%;
 }
 
 .sectiontextcolumn{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 15px;
+  /* gap: 15px; */
+  flex:1;
+}
+.sectiontextcolumn p{
+  margin-top:0;
 }
 .sectionimagecolumn{
-  width:100%;
+  width: 100%;
   display: flex;
-    align-items: center;
-    flex-direction: column;
-    /* margin: 2.5% 0% ; */
-    justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2.5%;
+  flex:1;
+}
+.sectionimagecolumn img{
+  width:100%;
+}
+.sectionimagecolumn p{
+  margin:0;
+}
+.asteriskdetail{
+  font-size: 14px;
+  margin: 1rem 0rem !important;
+  color:#6f7287;
+}
+.sectionimagecolumn2{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex:1;
+}
+.sectionimagecolumn2 img{
+  width:auto;
+  max-height:500px;
+}
+.accent p{
+  margin-top:0;
+}
+.accent{
+  background-color: #f1f1f1;
+  border: 2px solid rgb(221, 221, 221);
+  padding:2.5% 0%;
+  border-radius: 1rem;
 }
 /*  */
 .column {
@@ -395,8 +465,8 @@ gap: 20px;
     flex-direction: start;
     flex-wrap: wrap;
     gap:10px;
-  
   }
+
   .p-blurb{
     width: 90%;
     margin: 5% 5%;
@@ -421,7 +491,7 @@ gap: 20px;
 }
 
 .recommendedprojects{
-  margin:2.5% 2.5% 0% 2.5%;
+  margin:2.5% 0%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
