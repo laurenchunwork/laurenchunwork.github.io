@@ -34,6 +34,7 @@ window.addEventListener('scroll', function() {
     navbar.classList.remove('navbar-with-shadow');
   }
 });
+
 {/* <button href="javascript:void(0);" onclick="toggleMenu()" title="toggle menu" class="menubutton">☰
 </button> */}
 {/* <a href="javascript:void(0);" onclick="toggleMenu()">☰</a> */}
@@ -48,6 +49,7 @@ footer.innerHTML = `
 <p> <a href="https://www.linkedin.com/in/laurenmchun/">Linkedin↗</a></p>
 `
 }
+
 if (otherWork !==null){
   otherWork.innerHTML = `
   <div class="otherprojects">
@@ -76,6 +78,7 @@ if (otherWork !==null){
   </div>
   </div>`
 }
+
 if (backButton !==null){
   backButton.innerHTML = `
   <a href="index.html">
@@ -85,7 +88,6 @@ if (backButton !==null){
 }
 const triggerSets = document.querySelectorAll('.trigger-set');
 if(triggerSets!==null){
-  console.log("i am triggered")
 window.addEventListener('scroll', () => {
   triggerSets.forEach((triggerSet) => {
     const trigger = triggerSet.querySelector('.trigger');
@@ -149,6 +151,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 });
+
 /////////////ACTIVE UNDERLINE //////////////////
 document.addEventListener("DOMContentLoaded", function () {
   // Get the current page URL
@@ -166,6 +169,9 @@ else{
   aboutNavItem.classList.remove('current');
 }
 });
+
+
+
 //////////END OF ACTIvE UNDERLINE/////////////////
 
 // LOADING SCREEN CODE UNDERNEATH
