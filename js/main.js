@@ -34,15 +34,6 @@ window.addEventListener('scroll', function() {
     navbar.classList.remove('navbar-with-shadow');
   }
 });
-
-{/* <button href="javascript:void(0);" onclick="toggleMenu()" title="toggle menu" class="menubutton">☰
-</button> */}
-{/* <a href="javascript:void(0);" onclick="toggleMenu()">☰</a> */}
-/* for menu dropdown hover but we arent using this rn
- <div class="work-drop-content">
-<a href="#">UX</a>
-<a href="#">AR/VR</a>
-</div>   */
 if (footer !== null) {
 footer.innerHTML = `
 <p>© Designed by <a href="about.html">Lauren Chun</a> | Product Designer </p>
@@ -98,7 +89,6 @@ window.addEventListener('scroll', () => {
     }
   });
 });
-
 }
 
 
@@ -136,8 +126,6 @@ function toggleMenu() {
     menu.style.display = "none";
   }
 }
-
-
 document.addEventListener("DOMContentLoaded", function () {
   const dropdown = document.querySelector(".work-drop");
   const dropdownContent = document.querySelector(".work-drop-content");
@@ -149,9 +137,7 @@ document.addEventListener("DOMContentLoaded", function () {
       dropdownContent.style.display = "none";
   });
   }
-
 });
-
 /////////////ACTIVE UNDERLINE //////////////////
 document.addEventListener("DOMContentLoaded", function () {
   // Get the current page URL
@@ -162,71 +148,9 @@ if (currentPage == '/about.html'){
   aboutNavItem.classList.add('current')
   workNavItem.classList.remove('current');
 } 
-// else if (currentPage == ''){
-// }
 else{
   workNavItem.classList.add('current')
   aboutNavItem.classList.remove('current');
 }
 });
-
-
-
 //////////END OF ACTIvE UNDERLINE/////////////////
-
-// LOADING SCREEN CODE UNDERNEATH
-// const loadingScreen = document.querySelector(".loading-screen");
-
-// window.onload = function() {
-//   setTimeout(function() {
-//       hideLoadingScreen();
-//   }, 1000); 
-//   // 2000 milliseconds (2 seconds)
-// };
-
-// function hideLoadingScreen() {
-//   const bodyContent = document.querySelector("body");
-
-//   loadingScreen.style.display = "none";
-//   bodyContent.style.display = "block";
-// }
-
-// loadingScreen.innerHTML =`
-// <div class="loading-screen">
-//   <div class="loader-grid">
-//       <div class="loader-rectangle"></div>
-//   </div>
-//   <div class="loader-text">
-//       <div class="loader-line"></div>
-//       <div class="loader-line"></div>
-//   </div>
-
-//    <div class="loader-grid">
-//       <div class="loader-rectangle"></div>
-//   </div>
-//   <div class="loader-text">
-//       <div class="loader-line"></div>
-//       <div class="loader-line"></div>
-//   </div>
-
-//   <div class="loader-grid">
-//     <div class="loader-rectangle"></div>
-//   </div>
-//   <div class="loader-text">
-//       <div class="loader-line"></div>
-//       <div class="loader-line"></div>
-//   </div>
-
-//   <div class="loader-grid">
-//     <div class="loader-rectangle"></div>
-//   </div>
-//   <div class="loader-text">
-//     <div class="loader-line"></div>
-//     <div class="loader-line"></div>
-//   </div>
-// </div>
-
-// `
-
-///LOADING SCREEN CODE END
-
