@@ -386,10 +386,11 @@ div.menu li:hover{
 
 .center-image{
   display: flex;
-  justify-content: center; /* Horizontally center the content */
-  /* align-items: center; this keeps moving it down for some reason */
-  height:100%;
-  width: 100%; /* Set the width of the container */
+  /* justify-content: center;  */
+   /* align-items: center; */
+  width: 100%; 
+  /* flex-direction: column; */
+  text-align: center;
 }
 
 

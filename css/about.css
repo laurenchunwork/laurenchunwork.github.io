@@ -1,15 +1,17 @@
 .about-container{
     max-width: 1728px;
     /* margin: 0 auto; */
-    margin: 0% 12.5% 5% 12.5%;
+    margin: 5% 12.5% 5% 12.5%;
     display: grid;
     gap: 5%;
     grid-template-columns: 1fr 2fr;
     flex: 0.875;
+    justify-content: center;
 }
 .profile-image{
-    max-width: 300px;
-    max-height: 500px;
+    width:100%;
+    /* max-width: 300px; */
+    /* max-height: 500px; */
 }
 
 .about-description{
