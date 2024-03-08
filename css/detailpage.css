@@ -20,6 +20,17 @@ align-items: center;
 .heroTitle{
   width:66%;
 }
+.heroTitle h1{
+  margin-bottom: 0;
+}
+/* .heroTitle p{
+  margin:0;
+  color: rgb(157, 158, 158);
+} */
+.heroTitle h4{
+  margin:0;
+  font-weight: 400;
+}
 .subtags{
 color: #6f7287;
 }
@@ -351,7 +362,7 @@ gap: 20px;
 .accent{
   background-color: #f1f1f1;
   border: 2px solid rgb(221, 221, 221);
-  padding:2.5% 0%;
+  padding:2.5%;
   border-radius: 1rem;
 }
 /*  */
