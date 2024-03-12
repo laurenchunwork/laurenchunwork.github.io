@@ -269,7 +269,9 @@ gap: 20px;
   align-items: center;
   flex-direction: row;
   gap: 30px;
-  width:100%;}
+  width:100%;
+  flex-wrap: wrap;
+}
 /* SVG STUFF */
 .threesvg{
   display: inline-flex;
@@ -520,7 +522,6 @@ gap: 20px;
 
 .suggested-blocks{
   display: flex;
-  /* flex-direction: row; */
   flex-wrap: wrap;
   /* justify-content: space-around; */
   justify-content: space-between;
@@ -536,7 +537,6 @@ gap: 20px;
   margin: 20px 16.65%;
 }
 .suggestion{
-  /* margin: 10px; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -545,11 +545,9 @@ gap: 20px;
 }
 .suggestion h4{
   margin:0;
-
 }
 .suggestion p{
   margin:0;
-
 }
 
 .subdescription{
