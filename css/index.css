@@ -265,6 +265,8 @@ div.menu li:hover{
     gap:5rem;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    align-items: center;
+
   }
 
 .portfolioIndexImage{
@@ -301,9 +303,7 @@ div.menu li:hover{
       text-decoration: none;
       
     }
-    /* .inner-container h4:hover {
-    text-decoration: underline;
-  }  */
+
   .gray{
     color:rgb(93, 93, 93) !important;
   }
