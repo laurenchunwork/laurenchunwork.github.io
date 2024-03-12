@@ -179,9 +179,9 @@ div.menu li:hover{
 /* INDEX PAGE */
 .container {
     display: grid;
-    grid-template-rows: auto 1fr auto; /* Sets the rows to auto, 1fr, auto */
-    grid-template-columns: 1fr; /* Sets the column to 1fr */
-    gap: 20px; /* Adds a 20px gap between grid items */
+    grid-template-rows: auto 1fr auto; 
+    grid-template-columns: 1fr; 
+    gap: 20px; 
     padding:0vw 12.5vw;
     align-items: start;
     margin-bottom: 2.5%;
@@ -366,15 +366,11 @@ div.menu li:hover{
 .centerBtn{
   display: grid;
   place-items: center;
-  /* height: 200px; */
 }
 
 .center-image{
   display: flex;
-  /* justify-content: center;  */
-   /* align-items: center; */
   width: 100%; 
-  /* flex-direction: column; */
   text-align: center;
 }
 
