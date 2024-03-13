@@ -11,14 +11,23 @@
 p {
   font-size: 18px;
 }
+.herocontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width:100%; */
+  padding:0% 17%;
+  flex-wrap: wrap;
+}
 .heroImage{
-width:100vw;
+  flex:2;
 display: flex;
 justify-content: center;
 align-items: center;
 }
 .heroTitle{
-  width:66%;
+  flex:1;
+  min-width: 200px;
 }
 .heroTitle h1{
   margin-bottom: 0;
@@ -41,9 +50,10 @@ color: #6f7287;
   align-items: center;
   flex-shrink: 0;
   height:500px;
-  width:100vw;
+  /* width:100vw; */
   object-fit: contain;
 }
+
 .heroPortfolioText{
   display: inline-flex;
 height: 382px;
@@ -55,6 +65,23 @@ flex-shrink: 0;
 margin:0% 12.5%;
 text-align: center;
 }
+.intro-text{
+  width:66%;
+  }
+.overviewfullimage{
+  width:70% !important;
+}
+.overviewsectionimage{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin:2.5% 0%;
+  flex:1;
+}
+
+
 #contents{
 display: grid;
 grid-template-columns: 1fr;
@@ -256,12 +283,21 @@ gap: 20px;
 .twocolumn{
   display: inline-flex;
   justify-content: space-between;
-  align-items: flex-start;
-  /* flex-wrap: wrap; */
+  align-items: center;
   flex-direction: row;
   gap: 30px;
   width:66%;
   margin: 2.5% 12.5% 2.5% 12.5%;
+}
+
+.twocolumn-intro{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
 }
 .threecolumn{
   display: inline-flex;
@@ -320,9 +356,10 @@ gap: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* gap: 15px; */
   flex:1;
+  min-width: 200px;
 }
+
 .sectiontextcolumn p{
   margin-top:0;
 }
@@ -415,6 +452,28 @@ gap: 20px;
   font-weight: 800;
 }
 
+.researchstat{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 1rem;
+  /* background: #E8E8E8; */
+  border: solid 1px #E8E8E8;
+  width:20%;
+  height: 100px;
+  padding:2.5%;
+  text-align: center;
+}
+.researchnumber{
+  color:#337AB7;
+  font-size: 32px;
+  margin:0;
+}
+.researchsurveynumber{
+  font-size: 400;
+}
 .image-section{
   width:90%;
 }
@@ -463,9 +522,9 @@ gap: 20px;
   .heroTitle{
     width:90%;
   }
-  /* .hero{
+  .hero{
     width:90%;
-  } */
+  }
   /* .heroImage{
     width:90%;
   } */
@@ -487,6 +546,12 @@ gap: 20px;
   }
   .twocolumn{
     margin:2.5% 5%;
+    width:90%;
+  }
+  .twocolumn-intro{
+    width:90%;
+  }
+  .threecolumnsmall{
     width:90%;
   }
   .sectionHead{
