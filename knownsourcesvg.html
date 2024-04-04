@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>knownsource animation</title>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 5% 12.5%;
+        background-color: #f4f8fb;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .svg-container {
+        box-shadow: 0px 10px 20px 1px rgba(65, 65, 65, 0.895);
+        border-radius: 10px;
+        /* max-width: 100%; */
+        width: 40%;
+        height: auto;
+        /* max-height: 844px; */
+      }
+      /* set up svg */
+      #svgscreen {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+      }
+      #header {
+        fill: url("#headerimg");
+      }
+      #home-indicator {
+        transform: translateY(98%) translateX(30%);
+      }
+      /* Animation 1 */
+      #screen1 {
+        /* fill: url(#dealerpage); */
+        /* transform: translateY(-59%); */
+        animation: scroll-dealer 7s ease-in-out forwards infinite;
+      }
+      #touch {
+        /* transform: translateX(10%) translateY(10%); */
+        animation: scroll-touch 7s ease-in-out forwards infinite;
+        fill: black;
+        fill-opacity: 0.2;
+        stroke: white;
+      }
+      @keyframes scroll-touch {
+        0%,
+        30% {
+          transform: translateX(10%) translateY(30%);
+        }
+        30%,
+        70% {
+          transform: translateX(10%) translateY(70%);
+        }
+        70%,
+        100% {
+          transform: translateX(10%) translateY(30%);
+        }
+      }
+      #background-screen {
+        fill: url(#dealerpage);
+      }
+      @keyframes scroll-dealer {
+        0%,
+        30% {
+          transform: translateY(0%);
+        }
+        70% {
+          transform: translateY(0%);
+        }
+        70%,
+        100% {
+          transform: translateY(-59%);
+        }
+      }
+      #submenu-button {
+        /* transform: translateY(4.5%); */
+        transform: translateY(62.8%);
+      }
+      #product-button {
+        animation: selectproduct 7s ease forwards infinite;
+      }
+      #about-button {
+        animation: selectabout 7s ease forwards infinite;
+      }
+      #active-indicator {
+        animation: activate-button 7s ease forwards infinite;
+      }
+      #review-button {
+        fill: url("#reviews1");
+      }
+      #about-button {
+        fill: url("#about1");
+      }
+
+      @keyframes selectproduct {
+        0%,
+        30% {
+          fill: url("#products3");
+        }
+        50% {
+          fill: url("#products2");
+        }
+        50%,
+        100% {
+          fill: url("#products3");
+        }
+      }
+
+      /* Animation 2 */
+      #screen {
+        fill: url(#dealerpage);
+        transform: translateY(-59%);
+      }
+      #submenu {
+        fill: url("#submenuimg");
+        transform: translateY(13.6%);
+      }
+      #featured-section {
+        transform: translateY(19.3%);
+      }
+      #feature-back {
+        fill: url("#featured-back-img");
+      }
+
+      #carousel {
+        fill: url("#carousel-img");
+        animation: featured-scroll 8s ease forwards infinite;
+      }
+      #touch3 {
+        animation: scroll-touch3 7s ease-in-out forwards infinite;
+        fill: black;
+        fill-opacity: 0.2;
+        stroke: white;
+      }
+      @keyframes scroll-touch3 {
+        0%,
+        12% {
+          transform: translateX(50%) translateY(30%);
+        }
+        12%,
+        24% {
+          transform: translateX(10%) translateY(30%);
+        }
+        24%,
+        36% {
+          transform: translateX(50%) translateY(30%);
+        }
+        36%,
+        48% {
+          transform: translateX(10%) translateY(30%);
+        }
+        48%,
+        60% {
+          transform: translateX(50%) translateY(30%);
+        }
+        60%,
+        72% {
+          transform: translateX(10%) translateY(30%);
+        }
+        72%,
+        100% {
+          transform: translateX(50%) translateY(30%);
+        }
+      }
+      #scrolling-dots g {
+        fill: #9d9d9d;
+        animation: featured-dots 8s linear forwards infinite;
+        animation-delay: calc(var(--order) * 1000ms);
+      }
+      @keyframes featured-scroll {
+        0%,
+        20% {
+          transform: translateX(0%);
+        }
+        20%,
+        40% {
+          transform: translateX(-60%);
+        }
+        40%,
+        60% {
+          transform: translateX(-130%);
+        }
+        60%,
+        80% {
+          transform: translateX(-200%);
+        }
+        80%,
+        100% {
+          transform: translateX(0%);
+        }
+      }
+      @keyframes featured-dots {
+        0%,
+        20% {
+          fill: #141414;
+        }
+        20%,
+        40% {
+          fill: #9d9d9d;
+        }
+        60%,
+        80% {
+          fill: #9d9d9d;
+        }
+        60%,
+        80% {
+          fill: #9d9d9d;
+        }
+        80%,
+        100% {
+          fill: #141414;
+        }
+      }
+      /* ANIMATION 3 */
+      #screen2 {
+        animation: scroll-dealer2 7s ease-in-out forwards infinite;
+      }
+      #touch2 {
+        animation: scroll-touch2 7s ease-in-out forwards infinite;
+        fill: black;
+        fill-opacity: 0.2;
+        stroke: white;
+      }
+      @keyframes scroll-touch2 {
+        0%,
+        30% {
+          transform: translateX(10%) translateY(70%);
+        }
+        30%,
+        70% {
+          transform: translateX(30%) translateY(10%);
+        }
+        70%,
+        100% {
+          transform: translateX(30%) translateY(10%);
+        }
+      }
+      #background-screen2 {
+        fill: url(#dealerpage);
+      }
+      @keyframes scroll-dealer2 {
+        0%,
+        30% {
+          transform: translateY(-59%);
+        }
+        70% {
+          transform: translateY(-59%);
+        }
+        70%,
+        100% {
+          transform: translateY(-183.4%);
+        }
+      }
+      #submenu-button2 {
+        transform: translateY(4.5%);
+      }
+      #product-button2 {
+        animation: selectproduct2 7s ease forwards infinite;
+      }
+      #about-button2 {
+        animation: selectabout2 7s ease forwards infinite;
+      }
+      #active-indicator2 {
+        animation: activatebutton2 7s ease forwards infinite;
+      }
+      #review-button2 {
+        fill: url("#reviews1");
+      }
+
+      @keyframes selectproduct2 {
+        0%,
+        30% {
+          fill: url("#products3");
+        }
+        50% {
+          fill: url("#products3");
+        }
+        50%,
+        100% {
+          fill: url("#products1");
+        }
+      }
+      @keyframes selectabout2 {
+        0%,
+        30% {
+          fill: url("#about1");
+        }
+        50% {
+          opacity: 1;
+          fill: url("#about1");
+        }
+        /* 30%,70%{
+
+        } */
+        50%,
+        100% {
+          fill: url("#about3");
+        }
+      }
+      @keyframes activatebutton2 {
+        0%,
+        30% {
+          transform: translateX(0%);
+        }
+        50% {
+          transform: translateX(0%);
+        }
+        50%,
+        100% {
+          transform: translateX(33.3%);
+        }
+      }
+      /* ANIMATION 4 */
+      #screen4 {
+        fill: url("#aboutpage");
+        animation: scrolltocircle 7s ease-in-out forwards infinite;
+      }
+      @keyframes scrolltocircle {
+        0%,
+        5% {
+          transform: translateY(0%);
+        }
+        60%,
+        100% {
+          transform: translateY(-100%);
+        }
+      }
+      /* ANIMATION 5 */
+      #screen5 {
+        fill: url("#aboutpage");
+        transform: translateY(-100%);
+        animation: scrolltobio 7s ease-in-out forwards infinite;
+      }
+      @keyframes scrolltobio {
+        0%,
+        5% {
+          transform: translateY(-100%);
+        }
+        60%,
+        100% {
+          transform: translateY(-188%);
+        }
+      }
+      /* ANIMATION 6 */
+      #screen6 {
+        fill: url("#aboutpage");
+        animation: scrolltotest 7s ease-in-out forwards infinite;
+      }
+      @keyframes scrolltotest {
+        0%,
+        5% {
+          transform: translateY(-180%);
+        }
+        60%,
+        100% {
+          transform: translateY(-327%);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- ANIMATION 1 -->
+      <div class="svg-container">
+        <svg
+          id="svgscreen"
+          width="390"
+          height="844"
+          viewBox="0 0 390 844"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="svgscreen"></g>
+          <g id="screen1">
+            <rect id="background-screen" width="390" height="4491" rx="10" />
+            <g id="submenu-button">
+              <g id="submenu-spec">
+                <g id="review-button">
+                  <rect x="260" y="77" width="130" height="38" />
+                </g>
+                <g id="about-button">
+                  <rect x="130" y="77" width="130" height="38" />
+                </g>
+                <g id="product-button">
+                  <rect x="0" y="77" width="130" height="38" />
+                </g>
+                <rect
+                  id="active-indicator"
+                  y="115"
+                  width="130"
+                  height="4"
+                  fill="#255AF6"
+                />
+              </g>
+              <g id="action bar">
+                <rect
+                  id="divider"
+                  y="75"
+                  width="390"
+                  height="2"
+                  fill="#9D9D9D"
+                />
+              </g>
+            </g>
+          </g>
+          <!--  -->
+          <g id="header" clip-path="url(#clip0_204_3625)">
+            <path
+              id="Rectangle 664"
+              d="M0 10C0 4.47715 4.47715 0 10 0H380C385.523 0 390 4.47715 390 10V115H0V10Z"
+            />
+          </g>
+          <rect
+            id="home-indicator"
+            width="139"
+            height="5"
+            rx="2.5"
+            transform="matrix(-1 0 0 1 264.5 8)"
+            fill="#525259"
+          />
+          <circle id="touch" cx="42" cy="42" r="42" />
+          <defs>
+            <!-- main page -->
+            <pattern
+              id="dealerpage"
+              x="0"
+              y="0"
+              width="390"
+              height="4491"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/vintagedealer-crop2.jpg"
+              />
+            </pattern>
+            <!-- header and submenu -->
+            <pattern
+              id="headerimg"
+              x="0"
+              y="0"
+              width="390"
+              height="115"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/header-knownsource.jpg"
+              />
+            </pattern>
+            <pattern
+              id="submenuimg"
+              x="0"
+              y="0"
+              width="390"
+              height="44"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenu-knownsource.jpg"
+              />
+            </pattern>
+            <!-- SUBMENU TABS -->
+            <!-- products -->
+            <pattern
+              id="products1"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/products.jpg"
+              />
+            </pattern>
+            <pattern
+              id="products2"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/products-hover.jpg"
+              />
+            </pattern>
+            <pattern
+              id="products3"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/products-active.jpg"
+              />
+            </pattern>
+            <!-- about -->
+            <pattern
+              id="about1"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/about.jpg"
+              />
+            </pattern>
+            <pattern
+              id="about2"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/about-hover.jpg"
+              />
+            </pattern>
+            <pattern
+              id="about3"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/about-active.jpg"
+              />
+            </pattern>
+            <!-- reviews -->
+            <pattern
+              id="reviews1"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/reviews.jpg"
+              />
+            </pattern>
+            <pattern
+              id="reviews2"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/reviews-hover.jpg"
+              />
+            </pattern>
+            <pattern
+              id="reviews3"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/reviews-active.jpg"
+              />
+            </pattern>
+          </defs>
+        </svg>
+      </div>
+      <!-- ANIMATION 2 -->
+      <div class="svg-container">
+        <svg
+          id="svgscreen"
+          width="390"
+          height="830"
+          viewBox="0 0 390 844"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="svgscreen">
+            <rect id="screen" width="390" height="4491" rx="10" />
+          </g>
+          <g id="header" clip-path="url(#clip0_204_3625)">
+            <path
+              id="Rectangle 664"
+              d="M0 10C0 4.47715 4.47715 0 10 0H380C385.523 0 390 4.47715 390 10V115H0V10Z"
+            />
+          </g>
+          <g id="submenu" clip-path="url(#clip0_204_3625)">
+            <rect id="Rectangle 665" width="390" height="44" />
+          </g>
+          <g id="featured-section">
+            <!-- background -->
+            <g id="feature-back">
+              <rect width="390" height="427" />
+            </g>
+            <!-- carousel -->
+            <g id="carousel">
+              <rect width="1068" height="345" transform="translate(29 53)" />
+            </g>
+            <!-- scoll dots -->
+            <g id="scrolling-dots">
+              <g style="--order: 1">
+                <rect id="dot1" x="150" y="408" width="8" height="8" rx="4" />
+              </g>
+              <g style="--order: 2">
+                <rect id="dot2" x="166" y="408" width="8" height="8" rx="4" />
+              </g>
+              <g style="--order: 3">
+                <rect id="dot3" x="182" y="408" width="8" height="8" rx="4" />
+              </g>
+              <g style="--order: 4">
+                <rect id="dot4" x="198" y="408" width="8" height="8" rx="4" />
+              </g>
+            </g>
+          </g>
+          <rect
+            id="home-indicator"
+            width="139"
+            height="5"
+            rx="2.5"
+            transform="matrix(-1 0 0 1 264.5 8)"
+            fill="#525259"
+          />
+          <circle
+            id="touch3"
+            cx="42"
+            cy="42"
+            r="42"
+            fill="black"
+            fill-opacity="0.2"
+          />
+          <defs>
+            <!-- main page -->
+            <pattern
+              id="dealerpage"
+              x="0"
+              y="0"
+              width="390"
+              height="4491"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/vintagedealer-crop2.jpg"
+              />
+            </pattern>
+            <!-- header and submenu -->
+            <pattern
+              id="headerimg"
+              x="0"
+              y="0"
+              width="390"
+              height="115"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/header-knownsource.jpg"
+              />
+            </pattern>
+            <pattern
+              id="submenuimg"
+              x="0"
+              y="0"
+              width="390"
+              height="44"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenu-knownsource.jpg"
+              />
+            </pattern>
+            <!-- carousel -->
+            <pattern
+              id="featured-back-img"
+              x="0"
+              y="0"
+              width="390"
+              height="427"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/featured-background.jpg"
+              />
+            </pattern>
+            <pattern
+              id="carousel-img"
+              x="0"
+              y="0"
+              width="1068"
+              height="345"
+              patternUnits="userSpaceOnUse"
+            >
+              <image xlink:href="assets/svg/knownsource/carousel.jpg" />
+            </pattern>
+          </defs>
+        </svg>
+      </div>
+      <!-- ANIMATION 3 -->
+      <div class="svg-container">
+        <svg
+          id="svgscreen"
+          width="390"
+          height="834"
+          viewBox="0 0 390 844"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="svgscreen"></g>
+          <g id="screen2">
+            <rect id="background-screen" width="390" height="4491" rx="10" />
+          </g>
+          <g id="submenu-button2">
+            <g id="submenu-spec">
+              <g id="review-button2">
+                <rect x="260" y="77" width="130" height="38" />
+              </g>
+              <g id="about-button2">
+                <rect x="130" y="77" width="130" height="38" />
+              </g>
+              <g id="product-button2">
+                <rect x="0" y="77" width="130" height="38" />
+              </g>
+              <rect
+                id="active-indicator2"
+                y="115"
+                width="130"
+                height="4"
+                fill="#255AF6"
+              />
+            </g>
+            <g id="action bar">
+              <rect id="divider" y="75" width="390" height="2" fill="#9D9D9D" />
+            </g>
+          </g>
+          <g id="header" clip-path="url(#clip0_204_3625)">
+            <path
+              id="Rectangle 664"
+              d="M0 10C0 4.47715 4.47715 0 10 0H380C385.523 0 390 4.47715 390 10V115H0V10Z"
+            />
+          </g>
+          <rect
+            id="home-indicator"
+            width="139"
+            height="5"
+            rx="2.5"
+            transform="matrix(-1 0 0 1 264.5 8)"
+            fill="#525259"
+          />
+          <circle id="touch2" cx="42" cy="42" r="42" />
+          <defs>
+            <!-- main page -->
+            <pattern
+              id="dealerpage"
+              x="0"
+              y="0"
+              width="390"
+              height="4491"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/vintagedealer-crop2.jpg"
+              />
+            </pattern>
+            <!-- header and submenu -->
+            <pattern
+              id="headerimg"
+              x="0"
+              y="0"
+              width="390"
+              height="115"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/header-knownsource.jpg"
+              />
+            </pattern>
+            <pattern
+              id="submenuimg"
+              x="0"
+              y="0"
+              width="390"
+              height="44"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenu-knownsource.jpg"
+              />
+            </pattern>
+            <!-- SUBMENU TABS -->
+            <!-- products -->
+            <pattern
+              id="products1"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/products.jpg"
+              />
+            </pattern>
+            <pattern
+              id="products2"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/products-hover.jpg"
+              />
+            </pattern>
+            <pattern
+              id="products3"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/products-active.jpg"
+              />
+            </pattern>
+            <!-- about -->
+            <pattern
+              id="about1"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/about.jpg"
+              />
+            </pattern>
+            <pattern
+              id="about2"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/about-hover.jpg"
+              />
+            </pattern>
+            <pattern
+              id="about3"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/about-active.jpg"
+              />
+            </pattern>
+            <!-- reviews -->
+            <pattern
+              id="reviews1"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/reviews.jpg"
+              />
+            </pattern>
+            <pattern
+              id="reviews2"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/reviews-hover.jpg"
+              />
+            </pattern>
+            <pattern
+              id="reviews3"
+              x="0"
+              y="0"
+              width="130"
+              height="38"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/submenuinteract/reviews-active.jpg"
+              />
+            </pattern>
+          </defs>
+        </svg>
+      </div>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <div class="container">
+      <!-- about page 1-->
+      <div class="svg-container">
+        <svg
+          id="svgscreen"
+          width="390"
+          height="844"
+          viewBox="0 0 390 844"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="screen4">
+            <rect width="390" height="4986" rx="10" />
+          </g>
+          <!--  -->
+          <g id="header" clip-path="url(#clip0_204_3625)">
+            <path
+              id="Rectangle 664"
+              d="M0 10C0 4.47715 4.47715 0 10 0H380C385.523 0 390 4.47715 390 10V115H0V10Z"
+            />
+          </g>
+          <rect
+            id="home-indicator"
+            width="139"
+            height="5"
+            rx="2.5"
+            transform="matrix(-1 0 0 1 264.5 8)"
+            fill="#525259"
+          />
+          <!-- <circle id="touch4" cx="42" cy="42" r="42" /> -->
+          <defs>
+            <!-- main page -->
+            <pattern
+              id="aboutpage"
+              x="0"
+              y="0"
+              width="390"
+              height="4986"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/aboutpage/aboutpage-img.jpg"
+              />
+            </pattern>
+            <!-- header and submenu -->
+            <pattern
+              id="headerimg4"
+              x="0"
+              y="0"
+              width="390"
+              height="115"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/header-knownsource.jpg"
+              />
+            </pattern>
+          </defs>
+        </svg>
+      </div>
+      <!-- about page 2-->
+      <div class="svg-container">
+        <svg
+          id="svgscreen"
+          width="390"
+          height="844"
+          viewBox="0 0 390 844"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="screen5">
+            <rect width="390" height="4986" rx="10" />
+          </g>
+          <!--  -->
+          <g id="header" clip-path="url(#clip0_204_3625)">
+            <path
+              id="Rectangle 664"
+              d="M0 10C0 4.47715 4.47715 0 10 0H380C385.523 0 390 4.47715 390 10V115H0V10Z"
+            />
+          </g>
+          <rect
+            id="home-indicator"
+            width="139"
+            height="5"
+            rx="2.5"
+            transform="matrix(-1 0 0 1 264.5 8)"
+            fill="#525259"
+          />
+          <!-- <circle id="touch4" cx="42" cy="42" r="42" /> -->
+          <defs>
+            <!-- main page -->
+            <pattern
+              id="aboutpage"
+              x="0"
+              y="0"
+              width="390"
+              height="4986"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/aboutpage/aboutpage-img.jpg"
+              />
+            </pattern>
+            <!-- header and submenu -->
+            <pattern
+              id="headerimg4"
+              x="0"
+              y="0"
+              width="390"
+              height="115"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/header-knownsource.jpg"
+              />
+            </pattern>
+          </defs>
+        </svg>
+      </div>
+      <!-- about page 3-->
+      <div class="svg-container">
+        <svg
+          id="svgscreen"
+          width="390"
+          height="844"
+          viewBox="0 0 390 844"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="screen6">
+            <rect width="390" height="4986" rx="10" />
+          </g>
+          <!--  -->
+          <g id="header" clip-path="url(#clip0_204_3625)">
+            <path
+              id="Rectangle 664"
+              d="M0 10C0 4.47715 4.47715 0 10 0H380C385.523 0 390 4.47715 390 10V115H0V10Z"
+            />
+          </g>
+          <rect
+            id="home-indicator"
+            width="139"
+            height="5"
+            rx="2.5"
+            transform="matrix(-1 0 0 1 264.5 8)"
+            fill="#525259"
+          />
+          <!-- <circle id="touch4" cx="42" cy="42" r="42" /> -->
+          <defs>
+            <!-- main page -->
+            <pattern
+              id="aboutpage"
+              x="0"
+              y="0"
+              width="390"
+              height="4986"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/aboutpage/aboutpage-img.jpg"
+              />
+            </pattern>
+            <!-- header and submenu -->
+            <pattern
+              id="headerimg4"
+              x="0"
+              y="0"
+              width="390"
+              height="115"
+              patternUnits="userSpaceOnUse"
+            >
+              <image
+                xlink:href="assets/svg/knownsource/header-knownsource.jpg"
+              />
+            </pattern>
+          </defs>
+        </svg>
+      </div>
+    </div>
+  </body>
+</html>
