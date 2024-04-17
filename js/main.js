@@ -14,7 +14,7 @@ navLink.innerHTML = `
 <a  href="about.html">About</a>
 </li>
   <li class="right">
-  <a href="https://drive.google.com/file/d/1l0-eliB6kyVjljjAfVJfefDM1AHuHE1J/view?usp=sharing" target="_blank">Resume</a>
+  <a href="files/laurenchun-resume-product-designer.pdf" target="_blank">Resume</a>
 </li>
   <li class="icon right" id="mobileIcon">
   <button href="javascript:void(0);" onclick="toggleMenu()" title="toggle menu" class="menubutton">☰
@@ -50,26 +50,43 @@ if (otherWork !==null){
   <div class="catergories">
     <div class="catergory">
       <a href="3dweb.html">
+      <picture> 
+      <source
+              srcset="assets/covers/otherwork/nacgallerytemp-color.webp"
+              type="image/webp"
+            />
         <img src="assets/covers/otherwork/nacgallerytemp-color.jpg" />
+        </picture>
         <p>3D Interactive</p>
       </a>
     </div>
     <div class="catergory">
       <a href="3drender.html">
+      <picture> 
+      <source
+              srcset="assets/covers/otherwork/standardhotelredesign.webp"
+              type="image/webp"
+            />
       <img src="assets/covers/otherwork/standardhotelredesign.jpg" />
+      </picture>
       <p>3D Renders</p>
       </a>
     </div>
     <div class="catergory">
       <a href="arvr.html">
+      <picture> 
+      <source
+              srcset="assets/covers/otherwork/soulstealer-cover.webp"
+              type="image/webp"
+            />
       <img src="assets/covers/otherwork/soulstealer-cover.jpg" />
+      </picture>
       <p>AR/VR</p>
       </a>
     </div>
   </div>
   </div>`
 }
-
 if (backButton !==null){
   backButton.innerHTML = `
   <a href="index.html">
@@ -90,10 +107,6 @@ window.addEventListener('scroll', () => {
   });
 });
 }
-
-
-
-
 if (mobileMenu !==null){
 ////set mobile menu/////
 // const mobileMenu = document.querySelector("#menu");
@@ -112,10 +125,6 @@ mobileMenu.innerHTML = `
 `
 }
 });
-{/* <li>
-<a href="#"><img src="assets/githubIcon.svg" alt="Github icon"></a>
-</li> */}
-
 // toggle mobile menu////
 function toggleMenu() {
   var menu = document.getElementById("menu");
