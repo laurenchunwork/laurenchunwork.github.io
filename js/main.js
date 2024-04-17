@@ -23,7 +23,6 @@ navLink.innerHTML = `
       <li class="right work-drop" id="workLink">
     <a href="index.html">Work</a>
   </li>
- 
 </ul> 
 `
 window.addEventListener('scroll', function() {
