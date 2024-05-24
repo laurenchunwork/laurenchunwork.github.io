@@ -29,7 +29,9 @@ align-items: center;
 .heroTitle{
   flex:1;
   min-width: 200px;
-  padding-left:12.5%
+  /* padding-left:12.5% */
+  padding-left:17%
+
 }
 .heroTitle h1{
   margin-bottom: 0;
