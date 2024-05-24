@@ -309,6 +309,11 @@ gap: 20px;
   align-items: center;
   gap: 30px;
 }
+
+.twocolumncompare{
+  width:100%;
+  display: flex;
+}
 .threecolumn{
   display: inline-flex;
   justify-content: center;
@@ -510,6 +515,10 @@ gap: 20px;
   .overviewsectionimage{
   width:100%;
   }
+
+  .sectionimagecolumn2 img{
+  width:100%;
+  }
  p{
   font-size: 18px;;
  }
@@ -520,9 +529,9 @@ gap: 20px;
   flex-direction: column;
   gap:0px;
  }
- .threecolumn{
+ /* .threecolumn{
   flex-direction: column;
- }
+ } */
  .threecolumnbig{
   flex-direction: column;
   width:66%;
