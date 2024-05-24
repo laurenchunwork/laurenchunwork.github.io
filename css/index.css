@@ -299,6 +299,11 @@ div.menu li:hover{
     color:#39364f;
     margin:0;
     }
+    .inner-container h4{
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
     .inner-container a{
       text-decoration: none;
       
