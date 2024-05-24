@@ -265,7 +265,7 @@ div.menu li:hover{
     gap:5rem;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    align-items: center;
+    /* align-items: center; */
 
   }
 
@@ -290,12 +290,12 @@ div.menu li:hover{
     line-height: normal;
     letter-spacing: 1.4px;
   }
-    .inner-container h4{
-    font-size: 20px;
+    .inner-container h2{
+    /* font-size: 20px; */
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    letter-spacing: 1.4px;
+    /* letter-spacing: 1.4px; */
     color:#39364f;
     margin:0;
     }
@@ -572,7 +572,8 @@ div.menu li:hover{
     margin-top: 2rem;
   }
   #nav{
-    padding: 5% 12.5% 0% 12.5%;
+    padding: 5% 5% 0% 5%;
+    width:90%
   }
   .container{
   padding:0;
@@ -590,7 +591,7 @@ div.menu li:hover{
 
   .top-container{
     width: 70vw;
-    margin:2.5% 0% 0% 0%;
+    margin:10% 0% 0% 0%;
     flex-direction:column;
   }
 
