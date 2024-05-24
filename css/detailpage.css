@@ -68,7 +68,7 @@ text-align: center;
   width:66%;
   }
 .overviewfullimage{
-  width:70%;
+  width:70% !important;
 }
 .overviewsectionimage{
   width: 100%;
