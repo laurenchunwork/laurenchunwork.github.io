@@ -154,6 +154,21 @@ ul.topnav {
     font-size: 0px;
   } */
   
+
+/* SVG STYLING */
+.material-symbols-outlined {
+  font-variation-settings:
+  'wght' 400,
+  'GRAD' 200,
+  'opsz' 36,
+}
+
+.large-icon{
+  font-size:32px;
+  vertical-align: middle;
+
+}
+
 /* Styling for the animated menu */
 div.menu {
   display: none;
@@ -265,10 +280,13 @@ div.menu li:hover{
     gap:5rem;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    /* align-items: center; */
+    align-items: center;
 
   }
 
+  .portfolioIndexText{
+    width:80%;
+  }
 .portfolioIndexImage{
   width:100%;
   transition: transform 0.3s ease-in-out;
@@ -296,6 +314,7 @@ div.menu li:hover{
     font-weight: 500;
     line-height: normal;
     /* letter-spacing: 1.4px; */
+    
     color:#39364f;
     margin:0;
     }
