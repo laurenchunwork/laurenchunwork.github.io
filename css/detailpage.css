@@ -217,7 +217,13 @@ place-items: center;
   .section p{
     font-size: 16px;
     /* margin:0; */
+    max-width: 800px;
   }
+  
+  .maxwidth500{
+    max-width: 500px !important;
+  }
+
   .section ul li{
     margin:0;
     padding:0;
@@ -342,7 +348,7 @@ gap: 20px;
 
 .twocolumncompare{
   align-items: center;
-  /* width:100%; */
+  width:66.6%;
   display: flex;
   padding:2.5% 0%;
   gap:20px;
