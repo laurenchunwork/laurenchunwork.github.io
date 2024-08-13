@@ -264,6 +264,10 @@ place-items: center;
   max-width: 400px;
   flex: 1;
 }
+
+.mediummedLargeImage{
+max-width: 365px;
+}
 .logoImage{
 max-width:300px;
 flex:1;
@@ -634,7 +638,19 @@ gap: 20px;
  }
   .twocolumncompare{
     width:90%;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
   }
+
+/* .mediumLargeImage{
+  max-width: 400px;
+} */
+}
+
+@media(min-width: 1270px){
+  .mediummedLargeImage{
+    max-width: 500px;
+    }
 }
 @media (max-width:600px){
   .designprocessimg{
