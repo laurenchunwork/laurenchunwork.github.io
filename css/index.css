@@ -69,6 +69,11 @@ margin-top: auto;
   text-decoration-line: none;
     font-weight: medium;
 }
+/* .resumeCallouts{
+  gap:10px;
+  display: flex;
+  flex-direction: column;
+} */
 /* NAV BAR */
 
 .topnav{
@@ -218,6 +223,7 @@ div.menu li:hover{
     gap: 25px;
     flex: 1;
     flex-shrink: 0;
+    max-width: 460px;
   }
   .landing-bio-text{
     font-size:16px;
@@ -626,6 +632,7 @@ div.menu li:hover{
   .resumeCallouts p{
     margin:10px 0px;
   }
+
   .landing-icon{
     width:50%;
     justify-content: center;
