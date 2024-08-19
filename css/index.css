@@ -245,11 +245,12 @@ div.menu li:hover{
   .landing-icon{
     display: flex;
     flex: 1;
+    margin:0rem 3rem;
     justify-content: center;  
   }
   
   .landing-icon dotlottie-player{
-    width:400px;
+    max-width:400px;
   }
 
   .top-container-text p a{
@@ -772,6 +773,7 @@ div.menu li:hover{
   .landing-icon{
     width:100%;
     justify-content: center;
+    margin:0;
   }
 
   .landing-icon dotlottie-player{
