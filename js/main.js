@@ -115,7 +115,7 @@ mobileMenu.innerHTML = `
         <a href="index.html">Work</a>
       </li>
       <li>
-        <a href="https://docs.google.com/document/d/1XAlRy-PsXQY2ZET5KQn1SxifTNBqXLTjkxdr2DOhXhM/edit">Resume</a>
+        <a href="files/laurenchun-resume-product-designer.pdf">Resume</a>
       </li>
       <li>
         <a href="about.html">About</a>
