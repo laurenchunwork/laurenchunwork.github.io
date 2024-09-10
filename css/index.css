@@ -288,9 +288,9 @@ div.menu li:hover{
     align-items: center;
   }
 
-  .portfolioIndexText{
+  /* .portfolioIndexText{
     width:80%;
-  }
+  } */
 .portfolioIndexImage{
   width:100%;
   transition: transform 0.3s ease-in-out;
