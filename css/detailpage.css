@@ -264,6 +264,11 @@ place-items: center;
   max-width: 400px;
   flex: 1;
 }
+.longImage{
+max-width: 700px;
+/* margin-left: 100px; */
+/* max-width: 100%; */
+}
 
 .mediummedLargeImage{
 max-width: 365px;
@@ -352,7 +357,8 @@ gap: 20px;
 
 .twocolumncompare{
   align-items: center;
-  width:66.6%;
+  /* width:66.6%; */
+  width:100%;
   display: flex;
   padding:2.5% 0%;
   gap:20px;
@@ -638,7 +644,8 @@ gap: 20px;
   width:90%;
  }
   .twocolumncompare{
-    width:90%;
+    /* width:90%; */
+    width:100%;
     /* flex-wrap: wrap; */
     /* flex-direction: column; */
   }
