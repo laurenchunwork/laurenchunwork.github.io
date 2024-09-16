@@ -504,7 +504,13 @@ gap: 20px;
   flex-direction: column;
 }
 
+.p-grp p{
+margin:0;
+}
 
+.p-grp h4{
+  margin:0;
+  }
 .sectionimagecolumn{
   width: 100%;
   display: flex;
