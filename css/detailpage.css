@@ -27,7 +27,7 @@ h4{
   flex-wrap: wrap;
 }
 .heroImage{
-  flex:1;
+flex:1;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -53,10 +53,8 @@ align-items: center;
 color: #6f7287;
 }
 .heroImage img{
-  /* margin:2.5% 0%; */
   flex-shrink: 0;
   max-height:400px;
-  /* width:100vw; */
   object-fit: contain;
 }
 
@@ -697,7 +695,6 @@ gap: 20px;
     width:100%;
   }
   .heroImage img{
-    /* width:90%; */
     height:300px;
   }
  
