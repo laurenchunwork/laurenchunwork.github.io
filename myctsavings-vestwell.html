@@ -74,8 +74,7 @@
             />
             <img
               src="assets/covers/vestwell-myctsavings-redesign-cover.jpg"
-              loading="lazy"
-              alt="image of three mobile displays of the redesign, text reads: only the best for christmas, archive 89, and vintage stone island shimmer jacket (xl) "
+              alt="image of landing pages mobile and desktop "
             />
           </picture>
         </div>
@@ -89,7 +88,7 @@
               clients and support <b>Unified Log In,</b> a single platform for
               employers and savers, our team was tasked with redesigning the
               <a href="https://osc.ct.gov/"
-                >Connecticut Office of the State Comptroller’s </a
+                >Connecticut Office of the State Comptroller’s</a
               >savings program.
             </p>
             <p>
@@ -142,6 +141,7 @@
                   align-items: center;
                   text-decoration: none;
                   color: #39364f;
+                  font-weight: 600;
                 "
               >
                 Website
@@ -160,12 +160,18 @@
             <h2>Final Solution</h2>
           </div>
           <div class="overviewsectionimage">
-            <img
-              class="overviewfullimage"
-              loading="lazy"
-              src="assets/vestwell/homepage-mock-noframe-noborderradius.png"
-              alt="MyCTSavings Website Home Page"
-            />
+            <picture class="overviewfullimage">
+              <source
+                srcset="
+                  assets/vestwell/homepage-mock-noframe-noborderradius.webp
+                "
+                type="image/webp"
+              />
+              <img
+                src="assets/vestwell/homepage-mock-noframe-noborderradius.png"
+                alt="MyCTSavings Website Home Page"
+              />
+            </picture>
           </div>
         </div>
       </div>
@@ -224,10 +230,17 @@
             family as secondary.
           </p>
           <div class="sectionimagecolumn2">
+          </div>
+          <picture   style="max-width: 1000px">
+            <source
+              srcset="assets/covers/vestwell-myctsavings-redesign-cover.webp"
+              type="image/webp"
+            />
             <img
               src="assets/vestwell/users-digram.png"
-              style="max-width: 1000px"
+            
             />
+            </picture>
             <!-- <h4>Key Guidelines</h4>
             <p>
               Brand Colors, Timeline, Client Feedback, State Regulations, Legal
@@ -1306,24 +1319,6 @@
       </div>
       <div class="suggested-blocks">
         <div class="suggestion">
-          <a href="sraintern.html">
-            <picture>
-              <source srcset="assets/covers/samsungintern-cover.webp" />
-              <img
-                class="mediumImage"
-                src="assets/covers/samsungintern-cover.jpg"
-                loading="lazy"
-                alt="a vr scene in a room with a chemistry equation on the board and a large human scale glass container with particles in it moving."
-              />
-            </picture>
-            <h4>Samsung Research America XR Design</h4>
-            <p class="subdescription">
-              Designed user experience of social interaction for an AI-powered
-              digital human...
-            </p>
-          </a>
-        </div>
-        <div class="suggestion">
           <a href="knownsource.html">
             <picture>
               <source srcset="assets/covers/knownsource-2.webp" />
@@ -1338,6 +1333,24 @@
             <p class="subdescription">
               Redesigned user experience for e-commerce marketplace to promote
               credibility and trust...
+            </p>
+          </a>
+        </div>
+        <div class="suggestion">
+          <a href="sraintern.html">
+            <picture>
+              <source srcset="assets/covers/samsungintern-cover.webp" />
+              <img
+                class="mediumImage"
+                src="assets/covers/samsungintern-cover.jpg"
+                loading="lazy"
+                alt="a vr scene in a room with a chemistry equation on the board and a large human scale glass container with particles in it moving."
+              />
+            </picture>
+            <h4>Samsung Research America XR Design</h4>
+            <p class="subdescription">
+              Designed user experience of social interaction for an AI-powered
+              digital human...
             </p>
           </a>
         </div>
