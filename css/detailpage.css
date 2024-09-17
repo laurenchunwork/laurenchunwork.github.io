@@ -1,4 +1,3 @@
-
 .hero{
   width:100%;
   display: flex;
@@ -137,6 +136,16 @@ place-items: center;
 }
 .headerText{
   color:#337AB7;
+}
+.statLink{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #39364f;
+  font-weight: 600;
+}
+.statLinkWord:hover{
+  text-decoration: underline;
 }
 
 .sectionHead{
