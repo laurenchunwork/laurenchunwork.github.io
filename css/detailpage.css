@@ -32,10 +32,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
 .heroTitle{
   flex:1;
-  /* min-width: 200px; */
-  /* margin:0% 1%; */
   margin-left: 16.7%;
 }
 .heroTitle h1{
@@ -728,6 +727,7 @@ margin:0;
     } */
 }
 @media (max-width:600px){
+  
   .designprocessimg{
     display: none;
   }
