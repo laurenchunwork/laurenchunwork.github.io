@@ -1,3 +1,20 @@
+
+// make the arrow change from pointing right to down
+  // function updateArrowIcon() {
+  //   const arrowIcon = document.getElementById('arrow-switch');
+    
+  //   if (window.innerWidth <= 768) {
+  //     arrowIcon.textContent = 'arrow_downward';  
+  //   } else {
+  //     arrowIcon.textContent = 'arrow_forward';
+  //   }
+  // }
+
+  // window.addEventListener('resize', updateArrowIcon);
+
+  // updateArrowIcon();
+
+
 ////////////////////skip to active overlay//////////////////////// 
 document.addEventListener("DOMContentLoaded", function(event) {
     var overlay = document.getElementById("overlay");
