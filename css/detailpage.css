@@ -661,7 +661,6 @@ img.large-diagram{
 img.med-diagram{
   width: 400px;
   height: auto; 
-  margin: 1%;
   padding: 2.5%;
   background-color: rgb(226, 226, 226);
 }
@@ -702,9 +701,12 @@ img.mobilecomparescreenshots{
 
   .sectionimagecolumn{
     width:90%;
+    gap:10px;
   }
   img.med-diagram{
-    width: 600px !important;
+    width: 600px;
+    /* padding:0;
+    margin:0; */
   }
   .herocontainer{
     width:100%;
@@ -811,10 +813,15 @@ img.mobilecomparescreenshots{
   width:90%;
 }
 }
+
 @media (max-width:700px){
   img.large-diagram{
     width:500px;
     padding:1%;
+  }
+
+  img.med-diagram{
+  width:550px;
   }
 }
 @media(min-width: 1270px){
@@ -831,6 +838,7 @@ img.mobilecomparescreenshots{
     display: inline-block;
   }
 }
+
 @media (max-width:600px){
   .threecolumnsmall{
     flex-direction: column;
@@ -858,8 +866,9 @@ img.mobilecomparescreenshots{
 
   } */
 
-  .med-diagram{
-   width: 300px !important;
+  img.med-diagram{
+   width: 100%;
+   padding: 0%;
     }
   
     .mobilecomparescreenshots{
