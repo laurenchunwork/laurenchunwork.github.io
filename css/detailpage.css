@@ -811,6 +811,12 @@ img.mobilecomparescreenshots{
 } */
 .twocolumn-longimage {
   width:90%;
+  flex-direction: column;
+}
+
+.sectiontextcolumn-longimage{
+  width:100%;
+  max-width: none;
 }
 }
 
