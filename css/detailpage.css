@@ -157,6 +157,10 @@ place-items: center;
 .iconh4{
   display:flex; align-items: center; justify-content:start; gap:10px;
 }
+
+.highlight-icon{
+  font-size:60px; color:aliceblue; background-color: #337AB7; border-radius: .5em; padding:10px;
+}
 /* SECTION CSS BEGIN */
 .section{
   display: flex;
