@@ -764,6 +764,7 @@ img.mobilecomparescreenshots{
 }
  .twocolumn{
   flex-direction: column;
+  width:90%;
   /* gap:0px; */
  }
  /* .threecolumn{
