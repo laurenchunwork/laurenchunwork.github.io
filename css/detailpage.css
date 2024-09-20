@@ -573,6 +573,7 @@ sectionimagecolumn-longimage {
   width:auto;
   max-height:500px;
 }
+
 .accent p{
   margin-top:0;
 }
@@ -687,7 +688,8 @@ img.mobilecomparescreenshots{
   }
   
   img.med-diagram{
-    width: 400px; height: auto; margin: 1%; padding: 2.5%; background-color: rgb(226, 226, 226);
+    width:90%;
+    height: auto; margin: 1%; padding: 2.5%; background-color: rgb(226, 226, 226);
   }
 }
 
@@ -916,6 +918,13 @@ img.mobilecomparescreenshots{
   .sectiontextcolumn-longimage{
     width:100%;
     max-width: none;
+  }
+  .image-section{
+    width:66.6%; 
+  }
+
+  img.med-diagram{
+    width:90%;
   }
 }
 .recommendedprojects{
