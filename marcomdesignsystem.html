@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marcom Design System - Lauren Chun</title>
+    <title>Marketing Communications Focused Web Design System - Lauren Chun</title>
+    <link rel="preload" as="image" href="assets/covers/vestwell-myctsavings-redesign-cover.webp" type="image/webp">
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
@@ -19,38 +20,7 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Lauren's Portfolio" />
-    <script type="text/javascript" src="js/main.js" defer></script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-Z3RP5DVHQK"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-Z3RP5DVHQK");
-    </script>
-    <script
-      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
-      type="module"
-    ></script>
-    <script type="text/javascript">
-      (function (c, l, a, r, i, t, y) {
-        c[a] =
-          c[a] ||
-          function () {
-            (c[a].q = c[a].q || []).push(arguments);
-          };
-        t = l.createElement(r);
-        t.async = 1;
-        t.src = "https://www.clarity.ms/tag/" + i;
-        y = l.getElementsByTagName(r)[0];
-        y.parentNode.insertBefore(t, y);
-      })(window, document, "clarity", "script", "llyif5qyxy");
-    </script>
+    
   </head>
   <body>
     <nav id="nav"></nav>
@@ -60,13 +30,11 @@
         <div class="grayaccent herocontainer">
           <div class="heroTitle">
             <h1>Marketing Communication Design System</h1>
-            <h4>
-              Creating a Design System to expedite design and development
-              workflow
-            </h4>
+            <h4> Creating a Design System to expedite design and development
+                workflow</h4>
             <p>
-              Unify design of Vestwell's State Savings program client website
-              pages.
+                Unify design of Vestwell's State Savings program client website
+                pages.
             </p>
           </div>
           <picture class="heroImage">
@@ -76,8 +44,7 @@
             />
             <img
               src="assets/covers/vestwell-myctsavings-redesign-cover.jpg"
-              loading="lazy"
-              alt="image of three mobile displays of the redesign, text reads: only the best for christmas, archive 89, and vintage stone island shimmer jacket (xl) "
+              alt="image of landing pages mobile and desktop"
             />
           </picture>
         </div>
@@ -91,8 +58,8 @@
               clients and support <b>Unified Log In,</b> a single platform for
               employers and savers, our team was tasked with redesigning the
               <a href="https://osc.ct.gov/"
-                >Connecticut Office of the State Comptroller’s </a
-              >savings program.
+                >Connecticut Office of the State Comptroller’s</a
+              > savings program.
             </p>
             <p>
               The redesign aimed to modernize the look while keeping the
@@ -135,13 +102,13 @@
             <p>Figma</p>
           </div>
           <div class="stat-list">
-            <p class="headerText"><b>Links</b></p>
+            <p class="headerText">Links</p>
             <p>
               <a
                 href="myctsavings-vestwell.html"
-                style="display: flex; align-items: center; color: #39364f"
+                class="statLink"
               >
-                Accompanying Redesign Case Study
+                <span class="statLinkWord">Client Case Study</span>
                 <span class="material-symbols-outlined">
                   arrow_forward
                 </span></a
@@ -157,12 +124,18 @@
             <h2>Final Solution</h2>
           </div>
           <div class="overviewsectionimage">
-            <img
-              class="overviewfullimage"
-              loading="lazy"
-              src="assets/vestwell/homepage-mock-noframe-noborderradius.png"
-              alt="MyCTSavings Website Home Page"
-            />
+            <picture class="overviewfullimage">
+              <source
+                srcset="
+                  assets/vestwell/homepage-mock-noframe-noborderradius.webp
+                "
+                type="image/webp"
+              />
+              <img
+                src="assets/vestwell/homepage-mock-noframe-noborderradius.png"
+                alt="MyCTSavings Website Home Page"
+              />
+            </picture>
           </div>
         </div>
       </div>
@@ -221,10 +194,17 @@
             family as secondary.
           </p>
           <div class="sectionimagecolumn2">
+          </div>
+          <picture   style="max-width: 1000px">
+            <source
+              srcset="assets/vestwell/users-digram.webp"
+              type="image/webp"
+            />
             <img
               src="assets/vestwell/users-digram.png"
-              style="max-width: 1000px"
+            
             />
+            </picture>
             <!-- <h4>Key Guidelines</h4>
             <p>
               Brand Colors, Timeline, Client Feedback, State Regulations, Legal
@@ -259,6 +239,7 @@
                   border: none;
                   align-items: start;
                   justify-content: left;
+                  height:auto;
                 "
               >
                 <p
@@ -278,6 +259,7 @@
                   border: none;
                   align-items: start;
                   justify-content: left;
+                  height:auto;
                 "
               >
                 <p
@@ -297,6 +279,7 @@
                   border: none;
                   align-items: start;
                   justify-content: left;
+                  height:auto;
                 "
               >
                 <p
@@ -312,9 +295,24 @@
         </div>
       </div>
       <div class="section grayaccent">
-        <!-- add title here  -->
-        <div class="twocolumncompare" style="gap: 10px; width: 90%">
-          <div class="sectionimagecolumn2">
+        <div class="trigger-set p-blurb-top2">
+          <h2>Redesign Comparison</h2>
+          <div class="trigger">
+            <svg
+              class="accentline"
+              xmlns="http://www.w3.org/2000/svg"
+              width="202"
+              height="6"
+              viewBox="0 0 202 6"
+              fill="none"
+            >
+              <path d="M0 3H202" stroke="#337AB7" stroke-width="5" />
+            </svg>
+          </div>
+        </div>
+
+        <div class="twocolumncompare2" style="gap: 10px; width: 90%">
+          <div class="sectionimagecolumn p-grp">
             <img
               class=""
               style="max-height: 400px"
@@ -327,7 +325,7 @@
           <span class="material-symbols-outlined large-icon">
             arrow_forward
           </span>
-          <div class="sectionimagecolumn2">
+          <div class="sectionimagecolumn p-grp">
             <img
               class=""
               style="max-height: 400px"
@@ -381,6 +379,58 @@
       </div>
       <div class="section trigger-set">
         <div class="p-blurb">
+          <h2>Adjusting the sitemap</h2>
+          <div class="trigger">
+            <svg
+              class="accentline"
+              xmlns="http://www.w3.org/2000/svg"
+              width="202"
+              height="6"
+              viewBox="0 0 202 6"
+              fill="none"
+            >
+              <path d="M0 3H202" stroke="#337AB7" stroke-width="5" />
+            </svg>
+          </div>
+          <div class="sectiontextcolumn">
+            <div class="p-grp">
+              <h4>Simplfying the sitemap</h4>
+              <p>
+                Updated with users in mind. We kept the sitemap in tack, but with slight modifications.
+              </p>
+              <h4>Things changed</h4>
+              <ul>
+                <li>
+                  Removed Spanish pages from the top nav and added a Spanish toggle button to translate the website for Spanish speakers.
+                </li>
+                <li>Removed "us" from About us and Contact us.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section grayaccent">
+        <!-- <div class="p-blurb"> -->
+
+            <!-- <div class="sectionimagecolumn">
+              <img src="assets/vestwell/sitemap-original.png" alt="sitemap of spanish" style="width:700px">
+              <p>Spanish Site Map</p>
+            </div> -->
+            <div class="sectionimagecolumn p-grp" style="padding-bottom: 2.5%;">
+              <h4>Refined sitemap</h4>
+              <img src="assets/vestwell/sitemap-postredesign-detailed.png" alt="sitemap of spanish"  class="large-diagram">
+              <div class="p-grp">
+              <p>Simplifying catergory headers and removing the Spanish section to create a translation option</p>
+              <p>*<b>Resource and FAQ</b> are nested togglable pages.</p>
+            </div>
+            </div>
+
+          
+        <!-- </div> -->
+      </div>
+      <div class="section trigger-set">
+        <div class="p-blurb">
           <h2>Iteration and ideation</h2>
           <div class="trigger">
             <svg
@@ -410,21 +460,21 @@
         <!-- <div class="p-blurb"> -->
         <div class="overviewsectionimage">
           <h4>Savers Userflow</h4>
+          <picture class="overviewfullimage"> 
+            <source srcset="assets/vestwell/wireframe-orsaves.webp" type="image/webp">
           <img
-            class="overviewfullimage"
             loading="lazy"
             src="assets/vestwell/wireframe-orsaves.png"
             alt="MyCTSavings Website Home Page"
           />
-
+        </picture>
           <!-- <p>Userflow</p> -->
         </div>
         <!-- </div> -->
       </div>
       <div class="section trigger-set">
-        <div class="p-blurb" style="width: auto; margin: 2.5% 5% 2.5% 16.7%">
-          <div class="twocolumnquad">
-            <div class="sectiontextcolumn">
+          <div class="twocolumn-longimage">
+            <div class="sectiontextcolumn-longimage">
               <div class="">
                 <h2>Creating the Design System</h2>
                 <div class="trigger">
@@ -464,15 +514,19 @@
                   </span></a> -->
               </div>
             </div>
-            <div class="sectionimagecolumn2">
-              <img
+            <div class="sectionimagecolumn-longimage">
+              <picture >
+                <source srcset="assets/vestwell/marcom-design-system-cover2.webp" type="image/webp">
+              <img style="max-width: 650px"
                 src="assets/vestwell/marcom-design-system-cover2.jpg"
-                class="longImage"
+                loading="lazy"
+                alt="design system cover with components"
               />
+            </picture>
               <!-- <p>Design system</p> -->
             </div>
           </div>
-          <div class="">
+          <div class="p-blurb-bot2">
             <h4>Frontend collaboration</h4>
             <p>
               Since the previous design lacked a design system, a part of my
@@ -480,9 +534,8 @@
               work with our engineer.
             </p>
           </div>
-        </div>
       </div>
-
+ 
       <!-- <div class="section">
         <div class="" style="margin: 2.5% 0%; width: 66.6%">
           <div class="twocolumnquad">
@@ -546,7 +599,7 @@
           <div class="twocolumnquad">
             <div class="sectionimagecolumn">
               <img
-                class="mediumImage"
+                class="mediumLargeImage"
                 loading="lazy"
                 src="assets/vestwell/home-page.png"
                 alt="MyCTSavings Website Home Page"
@@ -555,7 +608,7 @@
             </div>
             <div class="sectionimagecolumn">
               <img
-                class="mediumImage"
+                class="mediumLargeImage"
                 loading="lazy"
                 src="assets/vestwell/employers-program-details-page.png"
                 alt="MyCTSavings Website Home Page"
@@ -566,7 +619,7 @@
           <div class="twocolumnquad">
             <div class="sectionimagecolumn">
               <img
-                class="mediumImage"
+                class="mediumLargeImage"
                 loading="lazy"
                 src="assets/vestwell/savers-withdrawals-page.png"
                 alt="MyCTSavings Website Home Page"
@@ -575,7 +628,7 @@
             </div>
             <div class="sectionimagecolumn">
               <img
-                class="mediumImage"
+                class="mediumLargeImage"
                 loading="lazy"
                 src="assets/vestwell/contact-page.png"
                 alt="MyCTSavings Website Home Page"
@@ -654,8 +707,8 @@
         </div>
       </div>
       <div class="section trigger-set">
-        <div class="p-blurb">
-          <div class="twocolumnquad">
+        <div class="twocolumn">
+          <!-- <div class="twocolumnquad"> -->
             <div class="sectiontextcolumn">
               <div class="">
                 <h2>1. Navigation</h2>
@@ -693,18 +746,21 @@
               </div>
             </div>
             <div class="sectionimagecolumn2">
-              <img
+              <picture class="mediumLargeImage">
+                <source srcset="assets/vestwell/wireframe-compare-navigation.webp" type="image/webp">
+              <img class="mediumLargeImage"
                 src="assets/vestwell/wireframe-compare-navigation.png"
                 alt="add graphic to show the dropdown"
-                class="mediumLargeImage"
+               
               />
+            </picture>
             </div>
-          </div>
+          <!-- </div> -->
         </div>
       </div>
       <div class="section grayaccent">
         <div class="twocolumnquad" style="margin: 2.5% 0%; width: 66.6%">
-          <div class="sectionimagecolumn2">
+          <div class="sectionimagecolumn2 p-grp">
             <img
               style="clip-path: inset(0px 1px 1px 2px); width: 100%"
               loading="lazy"
@@ -719,20 +775,19 @@
               </p>
             </div>
           </div>
-          <span
+          <span id="arrow-switch"
             class="material-symbols-outlined"
             style="text-align: center; font-size: 36px"
           >
             arrow_forward
           </span>
-          <div class="sectionimagecolumn2">
+          <div class="sectionimagecolumn2 p-grp">
             <img
               style="clip-path: inset(0px 1px 1px 2px); width: 100%"
               loading="lazy"
               src="assets/vestwell/gifs/navigate-meganav-programdetails.gif"
               alt="MyCTSavings Website Home Page"
             />
-
             <div class="p-grp">
               <h4>Mega navigation</h4>
               <p>
@@ -751,9 +806,11 @@
           </div>
         </div>
       </div>
+<!-- talk more about breaking down the tokens and core system creation -->
+
+
       <div class="section trigger-set">
-        <div class="p-blurb">
-          <div class="twocolumnquad" style="align-items: start">
+          <div class="twocolumn">
             <div class="sectiontextcolumn" style="margin: 0%">
               <div class="">
                 <h2>2. Color and Accessibility</h2>
@@ -803,14 +860,15 @@
               </div>
             </div>
             <div class="sectionimagecolumn2">
+              <picture> <source srcset="assets/vestwell/all-expanded-colors.webp" type="image/webp">
               <img
                 loading="lazy"
                 style="max-width: 500px"
                 src="assets/vestwell/all-expanded-colors.png"
               />
+            </picture>
             </div>
           </div>
-        </div>
       </div>
       <div class="section">
         <div class="p-blurb">
@@ -820,18 +878,20 @@
                 <h4>Color expansion</h4>
                 <p>
                   Since the <b>brand colors</b> were vibrant highly saturated
-                  colors, we desaturated them adding either
-                  <b>white or black</b> to add contrast.
+                  colors, we adjusted the <b>tint or shade</b> to balance the color palette.
                 </p>
               </div>
             </div>
             <div class="sectionimagecolumn2">
+              <picture>
+                <source srcset="assets/vestwell/all-colors-explain.webp" type="image/webp">
               <img
                 src="assets/vestwell/all-colors-explain.png"
                 class="largeImage"
                 loading="lazy"
                 alt="color diagram"
               />
+            </picture>
               <p>Expanded colors came from the originals</p>
             </div>
           </div>
@@ -861,17 +921,22 @@
       </div>
       <div class="section grayaccent">
         <div class="p-blurb">
-          <div class="sectionimagecolumn2">
+          <div class="sectionimagecolumn2 p-grp">
             <h4>Color Contrast Ratio Analysis</h4>
+            <picture>
+              <source srcset="assets/vestwell/accessibility-test-colors.webp" type="image/webp">
             <img
               src="assets/vestwell/accessibility-test-colors.png"
               loading="lazy"
               alt="accessibility color visual"
             />
-            <p>
+          </picture>
+            <div class="p-grp" style="width: 100%">
+            <p style="max-width: 100% !important;">
               Using the original colors was not accessible, the adjusted colors
               increased contrast to make the design more accessible.
             </p>
+          </div>
           </div>
         </div>
       </div>
@@ -909,28 +974,48 @@
             </p>
           </div>
           <div class="sectionimagecolumn">
+            <picture>
+              <source srcset="assets/vestwell/home-page-spanish.webp" type="webp">
             <img
               clas="mediumImage"
               src="assets/vestwell/home-page-spanish.png"
               alt="sticky notes with text representing the notes from user interviews"
             />
+          </picture>
           </div>
         </div>
       </div>
       <div class="grayaccent section">
-        <div class="sectionimagecolumn2">
+        <h4>Condensing information</h4>
+        <div class="twocolumnquad image-section" style="padding-bottom: 2.5%;" > 
+          <div class="sectionimagecolumn">
           <img
-            style="width: 700px; height: auto; margin: 1%"
-            src="assets/vestwell/employers_pages_translated.png"
+            class="med-diagram"
+            loading="lazy"
+            src="assets/vestwell/saverspagesintospanishsaverspage.png"
             alt="sticky notes with text representing the notes from user interviews"
           />
-          <p>
-            English employers pages are combined into 1 Spanish employer page
-          </p>
+          <p>Savers Pages</p>
+
         </div>
+        <div class="sectionimagecolumn">
+        <img
+          class="med-diagram"
+          loading="lazy"
+          src="assets/vestwell/employerspagesintospanishemployerpage.png"
+          alt="sticky notes with text representing the notes from user interviews"
+        />
+        <p>Employers Pages</p>
+      </div>
+          </div>
+         
       </div>
       <div class="section">
         <div class="p-blurb">
+          <h4>Technical Constraints</h4>
+          <p>
+            For the sake of technical constraints, English employers and savers pages are combined into 1 Spanish employer page and 1 Spanish savers page. Complete localization of all pages is roadmapped in.
+          </p>
           <p>
             The Employer and Saver pages were prioritized to give an overview
             and the essential information with an FAQ page to supplement.
@@ -1007,7 +1092,7 @@
           </div>
         </div>
         <p>Main Pages Translate</p> -->
-        <div class="twocolumncompare">
+        <div class="twocolumncompare2">
           <div class="sectionimagecolumn">
             <img
               loading="lazy"
@@ -1063,7 +1148,7 @@
           </div>
           <div class="sectionimagecolumn2">
             <img
-              style="max-width: 800px"
+              class="mobilecomparescreenshots"
               src="assets/vestwell/making-changes-mobile-spanish.png"
               alt="sticky notes with text representing the notes from user interviews"
             />
@@ -1072,8 +1157,8 @@
         </div>
       </div>
       <div class="section grayaccent">
-        <div class="twocolumncompare">
-          <div class="sectionimagecolumn">
+        <div class="twocolumncompare2">
+          <div class="sectionimagecolumn" style="padding-bottom: 2.5%;">
             <img
               loading="lazy"
               style="max-width: 250px"
@@ -1082,7 +1167,7 @@
             />
             <p>Home page</p>
           </div>
-          <div class="sectionimagecolumn">
+          <div class="sectionimagecolumn" style="padding-bottom: 2.5%;">
             <img
               loading="lazy"
               style="max-width: 250px"
@@ -1091,7 +1176,7 @@
             />
             <p>Mega navigation</p>
           </div>
-          <div class="sectionimagecolumn">
+          <div class="sectionimagecolumn" style="padding-bottom: 2.5%;">
             <img
               loading="lazy"
               style="max-width: 250px"
@@ -1100,7 +1185,7 @@
             />
             <p>Employers page</p>
           </div>
-          <div class="sectionimagecolumn">
+          <div class="sectionimagecolumn" style="padding-bottom: 2.5%;">
             <img
               loading="lazy"
               style="max-width: 250px"
@@ -1111,7 +1196,89 @@
           </div>
         </div>
       </div>
+      <div class="section trigger-set">
+        <div class="p-blurb">
+          <h2>Overall Design</h2>
+          <div class="trigger">
+            <svg
+              class="accentline"
+              xmlns="http://www.w3.org/2000/svg"
+              width="202"
+              height="6"
+              viewBox="0 0 202 6"
+              fill="none"
+            >
+              <path d="M0 3H202" stroke="#337AB7" stroke-width="5" />
+            </svg>
+          </div>
+          <div class="p-grp">
+            The design was completed in a little less than a month from conception to launch. The design consisted of 28 pages.
+          </div>
+        </div>
+      </div>
+      <div class="section grayaccent">
+        <div class="p-blurb">
+          <div class="sectionimagecolumn p-grp ">
+            <picture class="">
+              <!-- <source srcset="assets/vestwell/launched-sites.webp" type="image/webp"> -->
+              <img src="assets/vestwell/allmocks.png" class="">
+            </picture>
+            <p>all 28 Pages designed</p>
+          </div>
+        </div>
+          </div>
+      <div class="section ">
+        <div class="p-blurb">
+          <!-- <h2>Other Considerations</h2> -->
+          <!-- <div class="trigger">
+            <svg
+              class="accentline"
+              xmlns="http://www.w3.org/2000/svg"
+              width="202"
+              height="6"
+              viewBox="0 0 202 6"
+              fill="none"
+            >
+              <path d="M0 3H202" stroke="#337AB7" stroke-width="5" />
+            </svg>
+          </div> -->
+          <div class="twocolumnquad">
+            <div class="sectiontextcolumn">
+              <div class="p-grp">
+              <h4>Other Considerations</h4>
+              <!-- <p>
+                In my time at Vestwell, I had the pleasure to influence the design of 5 websites. Some were redesigns and others were new pages. 
+              </p> -->
+               <p> MyCT's colors and unique options both employer and saver personas shaped the design.</p>
+               <div class="p-grp">
+                <!-- <h4>All clients</h4> -->
+                <span style="font-weight: 600;"> Client brand relationship challenges </span>
+                <p> Some clients partnered with other client and this affected the branding.</p>
+                <span style="font-weight: 600;"> Quick solutions </span>
+                <p> The current technical constraints and I had the opportunity to design solutions for the latest launches that would have our long term solutions would be roadmapped in.</p>
+              </div>
+            </div>
+  
+            <!-- <div class="p-grp">
+              <h4>Creation of new features</h4>
+              <p></p>
+  
+  
+            </div> -->
+          </div>
 
+            <div class="sectionimagecolumn p-grp">
+              <picture class="largeImage">
+                <source srcset="assets/vestwell/launched-sites.webp" type="image/webp">
+                <img src="assets/vestwell/launched-sites.png" class="largeImage">
+              </picture>
+              <p>Some of the launched sites</p>
+            </div>
+              
+            </div>
+         
+        </div>
+      </div>
       <div class="section trigger-set">
         <div class="p-blurb">
           <h2>Outcomes</h2>
@@ -1151,7 +1318,7 @@
           </div>
         </div>
       </div> -->
-      <div class="section trigger-set">
+      <div class="section trigger-set grayaccent">
         <div class="p-blurb">
           <h2>Takeaways</h2>
           <div class="trigger">
@@ -1167,16 +1334,24 @@
             </svg>
           </div>
           <div class="sectiontextcolumn">
-            <p>
+            <ul class="p-grp">
+              <li>
+            <!-- <p> -->
               <b>Learned</b> how to identify what is critical to focus on with a
               client
-            </p>
-            <p>
+            <!-- </p> -->
+          </li>
+          <li>
+            <!-- <p> -->
               <b>Defined</b> success criteria for Marketing Communications site
-            </p>
-            <p>
+            <!-- </p> -->
+          </li>
+          <li>
+            <!-- <p> -->
               <b>Learn more</b> about the process of from design to development
-            </p>
+            <!-- </p> -->
+          </li>
+          </ul>
           </div>
         </div>
       </div>
@@ -1198,7 +1373,10 @@
           </div>
           <div class="sectiontextcolumn">
             <div class="p-grp">
-              <h4>Need for resources</h4>
+              
+              <h4 class="iconh4"> <span class="material-symbols-outlined">
+                code
+                </span>Need for resources</h4>
               <p>
                 Due high demand of marketing communication sites, we were unable
                 to launch a few things. Our sole engineer had many things to
@@ -1206,18 +1384,26 @@
               </p>
             </div>
             <div class="p-grp">
-              <h4>Mega navigation</h4>
+              <h4 class="iconh4"> <span class="material-symbols-outlined">
+                list
+                </span>Mega navigation</h4>
               <p>The site launched with an adapted side-car navigation</p>
             </div>
             <div class="p-grp">
-              <h4>Clients asks</h4>
+             
+              <h4 class="iconh4">  <span class="material-symbols-outlined">
+                speaker_notes
+                </span>Clients asks</h4>
               <p>
                 After finalizing the website pre-launch, the client asked for
                 some features that were out of scope to design and develop.
               </p>
             </div>
             <div class="p-grp">
-              <h4>Managing acquisitions</h4>
+              
+              <h4 class="iconh4"> <span class="material-symbols-outlined"> 
+                handshake
+                </span>Managing acquisitions</h4>
               <p>
                 The marketing communications sites were an acquisition from
                 Sumday and will be further integrated into the Vestwell
@@ -1247,34 +1433,36 @@
               <path d="M0 3H202" stroke="#337AB7" stroke-width="5" />
             </svg>
           </div>
-          <div class="sectiontextcolumn">
-            <div class="p-grp">
-              <h4>Marketing Communications</h4>
+          <div class="p-grp" style="margin: 10px 0px 10px 0px">
+            <p>During my 3 months at Vestwell, I launched 5 sites, learning to effectively use the design system to manage multiple clients simultaneously.</p></div>
+          <div class="twocolumnquad mobilesmallercolumn">
+            <div class="sectionimagecolumn sectionmobilesmallercolumn">
+              <span class="material-symbols-outlined highlight-icon">
+                campaign
+                </span>
+                <h4 > 
+                Marketing communications</h4>
               <p>
-                We launchd 5 sites in the 3 months I was at Vestwell, I learned
-                how to utilize the design system to help me tackle multiple
-                clients at once. I learned a lot what to emphasis for marketing
-                communications sites.
-              </p>
-              <p>
-                As there are multiple clients who get the same sorts of sites, I
-                had to learn how to juggle expectations and explain if other
-                sites were at different points of being redesigned.
+                Emphasizing key elements for marketing communications sites and honed my ability to <b>juggle client expectations</b> while explaining the varying stages of site redesigns.
               </p>
             </div>
-            <div class="p-grp">
-              <h4>Language and Legal compliance</h4>
+            <div class="sectionimagecolumn sectionmobilesmallercolumn">
+              <span class="material-symbols-outlined highlight-icon">
+                assured_workload
+                </span>
+                <h4>
+             Language & legal compliance</h4>
               <p>
-                I was so glad we had a copywriter to help be an expert on exact
-                verbiage of <b>legal language and localization</b>.
+                Working with a dedicated copywriter who specialized in legal language and localization, ensuring <b>accurate and compliant content</b>.
               </p>
             </div>
-            <div class="p-grp">
-              <h4>The sky’s the limit!</h4>
+            <div class="sectionimagecolumn sectionmobilesmallercolumn">
+              <span class="material-symbols-outlined highlight-icon">
+                rocket_launch
+                </span>
+              <h4>The sky’s the limit</h4>
               <p>
-                I wished to be able to spend more time understanding how all
-                marketing communications worked to better design that would be
-                reflected better each each type of savings program page.
+                More time to understand the nuances of marketing communications to spend time understanding what data metrics we could use to better the design.
               </p>
             </div>
           </div>
@@ -1287,24 +1475,6 @@
         <h3>Recommended Works</h3>
       </div>
       <div class="suggested-blocks">
-        <div class="suggestion">
-          <a href="sraintern.html">
-            <picture>
-              <source srcset="assets/covers/samsungintern-cover.webp" />
-              <img
-                class="mediumImage"
-                src="assets/covers/samsungintern-cover.jpg"
-                loading="lazy"
-                alt="a vr scene in a room with a chemistry equation on the board and a large human scale glass container with particles in it moving."
-              />
-            </picture>
-            <h4>Samsung Research America XR Design</h4>
-            <p class="subdescription">
-              Designed user experience of social interaction for an AI-powered
-              digital human...
-            </p>
-          </a>
-        </div>
         <div class="suggestion">
           <a href="knownsource.html">
             <picture>
@@ -1323,10 +1493,58 @@
             </p>
           </a>
         </div>
+        <div class="suggestion">
+          <a href="sraintern.html">
+            <picture>
+              <source srcset="assets/covers/samsungintern-cover.webp" />
+              <img
+                class="mediumImage"
+                src="assets/covers/samsungintern-cover.jpg"
+                loading="lazy"
+                alt="a vr scene in a room with a chemistry equation on the board and a large human scale glass container with particles in it moving."
+              />
+            </picture>
+            <h4>Samsung Research America XR Design</h4>
+            <p class="subdescription">
+              Designed user experience of social interaction for an AI-powered
+              digital human...
+            </p>
+          </a>
+        </div>
       </div>
     </div>
     <hr class="hr-recommend" />
     <div class="backbuttonmain" id="backbutton"></div>
     <div id="footer"></div>
   </body>
+  <script type="text/javascript" src="js/detailpage.js" defer></script>
+
+  <script type="text/javascript" src="js/main.js" defer></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Z3RP5DVHQK"
+    ></script>
+    <script  async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-Z3RP5DVHQK");
+    </script>
+    <script  async type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "llyif5qyxy");
+    </script>
 </html>
