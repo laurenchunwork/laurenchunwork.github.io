@@ -416,7 +416,16 @@ gap: 20px;
   width:100%;
   flex-wrap: wrap;
 }
+.threecolumnimpactstats{
+    display: inline-flex;
+    justify-content: start;
+    /* align-items: center; */
+    flex-direction: row;
+    gap: 30px;
+    width:100%;
+    flex-wrap: wrap;
 
+}
 .comparecolorcolumn{
   padding:1% 0%; background-color:white;
   width:66.6%;
