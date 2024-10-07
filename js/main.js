@@ -35,7 +35,7 @@ window.addEventListener('scroll', function() {
 });
 if (footer !== null) {
 footer.innerHTML = `
-<p>© Designed by <a href="about.html">Lauren Chun</a> | Product Designer </p>
+<p>© Designed and Developed by <a href="about.html">Lauren Chun</a> | Product Designer </p>
 <p> <a href="https://www.linkedin.com/in/laurenmchun/">Linkedin↗</a></p>
 `
 }
