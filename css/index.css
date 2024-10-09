@@ -225,9 +225,9 @@ div.menu li:hover{
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    flex: 1;
+    flex: 2;
     /* flex-shrink: 0; */
-    max-width: 460px;
+    max-width: 560px;
   }
   .landing-bio-text{
     font-size:16px;
@@ -248,7 +248,7 @@ div.menu li:hover{
   .landing-icon{
     display: flex;
     flex: 1;
-    margin:0rem 3rem;
+    /* margin:0rem 3rem; */
     justify-content: center;  
   }
   
