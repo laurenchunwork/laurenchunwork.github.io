@@ -44,7 +44,7 @@ if (otherWork !==null){
   otherWork.innerHTML = `
   <div class="otherprojects">
   <div class="header2title">
-    <h2>Other work</h2>
+    <h2>My Skillset</h2>
   </div>
   <div class="catergories">
     <div class="catergory">
