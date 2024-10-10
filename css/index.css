@@ -2,19 +2,27 @@ body{
     padding: 3rem 0rem 0rem 0rem;
     font-family: 'Poppins', 'Roboto', sans-serif;
         /* font-family:'Roboto', sans-serif; */
-
+    cursor: url('/assets/cursor-24.svg'), auto; 
     margin: 0;
     display: flex;
     flex-direction: column;
     color:#39364f;
+   
 }
+
+h3{
+  font-weight: 500;
+    /* margin:0; */
+}
+
 #nav{
     background-color: #fff;
     position: fixed;
     top: 0;
     z-index: 9;
-    width: 80%;
-    padding: 1% 12.5% 0% 12.5%;
+    width: 90%;
+    /* max-width: 1440px; */
+    padding: 1% 5% 0% 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +59,10 @@ flex-direction: column;
 justify-content: space-between;
 align-items: flex-start;
 flex-shrink: 0;
-padding: 0% 10% 0% 10%;
+padding: 0% 5% 0% 5%;
+/* max-width: 1440px; */
+width:90%;
+
 bottom: 0;
 position:relative;
 margin-top: auto;
@@ -205,8 +216,9 @@ div.menu li:hover{
     grid-template-rows: auto 1fr auto; 
     grid-template-columns: 1fr; 
     gap: 20px; 
-    padding:0vw 12.5vw;
-    align-items: start;
+    padding:0% 5%;
+    justify-items: center;
+    align-items: center; 
     margin-bottom: 2.5%;
   }
 
@@ -235,12 +247,76 @@ div.menu li:hover{
     /* color:#6f7287; */
   }
  
+  .project--highlights{
+    margin: 24px 0px; 
+    max-width: 1440px;
+  }
+  .highlight--project--section{
+    display: flex;
+    gap:48px;
+  }
+
+  .highlight--project{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    flex: 1;
+  }
+
+  .highlight--project--images{
+    max-width: 411px;
+  }
+  .highlight--project--images img{
+    width:100%;
+  }
+  .highlight--project--content{
+    max-width: 400px;
+    
+  }
+  .highlight--project a{
+    text-decoration: none;
+  }
+  .highlight--project--content{
+    display: flex; gap:12px; flex-direction: column;
+  }
+
+  .highlight--project--content p{
+    margin:0;
+    color:#39364f;
+  }
+
+  .highlight--project--content h3{
+    margin:0;
+    color:#39364f;
+  }
+  .type--tag{
+    background-color: #C1D5E6; color:#1F507A; border-radius: 10px; padding: 4px 8px;
+  }
+
+  .worked-with--container{
+    margin: 24px 0px;
+    width:90%;
+  }
+  .worked-with--companies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 24px 0px;
+    overflow-x: hidden;
+  }
+  .company--icons{
+      filter: grayscale(1); 
+      max-height: 40px;
+  }
+  .company--icons2{
+    max-height: 50px; filter: invert(1);
+  }
   .landing-bio-text-call{
     color:#6f7287;
     margin:10px 0px;
   }
   .heroName{
-    font-size: 36px;
+    font-size: 60px;
     margin:0;
     color:#39364f;
   }
@@ -321,7 +397,6 @@ div.menu li:hover{
     font-weight: 500;
     line-height: normal;
     /* letter-spacing: 1.4px; */
-    
     color:#39364f;
     margin:0;
     }
@@ -454,6 +529,8 @@ div.menu li:hover{
 .otherprojects{
   /* margin-top: 20px; */
   margin-top: 70px;
+  /* max-width: 1440px; */
+  max-width:100%;
   /* padding: 2.5% 0px; */
   /* background: #F5F5F5; */
   background-color: #FAFAFA;
@@ -598,6 +675,34 @@ div.menu li:hover{
 
 /* ///////////////////////////////MEDIA QUERY//////////////////////////////// */
 
+@media (max-width: 1350px){
+  .rounded-button {
+    margin: 1rem 3rem;
+  }
+  .highlight--project--images{
+    max-width: 311px;
+  }
+
+ 
+  .highlight--project--content{
+    max-width: 300px;
+  }
+
+  .project--highlights{
+  width:100%;
+  }
+  .highlight--project--section{
+  gap:24px;
+  }
+  .company--icons{
+    filter: grayscale(1); 
+    max-height: 30px;
+}
+.company--icons2{
+  max-height: 40px; filter: invert(1);
+}
+
+}
 @media (max-width: 1000px) {
   #body{
     margin-top: 2rem;
@@ -684,6 +789,23 @@ div.menu li:hover{
     width:100%;
   }
 
+  .highlight--project--section{
+    flex-direction: column;
+  align-items: center;  
+  gap:12px;
+  }
+  .project--highlights{
+    width:90%;
+    }
+    .highlight--project--images{
+      max-width: 511px;
+    }
+  
+   
+    .highlight--project--content{
+      max-width: 500px;
+    }
+    
 }
 
 
@@ -738,7 +860,7 @@ div.menu li:hover{
 }
 /* LOADING CSS END */
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
 
   /* Tablet viewport and above */
   .inner-container{
@@ -746,12 +868,12 @@ div.menu li:hover{
     /*  */
     grid-template-columns: 1fr;
   }
+
+/* .highlight--project--content{
+  max-width: 1000px;
+} */
 }
-@media (max-width: 1200px){
-  .rounded-button {
-    margin: 1rem 3rem;
-  }
-}
+
 @media (max-width: 750px){
   .top-container{
     width: 90%;
@@ -782,6 +904,9 @@ div.menu li:hover{
   .landing-icon dotlottie-player{
     width:200px
   }
+
+
+
   #footer{
     border-top: solid #6f7287 1px;
     margin: 0% auto auto auto;
