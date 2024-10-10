@@ -300,6 +300,7 @@ div.menu li:hover{
   .worked-with--companies{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
     margin: 24px 0px;
     overflow-x: hidden;
@@ -308,8 +309,13 @@ div.menu li:hover{
       filter: grayscale(1); 
       max-height: 40px;
   }
+
+  .company--icons3{
+    filter: grayscale(1); 
+    max-height: 100px;
+}
   .company--icons2{
-    max-height: 50px; filter: invert(1);
+    max-height: 60px; filter: invert(1);
   }
   .landing-bio-text-call{
     color:#6f7287;
