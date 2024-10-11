@@ -40,6 +40,14 @@ footer.innerHTML = `
 `
 }
 
+{/* <img
+id="animatedImage"
+class="animated-image"
+src="https://picsum.photos/200/300"
+alt="Animated Image"
+/> */}
+
+
 if (otherWork !==null){
   otherWork.innerHTML = `
   <div class="otherprojects">
