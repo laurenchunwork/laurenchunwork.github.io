@@ -40,14 +40,6 @@ footer.innerHTML = `
 `
 }
 
-{/* <img
-id="animatedImage"
-class="animated-image"
-src="https://picsum.photos/200/300"
-alt="Animated Image"
-/> */}
-
-
 if (otherWork !==null){
   otherWork.innerHTML = `
   <div class="otherprojects">
@@ -59,10 +51,10 @@ if (otherWork !==null){
       <a href="3dweb.html">
       <picture> 
       <source
-              srcset="assets/covers/otherwork/nacgallerytemp-color.webp"
+              srcset="assets/covers/otherwork/nacgallerytemp.webp"
               type="image/webp"
             />
-        <img src="assets/covers/otherwork/nacgallerytemp-color.jpg" />
+        <img src="assets/covers/otherwork/nacgallerytemp.jpg" />
         </picture>
         <p>3D Interactive</p>
       </a>
