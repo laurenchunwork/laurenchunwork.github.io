@@ -605,7 +605,7 @@ div.menu li:hover{
    width:100%;
  }
  .gallery-image{
-   max-width:500px;
+   max-width:650px;
    display: flex;
    justify-content: center;
    object-fit: cover;
