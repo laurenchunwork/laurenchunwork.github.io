@@ -290,13 +290,13 @@ div.menu li:hover{
   }
 
   .highlight--project--images{
-    max-width: 411px;
+    max-width: 500px;
   }
   .highlight--project--images img{
     width:100%;
   }
   .highlight--project--content{
-    max-width: 400px;
+    max-width: 500px;
     
   }
   .highlight--project a{
@@ -605,7 +605,7 @@ div.menu li:hover{
    width:100%;
  }
  .gallery-image{
-   /* width:500px; */
+   max-width:500px;
    display: flex;
    justify-content: center;
    object-fit: cover;
