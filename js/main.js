@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
 const navLink = document.querySelector("#nav");
 const mobileMenu = document.querySelector("#menu");
 const footer = document.querySelector("#footer");
-const otherWork = document.querySelector("#otherwork")
 const backButton = document.querySelector("#backbutton")
 navLink.innerHTML = `
 <ul class="topnav">
@@ -40,52 +39,6 @@ footer.innerHTML = `
 `
 }
 
-if (otherWork !==null){
-  otherWork.innerHTML = `
-  <div class="otherprojects">
-  <div class="header2title">
-    <h2>My Skillset</h2>
-  </div>
-  <div class="catergories">
-    <div class="catergory">
-      <a href="3dweb.html">
-      <picture> 
-      <source
-              srcset="assets/covers/otherwork/nacgallerytemp.webp"
-              type="image/webp"
-            />
-        <img src="assets/covers/otherwork/nacgallerytemp.jpg" />
-        </picture>
-        <p>3D Interactive</p>
-      </a>
-    </div>
-    <div class="catergory">
-      <a href="3drender.html">
-      <picture> 
-      <source
-              srcset="assets/covers/otherwork/standardhotelredesign.webp"
-              type="image/webp"
-            />
-      <img src="assets/covers/otherwork/standardhotelredesign.jpg" />
-      </picture>
-      <p>3D Renders</p>
-      </a>
-    </div>
-    <div class="catergory">
-      <a href="arvr.html">
-      <picture> 
-      <source
-              srcset="assets/covers/otherwork/soulstealer-cover.webp"
-              type="image/webp"
-            />
-      <img src="assets/covers/otherwork/soulstealer-cover.jpg" />
-      </picture>
-      <p>AR/VR</p>
-      </a>
-    </div>
-  </div>
-  </div>`
-}
 if (backButton !==null){
   backButton.innerHTML = `
   <a href="index.html">
@@ -108,7 +61,6 @@ window.addEventListener('scroll', () => {
 }
 if (mobileMenu !==null){
 ////set mobile menu/////
-// const mobileMenu = document.querySelector("#menu");
 mobileMenu.innerHTML = `
     <ul>
       <li>
@@ -148,7 +100,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 /////////////ACTIVE UNDERLINE //////////////////
 document.addEventListener("DOMContentLoaded", function () {
-  // Get the current page URL
   let currentPage = window.location.pathname;
   let aboutNavItem = document.getElementById('aboutLink');
   let workNavItem = document.getElementById('workLink');
