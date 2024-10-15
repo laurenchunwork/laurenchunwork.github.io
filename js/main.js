@@ -38,7 +38,6 @@ footer.innerHTML = `
 <p> <a href="https://www.linkedin.com/in/laurenmchun/">Linkedin↗</a></p>
 `
 }
-
 if (backButton !==null){
   backButton.innerHTML = `
   <a href="index.html">
@@ -60,7 +59,6 @@ window.addEventListener('scroll', () => {
 });
 }
 if (mobileMenu !==null){
-////set mobile menu/////
 mobileMenu.innerHTML = `
     <ul>
       <li>
@@ -98,7 +96,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   }
 });
-/////////////ACTIVE UNDERLINE //////////////////
 document.addEventListener("DOMContentLoaded", function () {
   let currentPage = window.location.pathname;
   let aboutNavItem = document.getElementById('aboutLink');
@@ -112,4 +109,3 @@ else{
   aboutNavItem.classList.remove('current');
 }
 });
-//////////END OF ACTIvE UNDERLINE/////////////////
