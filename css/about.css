@@ -1,5 +1,6 @@
 .about-container{
     max-width: 1728px;
+    min-height:55vh;
     /* margin: 0 auto; */
     margin: 5% 12.5% 5% 12.5%;
     display: grid;

@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     color:#39364f;
-   
+   min-height: 100vh;
 }
 
 h3{
@@ -53,19 +53,16 @@ flex-direction: column;
 }
 
 #footer{
-  background-color: #ffffff;
+  background-color: #FAFAFA;
  color:#39364f;
  display: flex;
 justify-content: space-between;
-align-items: flex-start;
+align-items: flex-end;
 flex-shrink: 0;
-padding: 0% 5% 0% 5%;
-
-width:90%;
-height:57px;
+padding: 0% 10% 0% 10%;
 bottom: 0;
 position:relative;
-margin-top: auto;
+margin-top: 2rem;
 }
 
 #footer a{
@@ -76,32 +73,25 @@ margin-top: auto;
 
 #footer a:hover{
   text-decoration: underline;
-
-}
-#footer2{
-  background-color: #ffffff;
- color:#39364f;
- display: flex;
-justify-content: space-between;
-align-items: flex-start;
-flex-shrink: 0;
-padding: 0% 5% 0% 5%;
-width:90%;
-z-index: 1;
-bottom: 0;
-position:fixed;
-margin-top: auto;
+  color: #2c699f;
 }
 
-#footer2 a{
-  /* text-decoration: none; */
-  color:#337AB7;
-  font-weight: 400;
+.footer-paragraph{
+  margin:16px 0px;
 }
 
-#footer2 a:hover{
-  text-decoration: underline;
+/* .footer-paragraph p{
+  margin:0;
+} */
+
+.email-line{
+  display: flex;
+  align-content: center;
+  gap:10px;
 }
+/* .email-line a{
+  font-weight: 500 ;
+} */
 
 .name{
   /* color:#39364f;; */
@@ -109,6 +99,8 @@ margin-top: auto;
   text-decoration-line: none;
     font-weight: medium;
 }
+
+
 /* .resumeCallouts{
   gap:10px;
   display: flex;

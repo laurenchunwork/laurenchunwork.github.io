@@ -17,9 +17,16 @@ document.addEventListener('DOMContentLoaded',function(){const navLink=document.q
       <a href="index.html">Work</a>
     </li>
   </ul> 
-  `;window.addEventListener('scroll',function(){const navbar=document.getElementById('nav');if(window.scrollY>0){navbar.classList.add('navbar-with-shadow')}else{navbar.classList.remove('navbar-with-shadow')}});if(footer!==null){footer.innerHTML=`
-  <p>© Designed and Developed by <a href="about.html">Lauren Chun</a> | Product Designer </p>
-  <p> <a href="https://www.linkedin.com/in/laurenmchun/">Linkedin↗</a></p>
+  `;window.addEventListener('scroll',function(){const navbar=document.getElementById('nav');if(window.scrollY>0){navbar.classList.add('navbar-with-shadow')}else{navbar.classList.remove('navbar-with-shadow')}});if(footer!==null){footer.innerHTML=`<div class="footer-paragraph"><p>Designed and developed by  <a href="about.html">Lauren Chun ©</a></p>
+    <p class="email-line"><span class="material-symbols-outlined">
+mail
+</span> <a  style="color:#39364f
+" href="mailto:laurenmchun111@gmail.com">laurenmchun111@gmail.com</a></p>
+</div>
+
+  <div class="footer-paragraph"><p class="email-line"> <a style="color:#39364f" class="email-line" href="https://www.linkedin.com/in/laurenmchun/">Linkedin</a> <span class="material-symbols-outlined">
+arrow_outward
+</span></p></div>
   `}if(backButton!==null){backButton.innerHTML=`
     <a href="index.html">
       <p>Back to Selected Work</p>
