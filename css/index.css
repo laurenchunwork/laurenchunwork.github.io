@@ -375,9 +375,9 @@ div.menu li:hover{
     font-weight: 600;
   }
 
-  .companyname-landing-bio:hover{
+  /* .companyname-landing-bio:hover{
     text-decoration: underline;
-  }
+  } */
   .header2title{
     margin: 0% 12.5%;
     text-align: center;
