@@ -247,7 +247,9 @@ div.menu li:hover{
     justify-content: space-between;
     align-items: center;
     /* flex-shrink: 0; */
-    gap: 7rem;
+    max-width:1440px;
+    /* width:100%; */
+    gap: 10rem;
   }
 
   .top-container-text{
@@ -385,18 +387,19 @@ div.menu li:hover{
     align-items: start;
   }
   .inner-container {
-    display: grid;
-    gap:5rem;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    gap: 6rem;
     align-items: center;
   }
 
-  /* .portfolioIndexText{
-    width:80%;
-  } */
+  .portfolioIndexText{
+    max-width: 700px;
+  }
+
 .portfolioIndexImage{
-  width:100%;
+  max-width: 500px;
   transition: transform 0.3s ease-in-out;
 }
 
