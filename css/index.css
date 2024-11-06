@@ -584,6 +584,48 @@ div.menu li:hover{
   align-items: center;
   justify-content: center;
 }
+
+.skillsets{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+  /* margin: 0% 12.5% 5% 12.5%; */
+  width:70%;
+  gap:20px;
+}
+
+.skillset{
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  width:100%;
+  height: auto;
+}
+.skillset a img{
+  width:100%;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0.4rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* .skillset a img:hover{
+  transform: scale(1.05)
+} */
+.skillset p{
+  font-size:18px;
+  /* margin: 5%; */
+}
+.skillset a{
+  text-decoration: none;
+  color:#39364f;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+
 .gallery-row{
   display: flex;
   flex-direction: row;
@@ -691,8 +733,43 @@ div.menu li:hover{
   /* text-decoration: underline; */
   background-color: #FAFAFA;
   border: solid 2px #545665;
-
 } 
+
+
+.contactbutton{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+    align-items: center;
+}
+.contactbuttonmain{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 18px;
+  }
+.contactbuttonmain a{
+  background-color: #f5c6c6;
+  text-decoration: none;
+  border-radius: 0.6rem;
+  border: none;
+  padding:0px 20px;
+}
+/* .contactbuttonmain p{
+  color:#c7a0a0;
+  font-weight: 600;
+} */
+.contactbuttonmain a:hover{
+  background-color: #d4aeae;
+  border: none;
+} 
+
+
+
+
+
+
 .divider{
   display: none;
   
