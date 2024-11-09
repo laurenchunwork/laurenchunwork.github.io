@@ -327,7 +327,7 @@ div.menu li:hover{
   }
   .company--icons{
       filter: grayscale(1); 
-      max-height: 40px;
+      min-height: 45px;
   }
   .company--icons2{
     min-height: 80px;
@@ -335,7 +335,7 @@ div.menu li:hover{
   }
   .company--icons3{
     filter: grayscale(1); 
-    min-height: 60px;
+    min-height: 70px;
 }
 
   .landing-bio-text-call{
