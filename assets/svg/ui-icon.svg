@@ -1,10 +1,10 @@
-<svg width="201" height="200" viewBox="0 0 201 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.5" width="200" height="200" rx="3" fill="white"/>
-<rect x="22" y="13" width="158.261" height="174.287" rx="4" stroke="#874FFF" stroke-width="2" stroke-dasharray="10 5"/>
-<ellipse cx="80.198" cy="70.7866" rx="20.198" ry="20.5" fill="#00B6FF"/>
-<rect x="80.1846" y="50.2866" width="41.6308" height="40.9728" fill="#00B6FF"/>
-<path d="M140.5 70.7866C140.5 81.3011 132.107 89.7866 121.802 89.7866C111.496 89.7866 103.104 81.3011 103.104 70.7866C103.104 60.2721 111.496 51.7866 121.802 51.7866C132.107 51.7866 140.5 60.2721 140.5 70.7866Z" fill="white" stroke="#00B6FF" stroke-width="3"/>
-<ellipse cx="20.198" cy="20" rx="20.198" ry="20" transform="matrix(-1 0 0 1 142 100.287)" fill="#00B6FF"/>
-<rect width="41.6308" height="39.9734" transform="matrix(-1 0 0 1 121.815 100.287)" fill="#00B6FF"/>
-<path d="M61.5004 120.287C61.5004 130.49 69.8578 138.787 80.1984 138.787C90.5391 138.787 98.8965 130.49 98.8965 120.287C98.8965 110.083 90.5391 101.787 80.1984 101.787C69.8578 101.787 61.5004 110.083 61.5004 120.287Z" fill="white" stroke="#00B6FF" stroke-width="3"/>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="200" height="200" rx="3" fill="white"/>
+<rect x="22" y="25" width="158" height="162" rx="4" stroke="#874FFF" stroke-width="2" stroke-dasharray="10 5"/>
+<ellipse cx="79.698" cy="81.5" rx="20.198" ry="20.5" fill="#00B6FF"/>
+<rect x="79.6846" y="61" width="41.6308" height="40.9728" fill="#00B6FF"/>
+<path d="M140 81.5C140 92.0145 131.607 100.5 121.302 100.5C110.996 100.5 102.604 92.0145 102.604 81.5C102.604 70.9855 110.996 62.5 121.302 62.5C131.607 62.5 140 70.9855 140 81.5Z" fill="white" stroke="#00B6FF" stroke-width="3"/>
+<ellipse cx="20.198" cy="20" rx="20.198" ry="20" transform="matrix(-1 0 0 1 141.5 111)" fill="#00B6FF"/>
+<rect width="41.6308" height="39.9734" transform="matrix(-1 0 0 1 121.315 111)" fill="#00B6FF"/>
+<path d="M61.0004 131C61.0004 141.203 69.3578 149.5 79.6984 149.5C90.0391 149.5 98.3965 141.203 98.3965 131C98.3965 120.797 90.0391 112.5 79.6984 112.5C69.3578 112.5 61.0004 120.797 61.0004 131Z" fill="white" stroke="#00B6FF" stroke-width="3"/>
 </svg>
