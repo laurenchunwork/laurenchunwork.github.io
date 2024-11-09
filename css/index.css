@@ -329,14 +329,15 @@ div.menu li:hover{
       filter: grayscale(1); 
       max-height: 40px;
   }
-
+  .company--icons2{
+    min-height: 80px;
+    filter: invert(1);
+  }
   .company--icons3{
     filter: grayscale(1); 
-    max-height: 100px;
+    min-height: 60px;
 }
-  .company--icons2{
-    max-height: 60px; filter: invert(1);
-  }
+
   .landing-bio-text-call{
     color:#6f7287;
     margin:10px 0px;
