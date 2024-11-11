@@ -390,7 +390,7 @@ div.menu li:hover{
   .inner-container {
     display: flex;
     justify-content: space-between;
-    max-width: 1440px;
+    max-width: 1240px;
     gap: 6rem;
     align-items: center;
   }
