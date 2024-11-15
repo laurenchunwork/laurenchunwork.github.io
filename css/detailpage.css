@@ -39,6 +39,7 @@ align-items: center;
 }
 .heroTitle h1{
   margin-bottom: 0;
+  font-size: 40px;
 }
 .heroTitle p{
   /* margin:0; */
@@ -147,7 +148,9 @@ place-items: center;
 .statLinkWord:hover{
   text-decoration: underline;
 }
-
+.listofstats{
+  max-width: 205px;
+}
 .sectionHead{
   width:66%;
 }
