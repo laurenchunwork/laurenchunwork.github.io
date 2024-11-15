@@ -21,7 +21,7 @@ h4{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding:2.5% 0%;
+  /* padding: 2% 0%; */
   width:100%;
   flex-wrap: wrap;
 }
