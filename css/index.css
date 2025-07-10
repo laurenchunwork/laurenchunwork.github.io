@@ -418,7 +418,6 @@ div.menu li:hover{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 1.4px;
   }
     .inner-container h2{
     /* font-size: 20px; */
@@ -760,7 +759,7 @@ div.menu li:hover{
 }
 .contactbuttonmain p{
   color:#FAFAFA;
-  font-weight: 600;
+  font-weight: 500;
 }
 .contactbuttonmain a:hover{
   background-color: #2b6ba3;
