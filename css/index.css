@@ -233,7 +233,7 @@ div.menu li:hover{
     display: grid;
     grid-template-rows: auto 1fr auto; 
     grid-template-columns: 1fr; 
-    gap: 20px; 
+    gap: 24px; 
     padding:0% 5%;
     justify-items: center;
     align-items: center; 
@@ -343,7 +343,8 @@ div.menu li:hover{
     margin:10px 0px;
   }
   .heroName{
-    font-size: 60px;
+    font-size: 64px;
+    font-weight: 400;
     margin:0;
     color:#39364f;
   }
@@ -750,21 +751,18 @@ div.menu li:hover{
   font-size: 18px;
   }
 .contactbuttonmain a{
-  background-color: #337AB7;
+  background-color: #1D74C6;
   color:#FAFAFA;
   text-decoration: none;
-  border-radius: 0.6rem;
-  border: 2px solid #337AB7;
-  padding:0px 20px;
+  border-radius: 0.5rem;
+  padding:0px 24px;
 }
 .contactbuttonmain p{
   color:#FAFAFA;
   font-weight: 500;
 }
 .contactbuttonmain a:hover{
-  background-color: #2b6ba3;
-  /* color: #173753; */
-  border: 2px solid #2b6ba3;
+  background-color: #154674;
 } 
 /* 
 .contactbuttonmain p:hover{
