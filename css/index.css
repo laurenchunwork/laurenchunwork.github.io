@@ -273,7 +273,7 @@ div.menu li:hover{
   }
   .highlight--project--section{
     display: flex;
-    gap:48px;
+    gap:12%;
   }
 
   .highlight--project{
@@ -281,6 +281,8 @@ div.menu li:hover{
     flex-direction: column;
     gap:24px;
     flex: 1;
+    justify-content: center;
+
   }
 
   .highlight--project--images{
@@ -295,6 +297,9 @@ div.menu li:hover{
   }
   .highlight--project a{
     text-decoration: none;
+    display:flex;
+    justify-content: center;
+
   }
   .highlight--project--content{
     display: flex; gap:12px; flex-direction: column;
@@ -557,12 +562,8 @@ div.menu li:hover{
   gap:10px;
 }
 .otherprojects{
-  /* margin-top: 20px; */
   margin-top: 70px;
-  /* max-width: 1440px; */
   max-width:100%;
-  /* padding: 2.5% 0px; */
-  /* background: #F5F5F5; */
   background-color: #FAFAFA;
   display: flex;
   flex-direction: column;
@@ -571,7 +572,6 @@ div.menu li:hover{
 }
 
 .otherh2{
-  /* margin: 0% 12.5%; */
   margin: 0px 10px;
   width:100%;
 }
@@ -591,8 +591,7 @@ div.menu li:hover{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   place-items: center;
-  /* margin: 0% 12.5% 5% 12.5%; */
-  width:70%;
+  width:50%;
   gap:20px;
 }
 
@@ -602,15 +601,20 @@ div.menu li:hover{
   flex-wrap: wrap;
   flex-direction: column;
   text-align: center;
-  width:100%;
+  width:200px;
   height: auto;
 }
-.skillset a img{
+.skillset img{
+  width:200px;
+  height:200px;
+}
+/* .skillset a img{
   width:100%;
+  height:100%;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
   border-radius: 0.4rem;
   transition: transform 0.3s ease-in-out;
-}
+} */
 
 /* .skillset a img:hover{
   transform: scale(1.05)
@@ -619,13 +623,13 @@ div.menu li:hover{
   font-size:18px;
   /* margin: 5%; */
 }
-.skillset a{
+/* .skillset a{
   text-decoration: none;
   color:#39364f;
   display: flex;
   flex-direction: column;
   gap:10px;
-}
+} */
 
 
 .gallery-row{
@@ -781,14 +785,16 @@ div.menu li:hover{
 
 /* ///////////////////////////////MEDIA QUERY//////////////////////////////// */
 
-@media (max-width: 1350px){
+@media (max-width: 1440px){
   .rounded-button {
     margin: 1rem 3rem;
   }
   .highlight--project--images{
     max-width: 311px;
   }
-
+.skillsets{
+    width:90%;
+    }
  
   .highlight--project--content{
     max-width: 300px;
@@ -896,6 +902,11 @@ div.menu li:hover{
     .highlight--project--content{
       max-width: 500px;
     }
+    .skillsets{
+    width:60%;
+    grid-template-columns: repeat(2, 1fr);
+    }
+   
 }
 
 /*  LOADING CSS START */
@@ -952,11 +963,9 @@ div.menu li:hover{
 
   /* Tablet viewport and above */
   .inner-container{
-    /* margin: 1rem 0rem !important; */
-    /*  */
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
-
+  
 /* .highlight--project--content{
   max-width: 1000px;
 } */
@@ -993,7 +1002,14 @@ div.menu li:hover{
     width:200px
   }
 
-
+.skillset img{
+  width:100%;
+  /* height:100%; */
+}
+ .skillsets{
+    width:60%;
+    grid-template-columns: repeat(2, 1fr);
+    }
 
   #footer{
     border-top: solid #6f7287 1px;
@@ -1005,6 +1021,13 @@ div.menu li:hover{
 @media (max-width: 600px){
   #footer{
     width: 90%;
+    flex-direction: column;
   }
+  .skillsets{
+    width:100%;
+    grid-template-columns: repeat(1, 1fr);
+    }
+    #nav{
+      width:90%}
 }
 
