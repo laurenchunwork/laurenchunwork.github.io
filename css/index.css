@@ -475,8 +475,9 @@ div.menu li:hover{
    } */
 
 .tags{
-  padding:0.2rem 0rem;
-  color: #337ab7 !important;
+  /* padding:0.2rem 0rem; */
+  color:#1f507a !important;
+  /* font-weight:500; */
 
 }
 .rounded-button {
